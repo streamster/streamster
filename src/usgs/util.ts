@@ -1,9 +1,4 @@
-import {
-  Services,
-  queryParameters,
-  getProperty,
-  usgsFetchOptions,
-} from './types';
+import { queryParameters, getProperty, usgsFetchOptions } from './types';
 import Papa from 'papaparse';
 
 /**
@@ -45,19 +40,19 @@ export const validateRequiredParameters = (
  * @returns {string} API url
  */
 export const prepareUrl = (
-  service: Services,
+  service: 'instantaneous' | 'daily' | 'sites',
   queryParameters: queryParameters
 ): string => {
   let serviceMapped;
-  if (service === Services.daily) {
+  if (service === 'daily') {
     serviceMapped = 'dv';
-  } else if (service === Services.instantaneous) {
+  } else if (service === 'instantaneous') {
     serviceMapped = 'iv';
-  } else if (service === Services.sites) {
+  } else if (service === 'sites') {
     serviceMapped = 'site';
   }
 
-  const format = service === Services.sites ? 'rdb' : 'json';
+  const format = service === 'sites' ? 'rdb' : 'json';
 
   let baseUrl = `https://waterservices.usgs.gov/nwis/${serviceMapped}/?format=${format}`;
   const keys = Object.keys(queryParameters);

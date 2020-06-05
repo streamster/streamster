@@ -1,6 +1,5 @@
 import axios from 'axios';
 import {
-  Services,
   queryParameters,
   Config,
   USGSService,
@@ -16,7 +15,7 @@ import {
 } from './util';
 
 class usgs implements USGSService {
-  service: Services;
+  service: 'instantaneous' | 'daily' | 'sites';
   queryParameters: queryParameters;
 
   constructor(config: Config) {
@@ -46,7 +45,7 @@ class usgs implements USGSService {
 
     try {
       const data = await axios.get(url).then((result: any) => {
-        if (this.service === Services.sites) {
+        if (this.service === 'sites') {
           return csv2Json(result.data);
         } else if (options.format === 'default') {
           return result.data;
