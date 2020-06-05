@@ -2,12 +2,6 @@ export function getProperty<T, K extends keyof T>(obj: T, key: K) {
   return obj[key]; // Inferred type is T[K]
 }
 
-export enum Services {
-  instantaneous = 'instantaneous',
-  daily = 'daily',
-  sites = 'sites',
-}
-
 export interface queryParameters {
   [key: string]: string | undefined;
   site?: string;
@@ -24,7 +18,7 @@ export interface queryParameters {
 }
 
 export interface Config {
-  service: Services;
+  service: 'instantaneous' | 'daily' | 'sites';
   queryParameters: queryParameters;
 }
 
@@ -35,7 +29,7 @@ export interface usgsFetchOptions {
 }
 
 export interface USGSService {
-  service: Services;
+  service: 'instantaneous' | 'daily' | 'sites';
   queryParameters: queryParameters;
   update(
     queryParameters: queryParameters,
