@@ -1,5 +1,5 @@
 export function getProperty<T, K extends keyof T>(obj: T, key: K) {
-  return obj[key];  // Inferred type is T[K]
+  return obj[key]; // Inferred type is T[K]
 }
 
 export enum Services {
@@ -13,9 +13,9 @@ export interface queryParameters {
   site?: string;
   sites?: string;
   stateCd?: string;
-  huc?: string,
-  bBox?: string,
-  countyCd?: string,
+  huc?: string;
+  bBox?: string;
+  countyCd?: string;
   startDT?: string;
   endDT?: string;
   period?: string;
@@ -37,10 +37,13 @@ export interface usgsFetchOptions {
 export interface USGSService {
   service: Services;
   queryParameters: queryParameters;
-  update(queryParameters: queryParameters, options?: usgsFetchOptions): Promise<any>;
+  update(
+    queryParameters: queryParameters,
+    options?: usgsFetchOptions
+  ): Promise<any>;
   fetch(options?: usgsFetchOptions): Promise<any>;
 }
 
 export interface StreamsterService {
-  usgs(config: Config): USGSService
+  usgs(config: Config): USGSService;
 }

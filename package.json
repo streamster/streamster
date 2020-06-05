@@ -30,9 +30,9 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "streamster-tsdx",
+  "name": "streamster",
   "author": "Ben Tyler",
-  "module": "dist/streamster-tsdx.esm.js",
+  "module": "dist/streamster.esm.js",
   "devDependencies": {
     "@types/papaparse": "^5.0.3",
     "husky": "^4.2.5",

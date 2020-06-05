@@ -2,26 +2,25 @@ import Streamster from '../../index';
 import { Services } from '../../usgs/types';
 
 describe('USGS Daily Service Tests: Time Series', () => {
-
   test('Single Site (Specific Dates): Returns data', () => {
     jest.setTimeout(10000);
     const streamlineTest = new Streamster.usgs({
       service: Services.daily,
       queryParameters: {
-        sites: "09361500",
-        siteStatus: "active",
-        parameterCd: "00060",
-        startDT: "2019-10-01",
-        endDT: "2019-10-02",
-      }
+        sites: '09361500',
+        siteStatus: 'active',
+        parameterCd: '00060',
+        startDT: '2019-10-01',
+        endDT: '2019-10-02',
+      },
     });
 
     return streamlineTest
-      .fetch({ format: "default" })
-      .then((data:any) => {
+      .fetch({ format: 'default' })
+      .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
-      .catch((err:string) => {
+      .catch((err: string) => {
         console.error(err);
       });
   });
@@ -31,20 +30,20 @@ describe('USGS Daily Service Tests: Time Series', () => {
     const streamlineTest = new Streamster.usgs({
       service: Services.daily,
       queryParameters: {
-        stateCd: "co",
-        siteStatus: "active",
-        parameterCd: "00060",
-        startDT: "2019-10-01",
-        endDT: "2019-10-02"
-      }
+        stateCd: 'co',
+        siteStatus: 'active',
+        parameterCd: '00060',
+        startDT: '2019-10-01',
+        endDT: '2019-10-02',
+      },
     });
 
     return streamlineTest
-      .fetch({ format: "default" })
-      .then((data:any) => {
+      .fetch({ format: 'default' })
+      .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
-      .catch((err:string) => {
+      .catch((err: string) => {
         console.error(err);
       });
   });
@@ -54,20 +53,20 @@ describe('USGS Daily Service Tests: Time Series', () => {
     const streamlineTest = new Streamster.usgs({
       service: Services.daily,
       queryParameters: {
-        huc: "14080104",
-        siteStatus: "active",
-        parameterCd: "00060",
-        startDT: "2019-10-01",
-        endDT: "2019-10-01",
-      }
+        huc: '14080104',
+        siteStatus: 'active',
+        parameterCd: '00060',
+        startDT: '2019-10-01',
+        endDT: '2019-10-01',
+      },
     });
 
     return streamlineTest
-      .fetch({ format: "default" })
-      .then((data:any) => {
+      .fetch({ format: 'default' })
+      .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
-      .catch((err:string) => {
+      .catch((err: string) => {
         console.error(err);
       });
   });
@@ -77,20 +76,20 @@ describe('USGS Daily Service Tests: Time Series', () => {
     const streamlineTest = new Streamster.usgs({
       service: Services.daily,
       queryParameters: {
-        bBox: "-108.115341,37.031969,-107.385747,37.424825",
-        siteStatus: "active",
-        parameterCd: "00060",
-        startDT: "2019-10-01",
-        endDT: "2019-10-01",
-      }
+        bBox: '-108.115341,37.031969,-107.385747,37.424825',
+        siteStatus: 'active',
+        parameterCd: '00060',
+        startDT: '2019-10-01',
+        endDT: '2019-10-01',
+      },
     });
 
     return streamlineTest
-      .fetch({ format: "default" })
-      .then((data:any) => {
+      .fetch({ format: 'default' })
+      .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
-      .catch((err:string) => {
+      .catch((err: string) => {
         console.error(err);
       });
   });
@@ -100,20 +99,20 @@ describe('USGS Daily Service Tests: Time Series', () => {
     const streamlineTest = new Streamster.usgs({
       service: Services.daily,
       queryParameters: {
-        countyCd: "08067",
-        siteStatus: "active",
-        parameterCd: "00060",
-        startDT: "2019-10-01",
-        endDT: "2019-10-01",
-      }
+        countyCd: '08067',
+        siteStatus: 'active',
+        parameterCd: '00060',
+        startDT: '2019-10-01',
+        endDT: '2019-10-01',
+      },
     });
 
     return streamlineTest
-      .fetch({ format: "default" })
-      .then((data:any) => {
+      .fetch({ format: 'default' })
+      .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
-      .catch((err:string) => {
+      .catch((err: string) => {
         console.error(err);
       });
   });
@@ -123,19 +122,19 @@ describe('USGS Daily Service Tests: Time Series', () => {
     const streamlineTest = new Streamster.usgs({
       service: Services.daily,
       queryParameters: {
-        sites: "09361500",
-        siteStatus: "active",
-        parameterCd: "00060",
-        period: "P2D",
-      }
+        sites: '09361500',
+        siteStatus: 'active',
+        parameterCd: '00060',
+        period: 'P2D',
+      },
     });
 
     return streamlineTest
-      .fetch({ format: "default" })
-      .then((data:any) => {
+      .fetch({ format: 'default' })
+      .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
-      .catch((err:string) => {
+      .catch((err: string) => {
         console.error(err);
       });
   });

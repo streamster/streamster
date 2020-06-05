@@ -5,7 +5,7 @@ import {
   Config,
   USGSService,
   usgsFetchOptions,
-} from "./types";
+} from './types';
 import {
   validateRequiredParameters,
   prepareUrl,
@@ -25,8 +25,14 @@ class usgs implements USGSService {
     validateRequiredParameters(config.queryParameters);
   }
 
-  public update(queryParameters: queryParameters, options: usgsFetchOptions = { format: "default" }) {
-    this.queryParameters = updateQueryParameters(this.queryParameters, queryParameters);
+  public update(
+    queryParameters: queryParameters,
+    options: usgsFetchOptions = { format: 'default' }
+  ) {
+    this.queryParameters = updateQueryParameters(
+      this.queryParameters,
+      queryParameters
+    );
     return this.fetch(options);
   }
 
@@ -35,18 +41,18 @@ class usgs implements USGSService {
    * provided by the user
    * @param options
    */
-  public async fetch(options: usgsFetchOptions = { format: "default" }) {
+  public async fetch(options: usgsFetchOptions = { format: 'default' }) {
     const url = prepareUrl(this.service, this.queryParameters);
 
     try {
       const data = await axios.get(url).then((result: any) => {
         if (this.service === Services.sites) {
           return csv2Json(result.data);
-        } else if (options.format === "default") {
+        } else if (options.format === 'default') {
           return result.data;
-        } else if (options.format === "time-series") {
+        } else if (options.format === 'time-series') {
           return formatTimeSeriesData(result.data);
-        } else if (options.format === "grouped-time-series") {
+        } else if (options.format === 'grouped-time-series') {
           return formatGroupedTimeSeriesData(result.data, {
             collapseMethods: options.collapseMethods,
           });
