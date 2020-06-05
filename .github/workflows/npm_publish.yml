@@ -28,7 +28,7 @@ jobs:
       # - run: npm ci
       - run: yarn install --frozen-lockfile
       - run: yarn build
-     #- run: npm publish
+      - run: npm publish
       - name: Semantic Release
         if: success()
         env:
