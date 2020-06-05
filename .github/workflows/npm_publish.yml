@@ -19,39 +19,10 @@ jobs:
    # needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/
-          scope: '@tylerben'
-      # - run: npm ci
-      - run: yarn install --frozen-lockfile
-      - run: yarn build
-      # - run: npm publish
-      - name: Semantic Release
-        if: success()
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
-          
-  #publish-gpr:
-  # # needs: build
-   # runs-on: ubuntu-latest
-    #steps:
-    #  - uses: actions/checkout@v2
-    #  - uses: actions/setup-node@v1
-    #    with:
-    #      node-version: 12
-     #     registry-url: https://npm.pkg.github.com/
-     #     scope: '@lrewater'
-     # # - run: npm ci
-    #  - run: yarn install --frozen-lockfile
-    #  - run: yarn build
-    # #- run: npm publish
-      #- run: npx semantic-release
-     #   env:
-        #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
-        #  NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    - uses: actions/checkout@master
+
+    - uses: codfish/semantic-release-action@master
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+       
