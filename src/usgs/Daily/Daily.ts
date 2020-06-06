@@ -8,7 +8,6 @@ import {
 import {
   validateRequiredParameters,
   prepareUrl,
-  formatGroupedTimeSeriesData,
   formatTimeSeriesData,
   updateQueryParameters,
 } from '../util';
@@ -23,7 +22,7 @@ class Daily implements usgsDailyService {
 
   public update(
     queryParameters: usgsDailyQueryParameters,
-    options: usgsDailyFetchOptions = { format: 'default' }
+    options: usgsDailyFetchOptions = { format: 'time-series' }
   ) {
     this.queryParameters = updateQueryParameters(
       this.queryParameters,
@@ -37,20 +36,17 @@ class Daily implements usgsDailyService {
    * provided by the user
    * @param options
    */
-  public async fetch(options: usgsDailyFetchOptions = { format: 'default' }) {
+  public async fetch(
+    options: usgsDailyFetchOptions = { format: 'time-series' }
+  ) {
     const url = prepareUrl('daily', this.queryParameters);
 
     try {
       const data = await axios.get(url).then((result: any) => {
-        if (options.format === 'default') {
+        if (options.format === 'raw') {
           return result.data;
-        } else if (options.format === 'time-series') {
-          return formatTimeSeriesData(result.data);
-        } else if (options.format === 'grouped-time-series') {
-          return formatGroupedTimeSeriesData(result.data, {
-            collapseMethods: options.collapseMethods,
-          });
         }
+        return formatTimeSeriesData(result.data);
       });
       return data;
     } catch (err) {

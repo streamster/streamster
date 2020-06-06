@@ -22,7 +22,7 @@ export interface usgsDailyConfig {
 }
 
 export interface usgsDailyFetchOptions {
-  format?: string;
+  format?: 'time-series' | 'raw';
   groupByField?: string;
   collapseMethods?: boolean;
 }
