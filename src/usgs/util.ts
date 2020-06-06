@@ -1,4 +1,9 @@
-import { queryParameters, getProperty, usgsFetchOptions } from './types';
+import {
+  queryParameters,
+  getProperty,
+  usgsFetchOptions,
+  Services,
+} from './types';
 import Papa from 'papaparse';
 
 /**
@@ -40,7 +45,7 @@ export const validateRequiredParameters = (
  * @returns {string} API url
  */
 export const prepareUrl = (
-  service: 'instantaneous' | 'daily' | 'sites',
+  service: Services,
   queryParameters: queryParameters
 ): string => {
   let serviceMapped;

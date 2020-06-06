@@ -3,8 +3,7 @@ import Streamster from '../../index';
 describe('USGS Daily Service Tests: Time Series', () => {
   test('Single Site (Specific Dates): Returns data', () => {
     jest.setTimeout(10000);
-    const streamlineTest = new Streamster.usgs({
-      service: 'daily',
+    const streamlineTest = new Streamster.usgs().daily({
       queryParameters: {
         sites: '09361500',
         siteStatus: 'active',
@@ -26,8 +25,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
 
   test('Single State (Specific Dates): Returns data', () => {
     jest.setTimeout(10000);
-    const streamlineTest = new Streamster.usgs({
-      service: 'daily',
+    const streamlineTest = new Streamster.usgs().daily({
       queryParameters: {
         stateCd: 'co',
         siteStatus: 'active',
@@ -49,8 +47,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
 
   test('Single HUC (Specific Dates): Returns data in expected shape', () => {
     jest.setTimeout(10000);
-    const streamlineTest = new Streamster.usgs({
-      service: 'daily',
+    const streamlineTest = new Streamster.usgs().daily({
       queryParameters: {
         huc: '14080104',
         siteStatus: 'active',
@@ -72,8 +69,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
 
   test('Bounding Box (Specific Dates): Returns data in expected shape', () => {
     jest.setTimeout(10000);
-    const streamlineTest = new Streamster.usgs({
-      service: 'daily',
+    const streamlineTest = new Streamster.usgs().daily({
       queryParameters: {
         bBox: '-108.115341,37.031969,-107.385747,37.424825',
         siteStatus: 'active',
@@ -95,8 +91,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
 
   test('Single County (Specific Dates): Returns data in expected shape', () => {
     jest.setTimeout(10000);
-    const streamlineTest = new Streamster.usgs({
-      service: 'daily',
+    const streamlineTest = new Streamster.usgs().daily({
       queryParameters: {
         countyCd: '08067',
         siteStatus: 'active',
@@ -118,8 +113,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
 
   test('Single Site (Period): Returns data in expected shape', () => {
     jest.setTimeout(10000);
-    const streamlineTest = new Streamster.usgs({
-      service: 'daily',
+    const streamlineTest = new Streamster.usgs().daily({
       queryParameters: {
         sites: '09361500',
         siteStatus: 'active',

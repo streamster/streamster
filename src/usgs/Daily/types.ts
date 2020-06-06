@@ -1,12 +1,8 @@
-import { usgsDailyConfig, usgsDailyService } from './Daily/types';
-
 export function getProperty<T, K extends keyof T>(obj: T, key: K) {
   return obj[key]; // Inferred type is T[K]
 }
 
-export type Services = 'instantaneous' | 'daily' | 'sites';
-
-export interface queryParameters {
+export interface usgsDailyQueryParameters {
   [key: string]: string | undefined;
   site?: string;
   sites?: string;
@@ -21,17 +17,21 @@ export interface queryParameters {
   parameterCd?: string;
 }
 
-export interface Config {
-  service: Services;
-  queryParameters: queryParameters;
+export interface usgsDailyConfig {
+  queryParameters: usgsDailyQueryParameters;
 }
 
-export interface usgsFetchOptions {
+export interface usgsDailyFetchOptions {
   format?: string;
   groupByField?: string;
   collapseMethods?: boolean;
 }
 
-export interface usgsService {
-  daily(config: usgsDailyConfig): usgsDailyService;
+export interface usgsDailyService {
+  queryParameters: usgsDailyQueryParameters;
+  update(
+    queryParameters: usgsDailyQueryParameters,
+    options?: usgsDailyFetchOptions
+  ): Promise<any>;
+  fetch(options?: usgsDailyFetchOptions): Promise<any>;
 }
