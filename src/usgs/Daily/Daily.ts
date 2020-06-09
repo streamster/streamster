@@ -1,10 +1,10 @@
 import axios from 'axios';
 import {
-  usgsDailyQueryParameters,
-  usgsDailyConfig,
+  queryParameters,
+  usgsConfig,
   usgsDailyService,
-  usgsDailyFetchOptions,
-} from './types';
+  usgsFetchOptions,
+} from '../types';
 import {
   validateRequiredParameters,
   prepareUrl,
@@ -13,16 +13,16 @@ import {
 } from '../util';
 
 class Daily implements usgsDailyService {
-  queryParameters: usgsDailyQueryParameters;
+  queryParameters: queryParameters;
 
-  constructor(config: usgsDailyConfig) {
+  constructor(config: usgsConfig) {
     this.queryParameters = config.queryParameters;
     validateRequiredParameters(config.queryParameters);
   }
 
   public update(
-    queryParameters: usgsDailyQueryParameters,
-    options: usgsDailyFetchOptions = { format: 'time-series' }
+    queryParameters: queryParameters,
+    options: usgsFetchOptions = { format: 'time-series' }
   ) {
     this.queryParameters = updateQueryParameters(
       this.queryParameters,
@@ -36,9 +36,7 @@ class Daily implements usgsDailyService {
    * provided by the user
    * @param options
    */
-  public async fetch(
-    options: usgsDailyFetchOptions = { format: 'time-series' }
-  ) {
+  public async fetch(options: usgsFetchOptions = { format: 'time-series' }) {
     const url = prepareUrl('daily', this.queryParameters);
 
     try {

@@ -1,10 +1,10 @@
 import axios from 'axios';
 import {
-  usgsInstantaneousQueryParameters,
-  usgsInstantaneousConfig,
+  queryParameters,
+  usgsConfig,
   usgsInstantaneousService,
-  usgsInstantaneousFetchOptions,
-} from './types';
+  usgsFetchOptions,
+} from '../types';
 import {
   validateRequiredParameters,
   prepareUrl,
@@ -13,16 +13,16 @@ import {
 } from '../util';
 
 class Instantaneous implements usgsInstantaneousService {
-  queryParameters: usgsInstantaneousQueryParameters;
+  queryParameters: queryParameters;
 
-  constructor(config: usgsInstantaneousConfig) {
+  constructor(config: usgsConfig) {
     this.queryParameters = config.queryParameters;
     validateRequiredParameters(config.queryParameters);
   }
 
   public update(
-    queryParameters: usgsInstantaneousQueryParameters,
-    options: usgsInstantaneousFetchOptions = { format: 'time-series' }
+    queryParameters: queryParameters,
+    options: usgsFetchOptions = { format: 'time-series' }
   ) {
     this.queryParameters = updateQueryParameters(
       this.queryParameters,
@@ -36,9 +36,7 @@ class Instantaneous implements usgsInstantaneousService {
    * provided by the user
    * @param options
    */
-  public async fetch(
-    options: usgsInstantaneousFetchOptions = { format: 'time-series' }
-  ) {
+  public async fetch(options: usgsFetchOptions = { format: 'time-series' }) {
     const url = prepareUrl('instantaneous', this.queryParameters);
 
     try {
