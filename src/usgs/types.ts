@@ -1,4 +1,8 @@
 import { usgsDailyConfig, usgsDailyService } from './Daily/types';
+import {
+  usgsInstantaneousConfig,
+  usgsInstantaneousService,
+} from './instantaneous/types';
 
 export function getProperty<T, K extends keyof T>(obj: T, key: K) {
   return obj[key]; // Inferred type is T[K]
@@ -34,4 +38,5 @@ export interface usgsFetchOptions {
 
 export interface usgsService {
   daily(config: usgsDailyConfig): usgsDailyService;
+  daily(config: usgsInstantaneousConfig): usgsInstantaneousService;
 }
