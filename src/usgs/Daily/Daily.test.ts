@@ -14,7 +14,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
     });
 
     return streamlineTest
-      .fetch({ format: 'raw' })
+      .getDailyData({ format: 'raw' })
       .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
@@ -36,7 +36,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
     });
 
     return streamlineTest
-      .fetch({ format: 'raw' })
+      .getDailyData({ format: 'raw' })
       .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
@@ -58,7 +58,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
     });
 
     return streamlineTest
-      .fetch({ format: 'raw' })
+      .getDailyData({ format: 'raw' })
       .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
@@ -80,7 +80,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
     });
 
     return streamlineTest
-      .fetch({ format: 'raw' })
+      .getDailyData({ format: 'raw' })
       .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
@@ -102,7 +102,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
     });
 
     return streamlineTest
-      .fetch({ format: 'raw' })
+      .getDailyData({ format: 'raw' })
       .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
@@ -123,7 +123,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
     });
 
     return streamlineTest
-      .fetch({ format: 'raw' })
+      .getDailyData({ format: 'raw' })
       .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })

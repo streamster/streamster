@@ -14,7 +14,7 @@ describe('USGS instantaneous Service Tests: Time Series', () => {
     });
 
     return streamlineTest
-      .fetch({ format: 'raw' })
+      .getInstantaneousData({ format: 'raw' })
       .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
@@ -36,7 +36,7 @@ describe('USGS instantaneous Service Tests: Time Series', () => {
     });
 
     return streamlineTest
-      .fetch({ format: 'raw' })
+      .getInstantaneousData({ format: 'raw' })
       .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
@@ -57,7 +57,7 @@ describe('USGS instantaneous Service Tests: Time Series', () => {
     });
 
     return streamlineTest
-      .fetch({ format: 'raw' })
+      .getInstantaneousData({ format: 'raw' })
       .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
@@ -78,7 +78,7 @@ describe('USGS instantaneous Service Tests: Time Series', () => {
     });
 
     return streamlineTest
-      .fetch({ format: 'raw' })
+      .getInstantaneousData({ format: 'raw' })
       .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
@@ -99,7 +99,7 @@ describe('USGS instantaneous Service Tests: Time Series', () => {
     });
 
     return streamlineTest
-      .fetch({ format: 'raw' })
+      .getInstantaneousData({ format: 'raw' })
       .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })
@@ -119,7 +119,7 @@ describe('USGS instantaneous Service Tests: Time Series', () => {
     });
 
     return streamlineTest
-      .fetch({ format: 'raw' })
+      .getInstantaneousData({ format: 'raw' })
       .then((data: any) => {
         expect(data.value.timeSeries.length).toBeGreaterThan(0);
       })

@@ -3,6 +3,7 @@ export function getProperty<T, K extends keyof T>(obj: T, key: K) {
 }
 
 export type Services = 'instantaneous' | 'daily' | 'sites';
+export type Format = 'raw' | 'time-series';
 
 export interface queryParameters {
   [key: string]: string | undefined;
@@ -20,34 +21,25 @@ export interface queryParameters {
 }
 
 export interface usgsConfig {
+  format: Format;
   queryParameters: queryParameters;
 }
 
 export interface usgsFetchOptions {
-  format?: string;
+  format: Format;
   groupByField?: string;
   collapseMethods?: boolean;
 }
 
 export interface usgsDailyService {
-  queryParameters: queryParameters;
-  update(
-    queryParameters: queryParameters,
-    options?: usgsFetchOptions
-  ): Promise<any>;
-  fetch(options?: usgsFetchOptions): Promise<any>;
+  getDailyData(config: usgsConfig): Promise<any>;
 }
 
 export interface usgsInstantaneousService {
-  queryParameters: queryParameters;
-  update(
-    queryParameters: queryParameters,
-    options?: usgsFetchOptions
-  ): Promise<any>;
-  fetch(options?: usgsFetchOptions): Promise<any>;
+  getInstantaneousData(config: usgsConfig): Promise<any>;
 }
 
 export interface usgsService {
-  daily(config: usgsConfig): usgsDailyService;
-  instantaneous(config: usgsConfig): usgsInstantaneousService;
+  daily(): usgsDailyService;
+  instantaneous(): usgsInstantaneousService;
 }
