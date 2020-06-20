@@ -1,10 +1,12 @@
 import Streamster from "Streamster";
 
 const DailyService = Streamster.usgs.daily();
+const dwrSurfaceWaterService = Streamster.dwr.surfaceWater();
+
 
 async function getData() {
   try {
-    const data = await DailyService.getDailyData({
+    const usgsData = await DailyService.getDailyData({
       format: 'time-series',
       queryParameters: {
         sites: '09361500',
@@ -14,7 +16,15 @@ async function getData() {
         endDT: '2019-10-09',
       },
     });
-    console.table(data)
+    console.log("USGS",usgsData);
+
+    const dwrData = await dwrSurfaceWaterService.getSurfaceWaterStations({
+      format: 'json',
+      queryParameters: {
+        abbrev: ["equal to", 'ELBCASCO']
+      },
+    });
+    console.log("DWR",dwrData);
   } catch(err) {
     console.error(err);
   }
