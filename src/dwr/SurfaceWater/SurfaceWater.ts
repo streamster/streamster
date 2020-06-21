@@ -4,11 +4,26 @@ import {
   surfaceWaterStationsConfig,
   surfaceWaterStationsQueryParameters,
   getProperty,
+  surfaceWaterStationDataTypesQueryParameters,
+  surfaceWaterStationDataTypesConfig,
 } from './types';
 
 class SurfaceWater implements dwrSurfaceWaterService {
-  private setQueryValue(data: surfaceWaterStationsQueryParameters, key: any) {
-    const value = getProperty(data, key);
+  /**
+   * Utility method used to return a query parameter value
+   * If an array is found for the query parameter,
+   * a case statement is invoked to return the proper formatting
+   * for type of equality check
+   * @param {object} queryParameters
+   * @param {any} key query parameter key
+   */
+  private setQueryValue(
+    queryParameters:
+      | surfaceWaterStationsQueryParameters
+      | surfaceWaterStationDataTypesQueryParameters,
+    key: any
+  ) {
+    const value = getProperty(queryParameters, key);
     if (Array.isArray(value)) {
       let valueString;
       switch (value[0]) {
@@ -33,7 +48,15 @@ class SurfaceWater implements dwrSurfaceWaterService {
     return value[1];
   }
 
-  private prepareUrl(service: string, config: surfaceWaterStationsConfig) {
+  /**
+   * Utility method used to prepare the query request url
+   * @param service the DWR Surface Water service to hit
+   * @param config DWR Surface Water service request config
+   */
+  private prepareUrl(
+    service: string,
+    config: surfaceWaterStationsConfig | surfaceWaterStationDataTypesConfig
+  ) {
     let baseUrl = `https://dwr.state.co.us/Rest/GET/api/v2/surfacewater/${service}/?format=json`;
     const keys = Object.keys(config.queryParameters);
     const params = keys.map((key: any) => {
@@ -43,16 +66,40 @@ class SurfaceWater implements dwrSurfaceWaterService {
     return baseUrl;
   }
 
+  /**
+   * Method used to hit the DWR Surface Water Stations service
+   * more information can be found at
+   * https://dwr.state.co.us/Rest/GET/Help/Api/GET-api-v2-surfacewater-surfacewaterstations
+   * @param config DWR Surface Water Stations service request config
+   */
   public async getSurfaceWaterStations(config: surfaceWaterStationsConfig) {
     const url = this.prepareUrl('surfacewaterstations', config);
     // validateRequiredParameters(config.queryParameters);
     try {
       const data = await axios.get(url).then((result: any) => {
-        return result.data;
-        // if (config.format === 'raw') {
-        //   return result.data;
-        // }
-        // return formatTimeSeriesData(result.data);
+        return result.data.ResultList;
+      });
+      return data;
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  /**
+   * Method used to hit the DWR
+   * Surface Water Station Data Types service
+   * more information can be found at
+   * https://dwr.state.co.us/Rest/GET/Help/Api/GET-api-v2-surfacewater-surfacewaterstationdatatypes
+   * @param config DWR Surface Water Station Data Types service request config
+   */
+  public async getSurfaceWaterStationDataTypes(
+    config: surfaceWaterStationDataTypesConfig
+  ) {
+    const url = this.prepareUrl('surfacewaterstationdatatypes', config);
+    // validateRequiredParameters(config.queryParameters);
+    try {
+      const data = await axios.get(url).then((result: any) => {
+        return result.data.ResultList;
       });
       return data;
     } catch (err) {

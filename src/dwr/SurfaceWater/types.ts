@@ -1,5 +1,8 @@
 export interface dwrSurfaceWaterService {
   getSurfaceWaterStations(config: surfaceWaterStationsConfig): Promise<any>;
+  getSurfaceWaterStationDataTypes(
+    config: surfaceWaterStationDataTypesConfig
+  ): Promise<any>;
 }
 
 export function getProperty<T, K extends keyof T>(obj: T, key: K) {
@@ -31,7 +34,26 @@ export interface surfaceWaterStationsQueryParameters {
   apiKey?: string;
 }
 
+export interface surfaceWaterStationDataTypesQueryParameters {
+  county?: StringFilter;
+  division?: NumberFilter;
+  measType?: StringFilter;
+  porLastModified?: Date;
+  stationName?: StringFilter;
+  usgsSiteId?: StringFilter;
+  waterDistrict?: NumberFilter;
+  locationSearch?: GeographyFilter;
+  pageSize?: number;
+  pageIndex?: number;
+  apiKey?: string;
+}
+
 export interface surfaceWaterStationsConfig {
   format?: Formats;
   queryParameters: surfaceWaterStationsQueryParameters;
+}
+
+export interface surfaceWaterStationDataTypesConfig {
+  format?: Formats;
+  queryParameters: surfaceWaterStationDataTypesQueryParameters;
 }

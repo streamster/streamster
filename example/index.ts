@@ -16,12 +16,11 @@ async function getData() {
         endDT: '2019-10-09',
       },
     });
-    console.log("USGS",usgsData);
 
-    const dwrData = await dwrSurfaceWaterService.getSurfaceWaterStations({
+    const dwrData = await dwrSurfaceWaterService.getSurfaceWaterStationDataTypes({
       format: 'json',
       queryParameters: {
-        abbrev: ["equal to", 'ELBCASCO']
+        county: ["equal to", 'La Plata']
       },
     });
     console.log("DWR",dwrData);
