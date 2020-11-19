@@ -228,7 +228,7 @@ export type Rec = {
 
 export const csv2Json = (data: string) => {
   let parsed = Papa.parse(data, { skipEmptyLines: true, delimiter: '\t' });
-  const filteredData = parsed.data.filter(d => {
+  const filteredData = parsed.data.filter((d: any) => {
     if (d[0].includes('#') || d[0].includes('5s')) {
       return false;
     }
@@ -237,9 +237,9 @@ export const csv2Json = (data: string) => {
 
   return filteredData
     .filter((_d, i) => i !== 0)
-    .map(d => {
+    .map((d: any) => {
       let rec: Rec = {};
-      const keys = filteredData[0];
+      const keys = filteredData[0] as any;
       keys.map((key: string, index: number) => (rec[key] = d[index]));
       return rec;
     });

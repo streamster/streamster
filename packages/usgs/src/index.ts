@@ -1,12 +1,18 @@
-import usgs from './usgs';
-import dwr from './dwr';
-import usgsSites from './usgs/static/sites.json';
-import usgsParameters from './usgs/static/parameters.json';
+import {
+  usgsService,
+  usgsDailyService,
+  usgsInstantaneousService,
+} from './types';
+import Daily from './Daily';
+import Instantaneous from './Instantaneous';
 
-const exported = {
-  usgs,
-  dwr,
+const usgs: usgsService = {
+  daily(): usgsDailyService {
+    return new Daily();
+  },
+  instantaneous(): usgsInstantaneousService {
+    return new Instantaneous();
+  },
 };
 
-export { usgsSites, usgsParameters };
-export default exported;
+export default usgs;
