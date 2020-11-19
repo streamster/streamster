@@ -1,6 +1,11 @@
 {
-  "name": "root",
+  "name": "streamster",
   "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }

@@ -1,9 +1,9 @@
 {
-  "name": "@streamster/usgs",
+  "name": "@streamster/core",
   "version": "0.1.0",
   "author": "Ben Tyler",
   "repository": "git://github.com/tylerben/streamster.git",
-  "module": "dist/usgs.esm.js",
+  "module": "dist/core.esm.js",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

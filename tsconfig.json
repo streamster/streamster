@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "baseUrl": "./packages",
+    "paths": {
+      "@streamster/usgs/*": ["usgs/src/*"],
+      "@streamster/core/*": ["core/src/*"]
+    },
+    "composite": true
+  }
+}
