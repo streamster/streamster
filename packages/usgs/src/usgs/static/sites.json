@@ -1,0 +1,3951 @@
+[
+  {
+    "site_no": "381245105375900",
+    "station_nm": "   NA46-12-27BAC   SOUTH BRUSH CREEK"
+  },
+  {
+    "site_no": "393938104572101",
+    "station_nm": " HARVARD GUL PRECIP STA AT SLAVENS SC AT DENVER,CO"
+  },
+  {
+    "site_no": "394028104565501",
+    "station_nm": " HARVARD GUL PRECIP STA AT UNIV PK SC AT DENVER CO"
+  },
+  { "site_no": "385323104224003", "station_nm": " SC01306230ACC3" },
+  { "site_no": "390835106485500", "station_nm": "AJAX MOUNTAIN SNOW SITE, CO" },
+  {
+    "site_no": "400216108154000",
+    "station_nm": "ALK FLAT S SPR B1-97-22DBCD, PCSP1"
+  },
+  { "site_no": "384434107432701", "station_nm": "ALUM GULCH NR HOTCHKISS CO" },
+  {
+    "site_no": "09013000",
+    "station_nm": "ALVA B ADAMS TUN AT E PORTAL, NR ESTES PARK, CO."
+  },
+  {
+    "site_no": "401720105403400",
+    "station_nm": "ANDREWS BUTTRESS SNOW SITE, CO"
+  },
+  {
+    "site_no": "401723105400101",
+    "station_nm": "ANDREWS CR WEATHER STATION - LOCH VALE - RMNP, CO"
+  },
+  {
+    "site_no": "401723105400000",
+    "station_nm": "ANDREWS CREEK-LOCH VALE-RMNP"
+  },
+  {
+    "site_no": "401723105400102",
+    "station_nm": "ANDREWS MEADOW BOWEN RATIO - LOCH VALE IN RMNP, CO"
+  },
+  { "site_no": "401727105400000", "station_nm": "ANDREWS SPRING 1" },
+  { "site_no": "09361500", "station_nm": "ANIMAS RIVER AT DURANGO, CO" },
+  { "site_no": "09358000", "station_nm": "ANIMAS RIVER AT SILVERTON, CO." },
+  {
+    "site_no": "09359500",
+    "station_nm": "ANIMAS RIVER AT TALL TIMBER RESORT ABOVE TACOMA,CO"
+  },
+  { "site_no": "09359020", "station_nm": "ANIMAS RIVER BELOW SILVERTON, CO" },
+  {
+    "site_no": "09362520",
+    "station_nm": "ANIMAS RIVER BLW DURANGO PUMP PLANT NR DURANGO, CO"
+  },
+  { "site_no": "09363500", "station_nm": "ANIMAS RIVER NEAR CEDAR HILL, NM" },
+  {
+    "site_no": "09132095",
+    "station_nm": "ANTHRACITE CREEK ABOVE MOUTH NEAR SOMERSET"
+  },
+  { "site_no": "07119500", "station_nm": "APISHAPA RIVER NEAR FOWLER, CO" },
+  { "site_no": "400643105450200", "station_nm": "ARAPAHO CREEK SNOW SITE, CO" },
+  {
+    "site_no": "07099969",
+    "station_nm": "ARKANSAS R. AT ST CHARLES MESA DIVER. AT PUEBLO,CO"
+  },
+  { "site_no": "07099400", "station_nm": "ARKANSAS RIVER ABOVE PUEBLO, CO" },
+  { "site_no": "07096000", "station_nm": "ARKANSAS RIVER AT CANON CITY, CO." },
+  {
+    "site_no": "07119700",
+    "station_nm": "ARKANSAS RIVER AT CATLIN DAM, NEAR FOWLER, CO."
+  },
+  { "site_no": "07086000", "station_nm": "ARKANSAS RIVER AT GRANITE, CO." },
+  { "site_no": "07133000", "station_nm": "ARKANSAS RIVER AT LAMAR, CO" },
+  { "site_no": "07124000", "station_nm": "ARKANSAS RIVER AT LAS ANIMAS, CO." },
+  {
+    "site_no": "07099970",
+    "station_nm": "ARKANSAS RIVER AT MOFFAT STREET AT PUEBLO, CO"
+  },
+  { "site_no": "07094500", "station_nm": "ARKANSAS RIVER AT PARKDALE, CO." },
+  { "site_no": "07097000", "station_nm": "ARKANSAS RIVER AT PORTLAND, CO." },
+  {
+    "site_no": "07083710",
+    "station_nm": "ARKANSAS RIVER BELOW EMPIRE GULCH NEAR MALTA, CO"
+  },
+  { "site_no": "07087050", "station_nm": "ARKANSAS RIVER BELOW GRANITE, CO" },
+  {
+    "site_no": "07130500",
+    "station_nm": "ARKANSAS RIVER BELOW JOHN MARTIN RESERVOIR, CO."
+  },
+  { "site_no": "07109500", "station_nm": "ARKANSAS RIVER NEAR AVONDALE, CO." },
+  { "site_no": "07134180", "station_nm": "ARKANSAS RIVER NEAR GRANADA, CO." },
+  { "site_no": "07081200", "station_nm": "ARKANSAS RIVER NEAR LEADVILLE, CO" },
+  { "site_no": "07091200", "station_nm": "ARKANSAS RIVER NEAR NATHROP, CO" },
+  {
+    "site_no": "07120500",
+    "station_nm": "ARKANSAS RIVER NEAR ROCKY FORD, CO."
+  },
+  {
+    "site_no": "07093700",
+    "station_nm": "ARKANSAS RIVER NEAR WELLSVILLE, CO."
+  },
+  {
+    "site_no": "07099973",
+    "station_nm": "ARKANSAS RIVER TRIBUTARY ABOVE HWY 227 AT PUEBLO"
+  },
+  {
+    "site_no": "395452105454401",
+    "station_nm": "ARROW BOWEN RATIO WX NR SNOTEL SITE NR WNTR PK, CO"
+  },
+  { "site_no": "07105780", "station_nm": "B DITCH DRAIN NEAR SECURITY, CO." },
+  { "site_no": "375842105473701", "station_nm": "BACA DW-1" },
+  { "site_no": "375828105432501", "station_nm": "BACA DW-3" },
+  {
+    "site_no": "375601105471501",
+    "station_nm": "BACA LAND GRANT NO. 4   DW-09"
+  },
+  {
+    "site_no": "375428105472501",
+    "station_nm": "BACA LAND GRANT NO. 4   DW-4"
+  },
+  {
+    "site_no": "375507105505901",
+    "station_nm": "BACA LAND GRANT NO. 4   DW-5"
+  },
+  {
+    "site_no": "375211105483101",
+    "station_nm": "BACA LAND GRANT NO. 4   DW-6"
+  },
+  { "site_no": "375429105472401", "station_nm": "BACA SW-1" },
+  { "site_no": "375211105483201", "station_nm": "BACA SW-10" },
+  { "site_no": "375717105492001", "station_nm": "BACA SW-3" },
+  { "site_no": "375828105432401", "station_nm": "BACA SW-4" },
+  { "site_no": "375501105440101", "station_nm": "BACA SW-6" },
+  { "site_no": "375507105510011", "station_nm": "BACA SW-8" },
+  { "site_no": "375311105394301", "station_nm": "BACA-2" },
+  {
+    "site_no": "384920104511201",
+    "station_nm": "BEAR CR DRAIN NR CREEK CROSSING ST AT COLO SPRINGS"
+  },
+  {
+    "site_no": "06710605",
+    "station_nm": "BEAR CREEK ABOVE BEAR CREEK LAKE NEAR MORRISON, CO"
+  },
+  { "site_no": "06710385", "station_nm": "BEAR CREEK ABOVE EVERGREEN, CO" },
+  {
+    "site_no": "384921104501001",
+    "station_nm": "BEAR CREEK AT INTERSTATE 25 AT COLO SPRINGS"
+  },
+  {
+    "site_no": "06711500",
+    "station_nm": "BEAR CREEK AT MOUTH AT SHERIDAN, CO"
+  },
+  {
+    "site_no": "07105000",
+    "station_nm": "BEAR CREEK NEAR COLORADO SPRINGS, CO"
+  },
+  { "site_no": "401848105384200", "station_nm": "BEAR LAKE SNOW SITE, CO" },
+  {
+    "site_no": "373232103555201",
+    "station_nm": "BEAR SPRINGS HILLS MET STATION NEAR HOUGHTON, CO"
+  },
+  {
+    "site_no": "07099050",
+    "station_nm": "BEAVER CR ABV UPPER BEAVER CEMETERY NR PENROSE, CO"
+  },
+  {
+    "site_no": "07099060",
+    "station_nm": "BEAVER CREEK ABOVE HIGHWAY 115 NEAR PENROSE, CO"
+  },
+  { "site_no": "09067000", "station_nm": "BEAVER CREEK AT AVON, CO" },
+  {
+    "site_no": "06826680",
+    "station_nm": "BEAVER CREEK AT I-70 NEAR BURLINGTON, CO"
+  },
+  {
+    "site_no": "09044300",
+    "station_nm": "BEMROSE-HOOSIER DIVERSION NEAR HOOSIER PASS, CO"
+  },
+  {
+    "site_no": "07126480",
+    "station_nm": "BENT CANYON CREEK AT MOUTH NEAR TIMPAS, CO"
+  },
+  { "site_no": "394800105470001", "station_nm": "BERTHOUD PASS SNOW SITE, CO" },
+  {
+    "site_no": "381312104321001",
+    "station_nm": "BESSEMER DITCH AT ST. CHARLES WD NEAR PUEBLO CO"
+  },
+  { "site_no": "07120620", "station_nm": "BIG ARROYO NEAR THATCHER, CO" },
+  {
+    "site_no": "372427105060201",
+    "station_nm": "BIG BRANCH CREEK BLW UNNAMED TRIB NEAR LA VETA, CO"
+  },
+  {
+    "site_no": "06720990",
+    "station_nm": "BIG DRY CREEK AT MOUTH NEAR FORT LUPTON, CO"
+  },
+  { "site_no": "06720820", "station_nm": "BIG DRY CREEK AT WESTMINSTER, CO" },
+  {
+    "site_no": "06710150",
+    "station_nm": "BIG DRY CREEK BELOW C-470 AT HIGHLANDS RANCH, CO"
+  },
+  { "site_no": "374248107323601", "station_nm": "BIG ELDORADO INFLOW" },
+  { "site_no": "374248107323600", "station_nm": "BIG ELDORADO LAKE" },
+  {
+    "site_no": "374239107322601",
+    "station_nm": "BIG ELDORADO LAKE INLET 2 IN WEMICUCHE WILDRNSS,CO"
+  },
+  { "site_no": "07134100", "station_nm": "BIG SANDY CREEK NEAR LAMAR, CO." },
+  {
+    "site_no": "402115105375001",
+    "station_nm": "BIG THOMPSON AT FERN CRK TRAILHEAD IN RMNP"
+  },
+  {
+    "site_no": "402114105350101",
+    "station_nm": "BIG THOMPSON BL MORAINE PARK NR ESTES PARK, CO"
+  },
+  {
+    "site_no": "402059105355201",
+    "station_nm": "BIG THOMPSON IN MORAINE PARK 2 NR ESTES PARK, CO"
+  },
+  {
+    "site_no": "402054105361601",
+    "station_nm": "BIG THOMPSON IN MORAINE PARK 3 NR ESTES PARK, CO"
+  },
+  {
+    "site_no": "402123105355901",
+    "station_nm": "BIG THOMPSON IN MORAINE PARK NR ESTES PARK, CO"
+  },
+  {
+    "site_no": "06736700",
+    "station_nm": "BIG THOMPSON R ABOVE DILLE TUNNEL, NR DRAKE, CO."
+  },
+  {
+    "site_no": "402554105202100",
+    "station_nm": "BIG THOMPSON R ABV NF BIG THOMPSON AT DRAKE, CO"
+  },
+  {
+    "site_no": "402249105282000",
+    "station_nm": "BIG THOMPSON R AT WHISPERING PINES NR ESTES PARK"
+  },
+  {
+    "site_no": "402245105302300",
+    "station_nm": "BIG THOMPSON R BLW SANITATION OUTFLOW ABV LK ESTES"
+  },
+  {
+    "site_no": "402533105124300",
+    "station_nm": "BIG THOMPSON R BLW SULZER GULCH NR LOVELAND, CO"
+  },
+  {
+    "site_no": "402123105370401",
+    "station_nm": "BIG THOMPSON R NR FERN LAKE ROAD, RMNP, CO"
+  },
+  {
+    "site_no": "06744030",
+    "station_nm": "BIG THOMPSON RIV AT CR396 ABV MOUTH NR LA SALLE,CO"
+  },
+  {
+    "site_no": "06741530",
+    "station_nm": "BIG THOMPSON RIVER AT I-25, NEAR LOVELAND, CO."
+  },
+  {
+    "site_no": "06741510",
+    "station_nm": "BIG THOMPSON RIVER AT LOVELAND, CO."
+  },
+  {
+    "site_no": "06741520",
+    "station_nm": "BIG THOMPSON RIVER BELOW LOVELAND, CO."
+  },
+  {
+    "site_no": "06855001",
+    "station_nm": "BIG TIMBER CRK AT HWY 385 NEAR CHEYENNE WELLS, CO"
+  },
+  { "site_no": "09066000", "station_nm": "BLACK GORE CREEK NEAR MINTURN, CO." },
+  {
+    "site_no": "395126108210501",
+    "station_nm": "BLACK SULPHUR CREEK NEAR PICEANCE CREEK"
+  },
+  {
+    "site_no": "395126108205602",
+    "station_nm": "BLACK SULPHUR CREEK NEAR PICEANCE CREEK 1"
+  },
+  {
+    "site_no": "395127108204602",
+    "station_nm": "BLACK SULPHUR CREEK NEAR PICEANCE CREEK 3"
+  },
+  {
+    "site_no": "395128108204002",
+    "station_nm": "BLACK SULPHUR CREEK NEAR PICEANCE CREEK 4"
+  },
+  { "site_no": "09046490", "station_nm": "BLUE RIVER AT BLUE RIVER, CO." },
+  { "site_no": "09050700", "station_nm": "BLUE RIVER BELOW DILLON, CO." },
+  {
+    "site_no": "09057500",
+    "station_nm": "BLUE RIVER BELOW GREEN MOUNTAIN RESERVOIR, CO"
+  },
+  { "site_no": "09046600", "station_nm": "BLUE RIVER NEAR DILLON, CO" },
+  { "site_no": "09034900", "station_nm": "BOBTAIL CREEK NEAR JONES PASS, CO" },
+  { "site_no": "09066200", "station_nm": "BOOTH CREEK NEAR MINTURN, CO." },
+  {
+    "site_no": "400052105144101",
+    "station_nm": "BOULDER CREEK AT ARAPAHOE AVE NEAR BOULDER, CO"
+  },
+  {
+    "site_no": "06730500",
+    "station_nm": "BOULDER CREEK AT MOUTH NEAR LONGMONT, CO"
+  },
+  {
+    "site_no": "06730200",
+    "station_nm": "BOULDER CREEK AT NORTH 75TH ST. NEAR BOULDER, CO"
+  },
+  {
+    "site_no": "06752285",
+    "station_nm": "BOXELDER CREEK TRIB AT HWY 36 NEAR WATKINS, CO"
+  },
+  {
+    "site_no": "372319104073301",
+    "station_nm": "BROWN SHEEP CAMP MET STATION NEAR TYRONE, CO,"
+  },
+  { "site_no": "390500106323000", "station_nm": "BRUMLEY SNOW SITE, CO" },
+  { "site_no": "09068500", "station_nm": "BRUSH CREEK AT EAGLE, CO" },
+  { "site_no": "06739500", "station_nm": "BUCKHORN CREEK NEAR MASONVILLE, CO" },
+  { "site_no": "403240106410000", "station_nm": "BUFFALO PASS SNOW SITE, CO" },
+  {
+    "site_no": "394819104570801",
+    "station_nm": "BURLINGTON DITCH AT METRO BRIDGE COMMERCE CITY, CO"
+  },
+  {
+    "site_no": "391050106550000",
+    "station_nm": "BURNT MOUNTAIN SNOW SITE, CO"
+  },
+  {
+    "site_no": "400102105533601",
+    "station_nm": "CABIN BOWEN RATIO WX NR SOLVISTA, CO"
+  },
+  { "site_no": "09032100", "station_nm": "CABIN CREEK NEAR FRASER, CO." },
+  {
+    "site_no": "06752280",
+    "station_nm": "CACHE LA POUDRE RIV AB BOXELDER CRK NR TIMNATH, CO"
+  },
+  {
+    "site_no": "403123105445201",
+    "station_nm": "CACHE LA POUDRE RIVER ABV CORRAL CREEK IN RMNP, CO"
+  },
+  {
+    "site_no": "06752260",
+    "station_nm": "CACHE LA POUDRE RIVER AT FORT COLLINS, CO"
+  },
+  { "site_no": "403100105540000", "station_nm": "CAMERON PASS SNOW SITE, CO" },
+  {
+    "site_no": "07103703",
+    "station_nm": "CAMP CREEK AT GARDEN OF THE GODS, CO"
+  },
+  {
+    "site_no": "385108104522001",
+    "station_nm": "CAMP CREEK AT S 31ST ST NR COLO SPRINGS"
+  },
+  {
+    "site_no": "09359080",
+    "station_nm": "CASCADE CR ABV CASCADE CR DIVERSION NR ROCKWOOD CO"
+  },
+  {
+    "site_no": "09359082",
+    "station_nm": "CASCADE CR BLW CASCADE CR DIVERSION NR ROCKWOOD CO"
+  },
+  {
+    "site_no": "09359081",
+    "station_nm": "CASCADE CREEK FLUME NEAR ROCKWOOD, CO"
+  },
+  { "site_no": "370345105434501", "station_nm": "CB 107512AAA" },
+  { "site_no": "370120105351501", "station_nm": "CB00107320DCC" },
+  { "site_no": "370225105393501", "station_nm": "CB00107415DBD" },
+  { "site_no": "370028105393501", "station_nm": "CB00107427DCD" },
+  {
+    "site_no": "365958105403001",
+    "station_nm": "CB00107433DAA 01N.74W.33.422"
+  },
+  { "site_no": "370130105442501", "station_nm": "CB00107524CCA" },
+  { "site_no": "370728105223001", "station_nm": "CB00207119ACC" },
+  { "site_no": "371002105385301", "station_nm": "CB00207402BBB  RG92" },
+  { "site_no": "370600105402901", "station_nm": "CB00207427CBB" },
+  { "site_no": "370625105440001", "station_nm": "CB00207525AAB" },
+  { "site_no": "371400105322801", "station_nm": "CB00307311BDB" },
+  { "site_no": "371237105303201", "station_nm": "CB00307324ACA" },
+  { "site_no": "371155105344001", "station_nm": "CB00307329AAD" },
+  { "site_no": "371130105355001", "station_nm": "CB00307330DDA" },
+  { "site_no": "371107105385301", "station_nm": "CB00307426CCC  RG90" },
+  { "site_no": "371057105380001", "station_nm": "CB00307435ADA" },
+  { "site_no": "371045105373501", "station_nm": "CB00307436CAB" },
+  { "site_no": "372955105310701", "station_nm": "CC02907326CBA" },
+  { "site_no": "372547105282101", "station_nm": "CC03007219AAC" },
+  { "site_no": "372454105255601", "station_nm": "CC03007228AAD" },
+  { "site_no": "372435105263501", "station_nm": "CC03007228BBA" },
+  { "site_no": "372319105250501", "station_nm": "CC03007234DCD  RG64" },
+  { "site_no": "372819105305501", "station_nm": "CC03007302BAD" },
+  { "site_no": "372610105345501", "station_nm": "CC03007318ADA  RG63A" },
+  { "site_no": "372501105320901", "station_nm": "CC03007327BAB1" },
+  { "site_no": "372400105323402", "station_nm": "CC03007327BAB2" },
+  { "site_no": "372337105291501", "station_nm": "CC03007336DAA" },
+  { "site_no": "372250105364501", "station_nm": "CC03007436BCD" },
+  { "site_no": "372226105262801", "station_nm": "CC03107204CDD" },
+  { "site_no": "372141105281101", "station_nm": "CC03107207DDA" },
+  { "site_no": "372317105262801", "station_nm": "CC03107209BAA" },
+  { "site_no": "372200105254001", "station_nm": "CC03107210BCD" },
+  { "site_no": "372106105241701", "station_nm": "CC03107214CAA" },
+  { "site_no": "371830105263201", "station_nm": "CC03107228DAA" },
+  { "site_no": "372317105361801", "station_nm": "CC03107401ABB" },
+  { "site_no": "372245105354801", "station_nm": "CC03107401DAD" },
+  { "site_no": "371940105432501", "station_nm": "CC03107526AAA" },
+  { "site_no": "371642105315101", "station_nm": "CC03207303DDC  RG72" },
+  {
+    "site_no": "381633107054700",
+    "station_nm": "CEBOLLA CREEK AT POWDERHORN, CO"
+  },
+  { "site_no": "383041107544201", "station_nm": "CEDAR CREEK NEAR MOUTH" },
+  {
+    "site_no": "375333107385401",
+    "station_nm": "CEMENT CR ABV AMER TUNNEL BLW N FORK CEMENT CR"
+  },
+  {
+    "site_no": "375344107384801",
+    "station_nm": "CEMENT CR ABV N FORK CEMENT CR NR SILVERTON, CO"
+  },
+  {
+    "site_no": "375322107391101",
+    "station_nm": "CEMENT CR ABV S FORK CEMENT CR NR SILVERTON, CO"
+  },
+  { "site_no": "09358550", "station_nm": "CEMENT CREEK AT SILVERTON, CO" },
+  {
+    "site_no": "384439108092801",
+    "station_nm": "CENTRAL UNNAMED DRAIN ESCALANTE SWA NR DELTA CO"
+  },
+  {
+    "site_no": "394306104582203",
+    "station_nm": "CHERRY CR STORM DRAIN ABV DOWNING ST DENVER, CO"
+  },
+  {
+    "site_no": "394124104543901",
+    "station_nm": "CHERRY CREEK AB GOLDSMITH GULCH AT DENVER, CO"
+  },
+  {
+    "site_no": "393959104525801",
+    "station_nm": "CHERRY CREEK ABV YOSEMITE STREET DENVER, CO"
+  },
+  { "site_no": "06713500", "station_nm": "CHERRY CREEK AT DENVER, CO." },
+  {
+    "site_no": "394306104582201",
+    "station_nm": "CHERRY CREEK AT DOWNING ST AT DENVER, CO"
+  },
+  { "site_no": "06713300", "station_nm": "CHERRY CREEK AT GLENDALE, CO" },
+  {
+    "site_no": "06713000",
+    "station_nm": "CHERRY CREEK BELOW CHERRY CREEK LAKE, CO"
+  },
+  { "site_no": "06712000", "station_nm": "CHERRY CREEK NEAR FRANKTOWN, CO." },
+  {
+    "site_no": "393109104464500",
+    "station_nm": "CHERRY CREEK NEAR PARKER, CO"
+  },
+  {
+    "site_no": "07105490",
+    "station_nm": "CHEYENNE CREEK AT EVANS AVE AT COLORADO SPRINGS,CO"
+  },
+  {
+    "site_no": "384823104501601",
+    "station_nm": "CHEYENNE RUN TRIBUTARY AT COLO SPRINGS (CULVERT)"
+  },
+  {
+    "site_no": "372721103595601",
+    "station_nm": "CIG PIPELINE SOUTH MET. STATION NEAR SIMPSON, CO"
+  },
+  {
+    "site_no": "09127000",
+    "station_nm": "CIMARRON RIVER BLW SQUAW CREEK AT CIMARRON, CO"
+  },
+  { "site_no": "09126000", "station_nm": "CIMARRON RIVER NEAR CIMARRON, CO" },
+  {
+    "site_no": "06715000",
+    "station_nm": "CLEAR CREEK ABV WEST FORK CLEAR CREEK NR EMPIRE CO"
+  },
+  { "site_no": "06719505", "station_nm": "CLEAR CREEK AT GOLDEN, CO" },
+  {
+    "site_no": "06720000",
+    "station_nm": "CLEAR CREEK AT MOUTH NEAR DERBY, CO"
+  },
+  {
+    "site_no": "394131105481500",
+    "station_nm": "CLEAR CREEK BLW QUAYLE CREEK AT BAKERVILLE, CO"
+  },
+  { "site_no": "06716500", "station_nm": "CLEAR CREEK NEAR LAWSON, CO" },
+  {
+    "site_no": "07105815",
+    "station_nm": "CLOVER DITCH DRAIN AT QUINN ST NR WIDEFIELD, CO"
+  },
+  {
+    "site_no": "07105820",
+    "station_nm": "CLOVER DITCH DRAIN NEAR WIDEFIELD, CO."
+  },
+  {
+    "site_no": "09111250",
+    "station_nm": "COAL CREEK ABV MCCORMICK DTCH AT CRESTED BUTTE, CO"
+  },
+  {
+    "site_no": "09118450",
+    "station_nm": "COCHETOPA CREEK BELOW ROCK CREEK NEAR PARLIN, CO"
+  },
+  {
+    "site_no": "09106150",
+    "station_nm": "COLO RIVER BELOW GRAND VALLEY DIV NR PALISADE, CO"
+  },
+  {
+    "site_no": "09085150",
+    "station_nm": "COLORADO R ABV SOUTH CANYON CR NR GLENWOOD SPGS CO"
+  },
+  {
+    "site_no": "09071750",
+    "station_nm": "COLORADO RIVER ABOVE GLENWOOD SPRINGS, CO"
+  },
+  {
+    "site_no": "09060799",
+    "station_nm": "COLORADO RIVER AT CATAMOUNT BRIDGE, CO"
+  },
+  {
+    "site_no": "393132107464101",
+    "station_nm": "COLORADO RIVER AT SH 13 NEAR RIFLE, CO"
+  },
+  {
+    "site_no": "09034250",
+    "station_nm": "COLORADO RIVER AT WINDY GAP, NEAR GRANBY, CO."
+  },
+  {
+    "site_no": "09010500",
+    "station_nm": "COLORADO RIVER BELOW BAKER GULCH NR GRAND LAKE, CO"
+  },
+  {
+    "site_no": "09085100",
+    "station_nm": "COLORADO RIVER BELOW GLENWOOD SPRINGS, CO"
+  },
+  {
+    "site_no": "09019000",
+    "station_nm": "COLORADO RIVER BELOW LAKE GRANBY, CO."
+  },
+  {
+    "site_no": "09015000",
+    "station_nm": "COLORADO RIVER BL SHADOW MOUNTAIN RESERVOIR, CO."
+  },
+  { "site_no": "09095500", "station_nm": "COLORADO RIVER NEAR CAMEO, CO." },
+  {
+    "site_no": "09163500",
+    "station_nm": "COLORADO RIVER NEAR COLORADO-UTAH STATE LINE"
+  },
+  { "site_no": "09070500", "station_nm": "COLORADO RIVER NEAR DOTSERO, CO" },
+  { "site_no": "09019500", "station_nm": "COLORADO RIVER NEAR GRANBY, CO" },
+  { "site_no": "09058000", "station_nm": "COLORADO RIVER NEAR KREMMLING, CO" },
+  {
+    "site_no": "08245000",
+    "station_nm": "CONEJOS RIVER BELOW PLATORO RESERVOIR, CO"
+  },
+  { "site_no": "08249000", "station_nm": "CONEJOS RIVER NEAR LASAUSES, CO" },
+  { "site_no": "08246500", "station_nm": "CONEJOS RIVER NEAR MOGOTE, CO." },
+  { "site_no": "09306242", "station_nm": "CORRAL GULCH NEAR RANGELY, CO" },
+  {
+    "site_no": "07103987",
+    "station_nm": "COTTONWOOD CK AT UNION BLVD, AT COLO SPRINGS, CO"
+  },
+  {
+    "site_no": "385548104443301",
+    "station_nm": "COTTONWOOD CR DRAIN AT AUSTIN BLUFFS PKY,  CO SPG"
+  },
+  {
+    "site_no": "385547104473601",
+    "station_nm": "COTTONWOOD CR DRAIN AT N ACADEMY BLVD NR YORK RD"
+  },
+  {
+    "site_no": "385549104451401",
+    "station_nm": "COTTONWOOD CR DRAIN RANGEWOOD DR AT CO SPRGS"
+  },
+  {
+    "site_no": "385642104433901",
+    "station_nm": "COTTONWOOD CR TRIB AT POTOMAC DR AT CO SPINRGS"
+  },
+  {
+    "site_no": "384952106103800",
+    "station_nm": "COTTONWOOD CR. BELOW ROAD 361 NEAR BUENA VISTA, CO"
+  },
+  {
+    "site_no": "384822107411201",
+    "station_nm": "COTTONWOOD CREEK AT CTY ROAD J75, NR MOUTH"
+  },
+  {
+    "site_no": "07103990",
+    "station_nm": "COTTONWOOD CREEK AT MOUTH AT PIKEVIEW, CO"
+  },
+  {
+    "site_no": "07103980",
+    "station_nm": "COTTONWOOD CREEK AT WOODMEN RD NR COLO SPRINGS, CO"
+  },
+  {
+    "site_no": "402552105300101",
+    "station_nm": "COW CREEK NR COW CREEK TRAILHEAD IN RMNP, CO"
+  },
+  {
+    "site_no": "09129550",
+    "station_nm": "CRAWFORD RESERVOIR NEAR CRAWFORD, CO"
+  },
+  {
+    "site_no": "395927105505700",
+    "station_nm": "CROOKED CR ABV POLE CREEK AT TABERNASH"
+  },
+  { "site_no": "09065100", "station_nm": "CROSS CREEK NEAR MINTURN, CO" },
+  {
+    "site_no": "09081600",
+    "station_nm": "CRYSTAL RIVER ABV AVALANCHE CRK, NEAR REDSTONE, CO"
+  },
+  { "site_no": "402046105382801", "station_nm": "CUB LAKE IN RMNP, CO" },
+  { "site_no": "371242105115800", "station_nm": "CULEBRA SNOW SITE, CO" },
+  { "site_no": "384448108070301", "station_nm": "CUMMINGS GULCH AT MOUTH" },
+  { "site_no": "09147000", "station_nm": "DALLAS CREEK NEAR RIDGWAY, CO" },
+  { "site_no": "404800105460000", "station_nm": "DEADMAN HILL SNOW SITE, CO" },
+  { "site_no": "384517108055902", "station_nm": "DELTA SEWER TREATED WATER" },
+  { "site_no": "402825105341501", "station_nm": "DICKINSON POND IN RMNP, CO" },
+  {
+    "site_no": "391513106230401",
+    "station_nm": "DINERO BULKHEAD SPIGOT AT 1250 FT NR LEADVILLE, CO"
+  },
+  {
+    "site_no": "391512106230301",
+    "station_nm": "DINERO DRIPPER AT 1140 FEET NEAR LEADVILLE, CO"
+  },
+  {
+    "site_no": "391512106230401",
+    "station_nm": "DINERO STRUCTURE AT 1200 FT NEAR LEADVILLE, CO"
+  },
+  {
+    "site_no": "384620108022801",
+    "station_nm": "DITCH AT GUNNISON R AB HARTLAND DAM NR CORY, CO"
+  },
+  { "site_no": "09169500", "station_nm": "DOLORES RIVER AT BEDROCK, CO" },
+  { "site_no": "09166500", "station_nm": "DOLORES RIVER AT DOLORES, CO." },
+  { "site_no": "09165000", "station_nm": "DOLORES RIVER BELOW RICO, CO." },
+  { "site_no": "09171100", "station_nm": "DOLORES RIVER NEAR BEDROCK, CO." },
+  { "site_no": "09179450", "station_nm": "DOLORES RIVER NEAR GATEWAY, CO" },
+  { "site_no": "09168730", "station_nm": "DOLORES RIVER NEAR SLICK ROCK, CO" },
+  {
+    "site_no": "385259104500201",
+    "station_nm": "DOUGLAS CR DRAIN AT SINTON RD AT CO SPRG(CULVERT)"
+  },
+  {
+    "site_no": "385520104530401",
+    "station_nm": "DOUGLAS CR MET ABV FLYING W RNCH RD AT CO SPRS, CO"
+  },
+  {
+    "site_no": "385349104501401",
+    "station_nm": "DOUGLAS CR MET ABV N CHESTNUT ST AT CO SPRS, CO"
+  },
+  {
+    "site_no": "385257104494401",
+    "station_nm": "DOUGLAS CR SOUTH AT  MOUTH AT CO SPRINGS, CO"
+  },
+  {
+    "site_no": "384202108032001",
+    "station_nm": "DRY CREEK AT MOUTH, NEAR DELTA"
+  },
+  { "site_no": "06711770", "station_nm": "DRY GULCH AT DENVER, CO" },
+  { "site_no": "403200106470000", "station_nm": "DRY LAKE SNOW SITE, CO" },
+  {
+    "site_no": "06822210",
+    "station_nm": "DUCK CREEK AT I-70 NEAR FLAGLER, CO"
+  },
+  { "site_no": "401200107090000", "station_nm": "DUNCKLEY PASS SNOW SITE, CO" },
+  {
+    "site_no": "06709910",
+    "station_nm": "DUTCH CR AT PLATTE CANYON DRIVE NEAR LITTLETON, CO"
+  },
+  {
+    "site_no": "385010104422901",
+    "station_nm": "E FORK SAND CR MET BLW PLATTE AVE AT CO SPNG, CO"
+  },
+  {
+    "site_no": "09067020",
+    "station_nm": "EAGLE R BLW WASTEWATER TREATMENT PLANT AT AVON, CO"
+  },
+  {
+    "site_no": "393627106264000",
+    "station_nm": "EAGLE RIVER ABOVE GORE CREEK NR. MINTURN, CO"
+  },
+  { "site_no": "09067005", "station_nm": "EAGLE RIVER AT AVON, CO." },
+  { "site_no": "09069000", "station_nm": "EAGLE RIVER AT GYPSUM, CO" },
+  { "site_no": "09063000", "station_nm": "EAGLE RIVER AT RED CLIFF, CO." },
+  { "site_no": "09070000", "station_nm": "EAGLE RIVER BELOW GYPSUM, CO." },
+  {
+    "site_no": "394220106431500",
+    "station_nm": "EAGLE RIVER BELOW MILK CREEK NEAR WOLCOTT, CO"
+  },
+  { "site_no": "09064600", "station_nm": "EAGLE RIVER NEAR MINTURN, CO" },
+  {
+    "site_no": "383915107571201",
+    "station_nm": "EAST CANAL ABOVE 6125 ROAD, NEAR OLATHE, CO"
+  },
+  {
+    "site_no": "385835108271601",
+    "station_nm": "EAST CREEK MOUTH AT GUNNISON R NR WHITEWATER, CO"
+  },
+  {
+    "site_no": "07079195",
+    "station_nm": "EAST FORK ARKANSAS RIVER AT HWY 91 NR LEADVILLE,CO"
+  },
+  {
+    "site_no": "09061600",
+    "station_nm": "EAST FORK EAGLE RIVER NEAR CLIMAX, CO"
+  },
+  {
+    "site_no": "401411105470901",
+    "station_nm": "EAST INLET ABV ADAMS FALLS 2, NR GRAND LAKE, CO"
+  },
+  {
+    "site_no": "401406105472701",
+    "station_nm": "EAST INLET ABV ADAMS FALLS 3, NR GRAND LAKE, CO"
+  },
+  {
+    "site_no": "401416105465301",
+    "station_nm": "EAST INLET ABV ADAMS FALLS, NR GRAND LAKE, CO"
+  },
+  {
+    "site_no": "401407105462901",
+    "station_nm": "EAST INLET ABV EAST MEADOW IN RMNP, CO"
+  },
+  {
+    "site_no": "401413105473701",
+    "station_nm": "EAST INLET BLW EAST MEADOW, NR GRAND LAKE, CO"
+  },
+  {
+    "site_no": "401412105480200",
+    "station_nm": "EAST INLET-GRAND LAKE SNOW SITE, CO"
+  },
+  {
+    "site_no": "06708800",
+    "station_nm": "EAST PLUM CR ABV HASKINS GULCH NR CASTLE ROCK, CO"
+  },
+  { "site_no": "09112500", "station_nm": "EAST RIVER AT ALMONT, CO" },
+  {
+    "site_no": "09112200",
+    "station_nm": "EAST RIVER BELOW CEMENT CREEK NR CRESTED BUTTE, CO"
+  },
+  {
+    "site_no": "384435108091801",
+    "station_nm": "EAST UNNAMED DRAIN AT ESCALANTE SWA NR DELTA CO"
+  },
+  {
+    "site_no": "07079300",
+    "station_nm": "EF ARKANSAS R AT US HIGHWAY 24, NR LEADVILLE, CO."
+  },
+  {
+    "site_no": "09110990",
+    "station_nm": "ELK CREEK AT COAL CREEK ABV CRESTED BUTTE, CO"
+  },
+  {
+    "site_no": "09025300",
+    "station_nm": "ELK CREEK AT UPPER STATION, NEAR FRASER, CO"
+  },
+  { "site_no": "09242500", "station_nm": "ELK RIVER NEAR MILNER, CO." },
+  { "site_no": "405100106580000", "station_nm": "ELK RIVER SNOW SITE, CO" },
+  {
+    "site_no": "09246200",
+    "station_nm": "ELKHEAD CREEK ABOVE LONG GULCH, NEAR HAYDEN, CO"
+  },
+  { "site_no": "09246500", "station_nm": "ELKHEAD CREEK NEAR CRAIG, CO" },
+  {
+    "site_no": "09056500",
+    "station_nm": "ELLIOTT CREEK FEEDER CANAL TO GREEN MTN RES, CO"
+  },
+  {
+    "site_no": "384532108153101",
+    "station_nm": "ESCALANTE CREEK MOUTH AT GUNNISON R NR DELTA, CO"
+  },
+  { "site_no": "402714105394201", "station_nm": "FAY LAKES IN RMNP, CO" },
+  {
+    "site_no": "06720460",
+    "station_nm": "FIRST CR BEL BUCKLEY RD, AT ROCKY MTN ARSENAL, CO"
+  },
+  {
+    "site_no": "09238900",
+    "station_nm": "FISH CR AT UPPER STA NR STEAMBOAT SPRINGS, CO"
+  },
+  {
+    "site_no": "385548104503201",
+    "station_nm": "FOOTHILLS MET STA AT FOOTHILLS ELEM AT CO SPGS, CO"
+  },
+  {
+    "site_no": "402530105481900",
+    "station_nm": "FOREST CANYON PASS SNOW SITE, CO"
+  },
+  {
+    "site_no": "380646103125701",
+    "station_nm": "FORT LYON CANAL NEAR LAS ANIMAS, CO"
+  },
+  {
+    "site_no": "380553103335201",
+    "station_nm": "FORT LYON STORAGE CANAL NEAR CHERAW, CO"
+  },
+  {
+    "site_no": "381840104361001",
+    "station_nm": "FOUNTAIN CR ABV 40TH ST AT PUEBLO, CO"
+  },
+  {
+    "site_no": "381601104355801",
+    "station_nm": "FOUNTAIN CR AT EAST RIVER ST AT PUEBLO, CO"
+  },
+  {
+    "site_no": "383854104413601",
+    "station_nm": "FOUNTAIN CR BELOW JIMMY CAMP CR NR FOUNTAIN, CO"
+  },
+  {
+    "site_no": "07105530",
+    "station_nm": "FOUNTAIN CR BLW JANITELL RD BLW COLO. SPRINGS, CO"
+  },
+  {
+    "site_no": "384900104492801",
+    "station_nm": "FOUNTAIN CR DRAIN AT S TEJON ST AT CO SPRNG(CLVRT)"
+  },
+  {
+    "site_no": "384749104470801",
+    "station_nm": "FOUNTAIN CR DRAIN NR CIRCLE DR AT CO SPRG (CULVRT)"
+  },
+  {
+    "site_no": "384859104492601",
+    "station_nm": "FOUNTAIN CR DRAIN NR S TEJON ST AT CO SPRNG(CLVRT)"
+  },
+  { "site_no": "07100300", "station_nm": "FOUNTAIN CREEK AT CASCADE, CO" },
+  {
+    "site_no": "07105500",
+    "station_nm": "FOUNTAIN CREEK AT COLORADO SPRINGS, CO"
+  },
+  { "site_no": "07106500", "station_nm": "FOUNTAIN CREEK AT PUEBLO, CO." },
+  {
+    "site_no": "385116104523301",
+    "station_nm": "FOUNTAIN CREEK AT S 32ND ST NR COLO SPRINGS(CLVRT)"
+  },
+  { "site_no": "07105800", "station_nm": "FOUNTAIN CREEK AT SECURITY, CO" },
+  {
+    "site_no": "07103707",
+    "station_nm": "FOUNTAIN CREEK BL 8TH ST., AT COLO. SPRINGS, CO."
+  },
+  {
+    "site_no": "07103700",
+    "station_nm": "FOUNTAIN CREEK NEAR COLORADO SPRINGS, CO."
+  },
+  { "site_no": "07106000", "station_nm": "FOUNTAIN CREEK NEAR FOUNTAIN, CO." },
+  { "site_no": "07106300", "station_nm": "FOUNTAIN CREEK NEAR PINON, CO" },
+  {
+    "site_no": "381754104361902",
+    "station_nm": "FOUNTAIN CREEK NR DILLON DR AND E. 29TH ST, PUEBLO"
+  },
+  {
+    "site_no": "381653104361002",
+    "station_nm": "FOUNTAIN CRK NR N ERIE AVE AND E 13 ST, PUEBLO, CO"
+  },
+  {
+    "site_no": "381532104353503",
+    "station_nm": "FOUNTAIN CRK NR S JOPLIN AND S PORTLAND, PUEBLO CO"
+  },
+  {
+    "site_no": "06730160",
+    "station_nm": "FOURMILE CANYON CREEK NEAR SUNSHINE, CO"
+  },
+  { "site_no": "06727500", "station_nm": "FOURMILE CREEK AT ORODELL, CO" },
+  {
+    "site_no": "07096250",
+    "station_nm": "FOURMILE CREEK BELOW CRIPPLE CREEK NEAR VICTOR, CO"
+  },
+  {
+    "site_no": "09023560",
+    "station_nm": "FRASER RIVER ABV MOFFAT TUNNEL AT WINTER PARK, CO"
+  },
+  {
+    "site_no": "400453105554200",
+    "station_nm": "FRASER RIVER AT HWY. 40 AT GRANBY, CO"
+  },
+  { "site_no": "09027100", "station_nm": "FRASER RIVER AT TABERNASH, CO" },
+  {
+    "site_no": "09022000",
+    "station_nm": "FRASER RIVER AT UPPER STA, NEAR WINTER PARK, CO."
+  },
+  { "site_no": "09024000", "station_nm": "FRASER RIVER AT WINTER PARK, CO." },
+  {
+    "site_no": "09023750",
+    "station_nm": "FRASER RIVER BELOW BUCK CREEK AT WINTER PARK, CO"
+  },
+  {
+    "site_no": "09033300",
+    "station_nm": "FRASER RIVER BLW CROOKED CR AT TABERNASH CO"
+  },
+  {
+    "site_no": "09025010",
+    "station_nm": "FRASER RIVER BLW VASQUEZ CREEK AT WINTER PARK CO."
+  },
+  { "site_no": "392200106120000", "station_nm": "FREMONT PASS SNOW SITE, CO" },
+  {
+    "site_no": "09143600",
+    "station_nm": "FRUIT GROWERS RESERVOIR NEAR ORCHARD CITY, CO"
+  },
+  { "site_no": "09080400", "station_nm": "FRYINGPAN RIVER NEAR RUEDI, CO." },
+  {
+    "site_no": "07103784",
+    "station_nm": "GOAT CAMP CREEK ABV RESERVOIR NO. 4 AT USAFA, CO"
+  },
+  {
+    "site_no": "394124104544001",
+    "station_nm": "GOLDSMITH GULCH AT DENVER, CO"
+  },
+  { "site_no": "06758400", "station_nm": "GOOSE CREEK NEAR HOYT, CO." },
+  {
+    "site_no": "09066325",
+    "station_nm": "GORE CREEK ABV RED SANDSTONE CREEK AT VAIL, CO"
+  },
+  {
+    "site_no": "09066510",
+    "station_nm": "GORE CREEK AT MOUTH NEAR MINTURN, CO"
+  },
+  {
+    "site_no": "09065500",
+    "station_nm": "GORE CREEK AT UPPER STATION, NEAR MINTURN, CO."
+  },
+  {
+    "site_no": "375852107455200",
+    "station_nm": "GOVERNOR BASIN MET. STATION NEAR TELLURIDE, CO"
+  },
+  { "site_no": "09013900", "station_nm": "GRAND LAKE AT GRAND LAKE, CO." },
+  {
+    "site_no": "401428105481601",
+    "station_nm": "GRAND LAKE NR ADAMS TUNNEL W. PORTAL, GRAND LK, CO"
+  },
+  {
+    "site_no": "09014000",
+    "station_nm": "GRAND LAKE OUTLET AT GRAND LAKE, CO."
+  },
+  {
+    "site_no": "09014050",
+    "station_nm": "GRAND LAKE OUTLET BLW CHIPMUNK LN AT GRAND LK, CO"
+  },
+  { "site_no": "390158107583901", "station_nm": "GRAND MESA SNOW SITE, CO" },
+  {
+    "site_no": "380752105282301",
+    "station_nm": "GRAPE CREEK AT HERMIT ROAD NR WESTCLIFFE, CO"
+  },
+  {
+    "site_no": "380954105292101",
+    "station_nm": "GRAPE CREEK AT HIGHWAY 69 NR WESTCLIFFE, CO"
+  },
+  {
+    "site_no": "380513105275401",
+    "station_nm": "GRAPE CREEK AT SCHOOLFIELD ROAD NR WESTCLIFFE, CO"
+  },
+  { "site_no": "07095000", "station_nm": "GRAPE CREEK NEAR WESTCLIFFE, CO." },
+  { "site_no": "401144105504700", "station_nm": "GREEN RIDGE SNOW SITE, CO" },
+  {
+    "site_no": "404417108524900",
+    "station_nm": "GREEN RIVER ABOVE GATES OF LODORE, CO"
+  },
+  {
+    "site_no": "384458108134601",
+    "station_nm": "GUNNISON R AB ESCALANTE CREEK 3 NR DELTA, CO"
+  },
+  {
+    "site_no": "384527108031301",
+    "station_nm": "GUNNISON R ABOVE CONFLUENCE PARK NR DELTA, CO"
+  },
+  {
+    "site_no": "384428108092301",
+    "station_nm": "GUNNISON R ABOVE ROUBIDEAU CREEK 2 NR DELTA, CO"
+  },
+  {
+    "site_no": "385909108282301",
+    "station_nm": "GUNNISON R AT BUTCH CRAIG POND NR GRAND JCT, CO"
+  },
+  {
+    "site_no": "390147108325001",
+    "station_nm": "GUNNISON R AT RIVER MILE 4 NEAR GRAND JUNCTION, CO"
+  },
+  {
+    "site_no": "384525108052501",
+    "station_nm": "GUNNISON R AT UNCOMPAHGRE RIVER MOUTH AT DELTA, CO"
+  },
+  {
+    "site_no": "384538108154901",
+    "station_nm": "GUNNISON R BELOW ESCALANTE CREEK 2 NR DELTA, CO"
+  },
+  {
+    "site_no": "384429108075101",
+    "station_nm": "GUNNISON R BELOW G50 BRIDGE NR DELTA, CO"
+  },
+  {
+    "site_no": "384350108101701",
+    "station_nm": "GUNNISON R BELOW ROUBIDEAU CREEK 2 NR DELTA, CO"
+  },
+  {
+    "site_no": "385105108223201",
+    "station_nm": "GUNNISON R BL BOAT LANDING NR BRIDGEPORT, CO"
+  },
+  {
+    "site_no": "385025108224501",
+    "station_nm": "GUNNISON R BL BRIDGEPORT BRIDGES NR BRIDGEPORT, CO"
+  },
+  {
+    "site_no": "384910108194101",
+    "station_nm": "GUNNISON R BL BROUGHTON DIV NR DELTA, CO"
+  },
+  {
+    "site_no": "384406108120101",
+    "station_nm": "GUNNISON R BL CLUB GULCH CREEK 2 NR DELTA, CO"
+  },
+  {
+    "site_no": "384445108071701",
+    "station_nm": "GUNNISON R BL CUMMINGS GULCH NR DELTA, CO"
+  },
+  {
+    "site_no": "384458108061101",
+    "station_nm": "GUNNISON R BL DRAINAGE DTCH NR 1400 RD NR DELTA CO"
+  },
+  {
+    "site_no": "390132108315401",
+    "station_nm": "GUNNISON R BL ROUGH CANYON 2 NR GRAND JCT, CO"
+  },
+  {
+    "site_no": "390107108323701",
+    "station_nm": "GUNNISON R BL ROUGH CANYON NR GRAND JCT, CO"
+  },
+  {
+    "site_no": "384510108055601",
+    "station_nm": "GUNNISON R BL UNCOMPAHGRE R 2 NR DELTA, CO"
+  },
+  {
+    "site_no": "385843108271302",
+    "station_nm": "GUNNISON R BL WHITEWATER CK 2 NEAR WHITEWATER, CO"
+  },
+  {
+    "site_no": "385851108270901",
+    "station_nm": "GUNNISON R BL WHITEWATER CREEK NEAR WHITEWATER, CO"
+  },
+  {
+    "site_no": "384600108023201",
+    "station_nm": "GUNNISON R BLW TRIB NR HARTLAND DITCH NR DELTA, CO"
+  },
+  {
+    "site_no": "384622108004901",
+    "station_nm": "GUNNISON R DITCH ABOVE TONGUE CREEK NR CORY, CO"
+  },
+  {
+    "site_no": "384946108224301",
+    "station_nm": "GUNNISON R NEAR DOMINGUEZ CANYON NR BRIDGEPORT, CO"
+  },
+  {
+    "site_no": "384537108030101",
+    "station_nm": "GUNNISON R NR JATZ BOTTOMLANDS NR DELTA, CO"
+  },
+  {
+    "site_no": "384625108010401",
+    "station_nm": "GUNNISON R TRIB ABOVE TONGUE CREEK NR CORY, CO"
+  },
+  {
+    "site_no": "384601108023101",
+    "station_nm": "GUNNISON R TRIB NR HARTLAND DITCH NR DELTA, CO"
+  },
+  {
+    "site_no": "384517108152001",
+    "station_nm": "GUNNISON RIVER AB ESCALANTE CREEK 2 NR DELTA, CO"
+  },
+  {
+    "site_no": "385610108264601",
+    "station_nm": "GUNNISON RIVER AB KANNAH CREEK NEAR WHITEWATER, CO"
+  },
+  {
+    "site_no": "384410108095701",
+    "station_nm": "GUNNISON RIVER ABOVE ROUBIDEAU CREEK NR DELTA, CO"
+  },
+  {
+    "site_no": "384632108010701",
+    "station_nm": "GUNNISON RIVER ABOVE TOUNGE CREEK NEAR CORY, CO"
+  },
+  {
+    "site_no": "384524108050101",
+    "station_nm": "GUNNISON RIVER ABOVE UNCOMPAHGRE RIVER AT DELTA,CO"
+  },
+  {
+    "site_no": "383103106594200",
+    "station_nm": "GUNNISON RIVER AT CNTY RD 32 BELOW GUNNISON, CO"
+  },
+  { "site_no": "09144250", "station_nm": "GUNNISON RIVER AT DELTA, CO" },
+  {
+    "site_no": "384452108071101",
+    "station_nm": "GUNNISON RIVER AT G50 ROAD NEAR DELTA, CO"
+  },
+  {
+    "site_no": "09114520",
+    "station_nm": "GUNNISON RIVER AT GUNNISON WHITEWATER PARK, CO"
+  },
+  {
+    "site_no": "385617108264901",
+    "station_nm": "GUNNISON RIVER AT KANNAH CREEK NEAR WHITEWATER, CO"
+  },
+  {
+    "site_no": "385224108253501",
+    "station_nm": "GUNNISON RIVER AT RIVER MILE 24 NR WHITEWATER, CO"
+  },
+  {
+    "site_no": "384515108044801",
+    "station_nm": "GUNNISON RIVER BELOW CONFLUENCE PARK AT DELTA, CO"
+  },
+  {
+    "site_no": "384536108153601",
+    "station_nm": "GUNNISON RIVER BELOW ESCALANTE CREEK NR DELTA, CO"
+  },
+  {
+    "site_no": "09128000",
+    "station_nm": "GUNNISON RIVER BELOW GUNNISON TUNNEL, CO"
+  },
+  {
+    "site_no": "384401108100501",
+    "station_nm": "GUNNISON RIVER BELOW ROUBIDEAU CREEK NR DELTA, CO"
+  },
+  {
+    "site_no": "384334108104101",
+    "station_nm": "GUNNISON RIVER BL CLUB GULCH CREEK NEAR DELTA, CO"
+  },
+  {
+    "site_no": "385620108265201",
+    "station_nm": "GUNNISON RIVER BL KANNAH CREEK NR WHITEWATER, CO"
+  },
+  {
+    "site_no": "384517108054101",
+    "station_nm": "GUNNISON RIVER BL UNCOMPAHGRE RIVER AT DELTA, CO"
+  },
+  {
+    "site_no": "384636108011001",
+    "station_nm": "GUNNISON RIVER BLW TONGUE CREEK NR CORY, CO"
+  },
+  {
+    "site_no": "384502108041101",
+    "station_nm": "GUNNISON RIVER DWNST OF HGWY 50 BRIDGE AT DELTA CO"
+  },
+  {
+    "site_no": "384929108204901",
+    "station_nm": "GUNNISON RIVER IN SQUAWFISH ALLEY NEAR DELTA, CO"
+  },
+  { "site_no": "09137500", "station_nm": "GUNNISON RIVER NEAR CORY, CO" },
+  {
+    "site_no": "09152500",
+    "station_nm": "GUNNISON RIVER NEAR GRAND JUNCTION, CO."
+  },
+  { "site_no": "09114500", "station_nm": "GUNNISON RIVER NEAR GUNNISON, CO." },
+  {
+    "site_no": "384500108061701",
+    "station_nm": "GUNNISON RIVER NEAR TOWNSEND ROAD NEAR DELTA, CO"
+  },
+  {
+    "site_no": "07083200",
+    "station_nm": "HALFMOON CR BL HALFMOON DIVERSION NR LEADVILLE, CO"
+  },
+  { "site_no": "07083000", "station_nm": "HALFMOON CREEK NEAR MALTA, CO" },
+  {
+    "site_no": "390901106245300",
+    "station_nm": "HALFMOON CREEK SNOW SITE, CO"
+  },
+  { "site_no": "09032200", "station_nm": "HAMILTON CREEK NEAR TABERNASH, CO" },
+  {
+    "site_no": "393947104555101",
+    "station_nm": "HARVARD GUL PRECIP STA AT BRADLEY SCH AT DENVER,CO"
+  },
+  {
+    "site_no": "394028104560201",
+    "station_nm": "HARVARD GUL PRECIP STA AT DENVER ACAD AT DENVER,CO"
+  },
+  {
+    "site_no": "06711570",
+    "station_nm": "HARVARD GULCH AT COLORADO BLVD. AT DENVER, CO"
+  },
+  {
+    "site_no": "06711575",
+    "station_nm": "HARVARD GULCH AT HARVARD PARK AT DENVER, CO"
+  },
+  {
+    "site_no": "06613880",
+    "station_nm": "HELL CREEK BELOW SPRING GULCH NR WALDEN, CO"
+  },
+  {
+    "site_no": "380107107213201",
+    "station_nm": "HENSON CREEK ABV ALPINE GULCH NEAR LAKE CITY, CO"
+  },
+  { "site_no": "09124010", "station_nm": "HENSON CREEK AT LAKE CITY, CO" },
+  { "site_no": "09361000", "station_nm": "HERMOSA CREEK NEAR HERMOSA, CO." },
+  {
+    "site_no": "403846105164801",
+    "station_nm": "HIGH PARK PRECIP ON RIST CANYON RD NEAR BELLVUE CO"
+  },
+  {
+    "site_no": "403212105144201",
+    "station_nm": "HIGH PARK PRECIPITATION STATION NR MASONVILLE, CO"
+  },
+  { "site_no": "402723106424700", "station_nm": "HOGAN PEAK SNOW SITE, CO" },
+  { "site_no": "09064000", "station_nm": "HOMESTAKE CREEK AT GOLD PARK, CO." },
+  {
+    "site_no": "380239105322701",
+    "station_nm": "HORN CREEK AT RAINBOW TR NR WESTCLIFFE, CO"
+  },
+  { "site_no": "380959103303301", "station_nm": "HORSE CREEK NEAR CHERAW, CO" },
+  { "site_no": "07116500", "station_nm": "HUERFANO RIVER NEAR BOONE, CO." },
+  { "site_no": "09074500", "station_nm": "HUNTER CREEK AT ASPEN, CO" },
+  {
+    "site_no": "09073720",
+    "station_nm": "HUNTER CREEK FEEDER CONDUIT NEAR ASPEN, CO"
+  },
+  { "site_no": "09032300", "station_nm": "HURD CREEK NEAR TABERNASH, CO" },
+  {
+    "site_no": "401716105395001",
+    "station_nm": "ICY BROOK ABOVE ANDREWS CREEK LOCH VALE RMNP, CO"
+  },
+  {
+    "site_no": "390645106350000",
+    "station_nm": "INDEPENDENCE PASS SNOW SITE (IN ROAD), CO"
+  },
+  {
+    "site_no": "390636106345500",
+    "station_nm": "INDEPENDENCE PASS SNOW SITE, CO"
+  },
+  {
+    "site_no": "372742105061301",
+    "station_nm": "INDIAN CREEK BLW PRICE CREEK NEAR LA VETA, CO"
+  },
+  {
+    "site_no": "374557105372401",
+    "station_nm": "INDIAN SPRINGS MET STATION NR GREAT SAND DUNES, CO"
+  },
+  { "site_no": "382846107523001", "station_nm": "IRON MIKE NB04900927CBC" },
+  {
+    "site_no": "375546107412000",
+    "station_nm": "IRONTON METEOROLOGICAL STATION NEAR OURAY, CO"
+  },
+  { "site_no": "07105900", "station_nm": "JIMMY CAMP CREEK AT FOUNTAIN, CO." },
+  {
+    "site_no": "06746095",
+    "station_nm": "JOE WRIGHT CREEK ABOVE JOE WRIGHT RESERVOIR, CO"
+  },
+  {
+    "site_no": "06746110",
+    "station_nm": "JOE WRIGHT CREEK BELOW JOE WRIGHT RESERVOIR, CO"
+  },
+  {
+    "site_no": "07130000",
+    "station_nm": "JOHN MARTIN RESERVOIR AT CADDOA, CO"
+  },
+  {
+    "site_no": "385617108264801",
+    "station_nm": "KANNAH CREEK MOUTH AT GUNNISON R NR WHITEWATER, CO"
+  },
+  {
+    "site_no": "385821104481601",
+    "station_nm": "KETTLE CR DRY DAM NR USAF ACADEMY, ABV CO SPGS, CO"
+  },
+  {
+    "site_no": "07103960",
+    "station_nm": "KETTLE CREEK ABOVE USAF ACADEMY, CO"
+  },
+  { "site_no": "402950105313801", "station_nm": "KETTLE TARN IN RMNP, CO" },
+  { "site_no": "09047700", "station_nm": "KEYSTONE GULCH NEAR DILLON, CO." },
+  { "site_no": "09067200", "station_nm": "LAKE CREEK NEAR EDWARDS, CO" },
+  { "site_no": "403803106422500", "station_nm": "LAKE ELBERT" },
+  { "site_no": "403803106422501", "station_nm": "LAKE ELBERT INFLOW" },
+  { "site_no": "09124500", "station_nm": "LAKE FORK AT GATEVIEW, CO." },
+  {
+    "site_no": "09123450",
+    "station_nm": "LAKE FORK BLW LAKE SAN CRISTOBAL NR LAKE CITY, CO"
+  },
+  {
+    "site_no": "09171240",
+    "station_nm": "LAKE FORK SAN MIGUEL RV ABV TROUT LAKE NR OPHIR CO"
+  },
+  {
+    "site_no": "400806105474700",
+    "station_nm": "LAKE GRANBY (EAST) NEAR GRANBY, CO"
+  },
+  {
+    "site_no": "400845105502700",
+    "station_nm": "LAKE GRANBY NEAR DEER ISLAND, NEAR GRANBY, CO"
+  },
+  { "site_no": "09018500", "station_nm": "LAKE GRANBY NEAR GRANBY, CO." },
+  {
+    "site_no": "400950105513500",
+    "station_nm": "LAKE GRANBY NEAR HARVEY ISLAND, NEAR GRANBY, CO"
+  },
+  {
+    "site_no": "400929105525200",
+    "station_nm": "LAKE GRANBY NEAR KOKANEE COVE, NEAR GRANBY, CO"
+  },
+  {
+    "site_no": "401037105523900",
+    "station_nm": "LAKE GRANBY NEAR STILLWATER CREEK, NEAR GRANBY, CO"
+  },
+  {
+    "site_no": "401030105521101",
+    "station_nm": "LAKE GRANBY NR PUMP STATION INTAKE NR GRAND LK, CO"
+  },
+  {
+    "site_no": "402446105491100",
+    "station_nm": "LAKE IRENE FOREST SNOW SITE, CO"
+  },
+  {
+    "site_no": "402443105491800",
+    "station_nm": "LAKE IRENE MEADOW SNOW SITE, CO"
+  },
+  { "site_no": "402440105484700", "station_nm": "LAKE IRENE SNOW SITE, CO" },
+  { "site_no": "06711780", "station_nm": "LAKEWOOD GULCH AT DENVER, CO" },
+  {
+    "site_no": "06711800",
+    "station_nm": "LAKEWOOD GULCH AT MOUTH, AT DENVER, CO."
+  },
+  { "site_no": "09078475", "station_nm": "LAST CHANCE CREEK NEAR NORRIE, CO" },
+  {
+    "site_no": "06714800",
+    "station_nm": "LEAVENWORTH CREEK AT MOUTH NEAR GEORGETOWN, CO"
+  },
+  { "site_no": "06709740", "station_nm": "LEE GULCH AT LITTLETON, CO" },
+  {
+    "site_no": "06724970",
+    "station_nm": "LEFT HAND CREEK AT HOVER ROAD NEAR LONGMONT, CO"
+  },
+  {
+    "site_no": "07103791",
+    "station_nm": "LEHMAN RUN BLW STADIUM BLVD AT USAFA, CO"
+  },
+  { "site_no": "09362800", "station_nm": "LEMON RESERVOIR NEAR DURANGO CO" },
+  { "site_no": "06719560", "station_nm": "LENA GULCH AT LAKEWOOD, CO" },
+  { "site_no": "383626107581501", "station_nm": "LGRB-Poly 1" },
+  { "site_no": "383520107565901", "station_nm": "LGRB-Poly 10" },
+  { "site_no": "383401107563001", "station_nm": "LGRB-Poly 14" },
+  { "site_no": "384300107561801", "station_nm": "LGRB-Poly 17" },
+  { "site_no": "384559107565201", "station_nm": "LGRB-Poly 18" },
+  { "site_no": "383510107540801", "station_nm": "LGRB-Poly 19" },
+  { "site_no": "383852107583301", "station_nm": "LGRB-Poly 2" },
+  { "site_no": "383051107525501", "station_nm": "LGRB-Poly 21" },
+  { "site_no": "382954107515101", "station_nm": "LGRB-Poly 22" },
+  { "site_no": "382859107531901", "station_nm": "LGRB-Poly 23" },
+  { "site_no": "382427107491401", "station_nm": "LGRB-Poly 25" },
+  { "site_no": "382736107491201", "station_nm": "LGRB-Poly 27" },
+  { "site_no": "382917107483101", "station_nm": "LGRB-Poly 29" },
+  { "site_no": "384110107591801", "station_nm": "LGRB-Poly 3" },
+  { "site_no": "382947107465801", "station_nm": "LGRB-Poly 30" },
+  { "site_no": "384240108000701", "station_nm": "LGRB-Poly 4" },
+  { "site_no": "384306108013801", "station_nm": "LGRB-Poly 5" },
+  { "site_no": "384329108031301", "station_nm": "LGRB-Poly 6" },
+  { "site_no": "384428107573901", "station_nm": "LGRB-Poly 7" },
+  { "site_no": "383730107570501", "station_nm": "LGRB-Poly 9" },
+  {
+    "site_no": "403425105503901",
+    "station_nm": "LILY POND NEAR ROCKY MNT NAT PARK, CO"
+  },
+  { "site_no": "09079450", "station_nm": "LIME CREEK NEAR THOMASVILLE, CO" },
+  {
+    "site_no": "09073005",
+    "station_nm": "LINCOLN CREEK BELOW GRIZZLY RESERVOIR NR ASPEN, CO"
+  },
+  {
+    "site_no": "09032050",
+    "station_nm": "LITTLE CABIN CREEK NEAR TABERNASH, CO"
+  },
+  {
+    "site_no": "06711555",
+    "station_nm": "LITTLE DRY CREEK ABOVE ENGLEWOOD, CO"
+  },
+  {
+    "site_no": "06719840",
+    "station_nm": "LITTLE DRY CREEK AT WESTMINSTER, CO"
+  },
+  {
+    "site_no": "06711515",
+    "station_nm": "LITTLE DRY CREEK NR ARAPAHOE RD AT CENTENNIAL, CO"
+  },
+  {
+    "site_no": "06719845",
+    "station_nm": "LITTLE DRY CRK BLW FEDERAL BLVD AT WESTMINSTER, CO"
+  },
+  { "site_no": "374248107324501", "station_nm": "LITTLE ELDORADO INFLOW" },
+  { "site_no": "374248107324500", "station_nm": "LITTLE ELDORADO LAKE" },
+  {
+    "site_no": "384048104510401",
+    "station_nm": "LITTLE FOUNTAIN CR ABV HWY 115 AT FORT CARSON, CO"
+  },
+  {
+    "site_no": "07105940",
+    "station_nm": "LITTLE FOUNTAIN CREEK NEAR FOUNTAIN, CO"
+  },
+  { "site_no": "09260000", "station_nm": "LITTLE SNAKE RIVER NEAR LILY, CO" },
+  { "site_no": "09253000", "station_nm": "LITTLE SNAKE RIVER NEAR SLATER, CO" },
+  {
+    "site_no": "06743470",
+    "station_nm": "LITTLE THOMPSON RIV AT CO HWY 257 AT MILLIKEN, CO"
+  },
+  { "site_no": "06709995", "station_nm": "LITTLES CREEK AT LITTLETON CO." },
+  {
+    "site_no": "374800107550000",
+    "station_nm": "LIZARD HEAD PASS SNOW SITE, CO"
+  },
+  {
+    "site_no": "401722105400300",
+    "station_nm": "LOCH VALE FOREST SNOW SITE, CO"
+  },
+  {
+    "site_no": "401725105400001",
+    "station_nm": "LOCH VALE MEADOW SNOW SITE, CO"
+  },
+  {
+    "site_no": "07126390",
+    "station_nm": "LOCKWOOD CANYON CREEK NEAR THATCHER, CO"
+  },
+  {
+    "site_no": "401355105435101",
+    "station_nm": "LONE PINE LAKE OUTLET IN RMNP, CO"
+  },
+  { "site_no": "401350105441000", "station_nm": "LONE PINE SNOW SITE, CO" },
+  {
+    "site_no": "09352800",
+    "station_nm": "LOS PINOS R ABV VALLECITO RES NR BAYFIELD, CO"
+  },
+  { "site_no": "09354500", "station_nm": "LOS PINOS RIVER AT LA BOCA, CO." },
+  { "site_no": "09353800", "station_nm": "LOS PINOS RIVER NEAR IGNACIO, CO" },
+  {
+    "site_no": "09166950",
+    "station_nm": "LOST CANYON CREEK NEAR DOLORES, CO."
+  },
+  { "site_no": "403029105360401", "station_nm": "LOST LAKE IN RMNP, CO" },
+  {
+    "site_no": "383926107593001",
+    "station_nm": "LOUTSENHIZER ARROYO AT HWY 50 NEAR OLATHE CO"
+  },
+  {
+    "site_no": "383946107595301",
+    "station_nm": "LOUTSENHIZER ARROYO BLW N. RIVER ROAD NR DELTA, CO"
+  },
+  { "site_no": "394008105540601", "station_nm": "LOVELAND 2 SNOW SITE, CO" },
+  { "site_no": "394007105540200", "station_nm": "LOVELAND 3 SNOW SITE, CO" },
+  { "site_no": "394000105533000", "station_nm": "LOVELAND PASS SNOW SITE, CO" },
+  { "site_no": "395805107192400", "station_nm": "LOWER NWL PACKTRAIL POTHOLE" },
+  { "site_no": "373804107344300", "station_nm": "LOWER SUNLIGHT LAKE" },
+  {
+    "site_no": "385241104560101",
+    "station_nm": "LOWER WALDO CANYON MET ABV MANITOU, CO"
+  },
+  {
+    "site_no": "391524106232301",
+    "station_nm": "LSGS-07A, SEEP FOUND NEAR LSGS-07"
+  },
+  {
+    "site_no": "391518106230901",
+    "station_nm": "LSGS-10, LITTLE SUGARLOAF GULCH SEEP 10"
+  },
+  {
+    "site_no": "391519106230901",
+    "station_nm": "LSGS-11, LITTLE SUGARLOAF GULCH SEEP 11"
+  },
+  {
+    "site_no": "391517106230701",
+    "station_nm": "LSGS-12 SEEP BELOW SEEP 10 ON RIGHT BANK"
+  },
+  { "site_no": "400645106420000", "station_nm": "LYNX PASS SNOW SITE, CO" },
+  {
+    "site_no": "383619104520401",
+    "station_nm": "LYTLE DITCH AT FT. CARSON, CO"
+  },
+  {
+    "site_no": "380130105321001",
+    "station_nm": "MACEY CREEK AT RAINBOW TR NR WESTCLIFFE, CO"
+  },
+  {
+    "site_no": "401719105394311",
+    "station_nm": "MAIN WEATHER STATION - LOCH VALE - RMNP, CO"
+  },
+  { "site_no": "09371000", "station_nm": "MANCOS RIVER NEAR TOWAOC, CO." },
+  {
+    "site_no": "385129104544601",
+    "station_nm": "MANITOU SPGS MET BEL RUXTON CR. AT MANITOU SPG, CO"
+  },
+  {
+    "site_no": "393355105023201",
+    "station_nm": "MARCY GULCH AT MOUTH LITTLETON, CO"
+  },
+  { "site_no": "09076000", "station_nm": "MAROON CREEK NEAR ASPEN, CO." },
+  {
+    "site_no": "09044800",
+    "station_nm": "MCCULLOUGH-SP-CRYS-DIVERSION NEAR HOOSIER PASS, CO"
+  },
+  {
+    "site_no": "09371520",
+    "station_nm": "MCELMO CREEK ABOVE TRAIL CANYON NEAR CORTEZ, CO"
+  },
+  {
+    "site_no": "09372000",
+    "station_nm": "MCELMO CREEK NEAR COLORADO-UTAH STATE LINE"
+  },
+  {
+    "site_no": "09032990",
+    "station_nm": "MEADOW CREEK BLW MEADOW CREEK RES NR TABERNASH, CO"
+  },
+  {
+    "site_no": "09033010",
+    "station_nm": "MEADOW CREEK DIVERSION NEAR TABERNASH, CO"
+  },
+  { "site_no": "375150105282500", "station_nm": "MEDANO PASS SNOW SITE, CO" },
+  {
+    "site_no": "384037104472001",
+    "station_nm": "MERRIAMS ROCK CREEK DITCH AT FT. CARSON, CO"
+  },
+  {
+    "site_no": "385124104495701",
+    "station_nm": "MESA CREEK AT MOUTH AT RECREATION WAY AT CO SPRG"
+  },
+  {
+    "site_no": "06614800",
+    "station_nm": "MICHIGAN RIVER NEAR CAMERON PASS, CO"
+  },
+  {
+    "site_no": "373044105015701",
+    "station_nm": "MIDDLE CREEK BLW INDIAN CREEK AT LA VETA, CO"
+  },
+  { "site_no": "09066300", "station_nm": "MIDDLE CREEK NEAR MINTURN, CO." },
+  {
+    "site_no": "373700107020001",
+    "station_nm": "MIDDLE CREEK WEATHER STATION NEAR CREEDE, CO"
+  },
+  {
+    "site_no": "385259104410801",
+    "station_nm": "MIDDLE SAND CR MET NR CAREFREE CIR AT CO SPRNG, CO"
+  },
+  { "site_no": "401730105383300", "station_nm": "MILLS LAKE SNOW SITE, CO" },
+  { "site_no": "09359010", "station_nm": "MINERAL CREEK AT SILVERTON, CO" },
+  { "site_no": "09063900", "station_nm": "MISSOURI CREEK NEAR GOLD PARK, CO." },
+  {
+    "site_no": "392342107011201",
+    "station_nm": "MK1 MET ABOVE CENTER CREEK NEAR BASALT, CO"
+  },
+  {
+    "site_no": "392656107010601",
+    "station_nm": "MK2 MET NEAR MILL CREEK NEAR BASALT, CO"
+  },
+  { "site_no": "392417107040201", "station_nm": "MK3 MET ABOVE EL JEBEL, CO" },
+  { "site_no": "374500107420000", "station_nm": "MOLAS LAKE SNOW SITE, CO" },
+  { "site_no": "383100106193000", "station_nm": "MONARCH PASS SNOW SITE, CO" },
+  {
+    "site_no": "09041900",
+    "station_nm": "MONTE CRISTO DIVERSION NEAR HOOSIER PASS, CO"
+  },
+  {
+    "site_no": "382802107513301",
+    "station_nm": "MONTROSE ARROYO AT EAST NIAGARA STREET"
+  },
+  {
+    "site_no": "07103780",
+    "station_nm": "MONUMENT C AB N.GATE BLVD AT USAF ACADEMY, CO."
+  },
+  {
+    "site_no": "07103970",
+    "station_nm": "MONUMENT CR ABV WOODMEN RD AT COLORADO SPRINGS, CO"
+  },
+  {
+    "site_no": "385203104494301",
+    "station_nm": "MONUMENT CR AQUEDUCT AT TREMONT ST AT CO SPRNG"
+  },
+  {
+    "site_no": "385307104494401",
+    "station_nm": "MONUMENT CR DRAIN 1 MARK DABLING BLVD AT CO SPRNG"
+  },
+  {
+    "site_no": "385303104494601",
+    "station_nm": "MONUMENT CR DRAIN 2 MARK DABLING BLVD AT CO SP"
+  },
+  {
+    "site_no": "385242104495001",
+    "station_nm": "MONUMENT CR DRAIN 3 MARK DABLING BLVD AT CO SPRNG"
+  },
+  {
+    "site_no": "385235104495101",
+    "station_nm": "MONUMENT CR DRAIN 4 MARK DABLING BLVD AT CO SPRNG"
+  },
+  {
+    "site_no": "385349104491201",
+    "station_nm": "MONUMENT CR DRAIN PIKEVIEW RES AT CO SPRNG (CLVRT)"
+  },
+  {
+    "site_no": "385124104501301",
+    "station_nm": "MONUMENT CR TRIB 2 AT SONDERMANN PARK AT COLO SPRG"
+  },
+  {
+    "site_no": "390121104482601",
+    "station_nm": "MONUMENT CR TRIB NR DIAMOND RIM DR NR CO SPRNGS"
+  },
+  {
+    "site_no": "07104905",
+    "station_nm": "MONUMENT CREEK AT BIJOU ST. AT COLO. SPRINGS, CO"
+  },
+  { "site_no": "07104000", "station_nm": "MONUMENT CREEK AT PIKEVIEW, CO." },
+  { "site_no": "374248105281300", "station_nm": "MOSCA PASS SNOW SITE, CO" },
+  {
+    "site_no": "09371492",
+    "station_nm": "MUD CREEK AT STATE HIGHWAY 32, NEAR CORTEZ, CO."
+  },
+  {
+    "site_no": "09041090",
+    "station_nm": "MUDDY CREEK ABOVE ANTELOPE CREEK NR. KREMMLING, CO"
+  },
+  {
+    "site_no": "385903107210800",
+    "station_nm": "MUDDY CREEK ABOVE PAONIA RESERVOIR, CO"
+  },
+  {
+    "site_no": "09041400",
+    "station_nm": "MUDDY CRK BLW WOLFORD MTN RESER. NR KREMMLING, CO"
+  },
+  { "site_no": "375532105291700", "station_nm": "MUSIC PASS SNOW SITE, CO" },
+  {
+    "site_no": "385636104465601",
+    "station_nm": "N ACADEMY MET STA NR BRIARGATE BLVD AT CO SPGS, CO"
+  },
+  {
+    "site_no": "06751150",
+    "station_nm": "N FK CACHE LA POUDRE R BLW HALLIGAN RES NR VA DALE"
+  },
+  {
+    "site_no": "400048107332401",
+    "station_nm": "N FK WHITE R AT RIO BLANCO CTY RD 14 NR MEEKER, CO"
+  },
+  {
+    "site_no": "400329107192801",
+    "station_nm": "N FK WHITE R BLW MIRROR CR NR RIPPLE CR PASS, CO"
+  },
+  {
+    "site_no": "401226105340100",
+    "station_nm": "N ST VRAIN CREEK AT WILD BASIN TRAIL NR ALLENSPARK"
+  },
+  {
+    "site_no": "402953105313701",
+    "station_nm": "N. FORK BIG THOMPSON RV NR KETTLE TARN IN RMNP, CO"
+  },
+  { "site_no": "370758105564401", "station_nm": "NA03300901BCB  RG87" },
+  { "site_no": "370757105564701", "station_nm": "NA03300901BCB CON 3-A" },
+  { "site_no": "370757105564702", "station_nm": "NA03300901BCB CON 3-B" },
+  { "site_no": "370656105574801", "station_nm": "NA03300911CBB" },
+  { "site_no": "370606105574801", "station_nm": "NA03300914BCC" },
+  { "site_no": "370418105575201", "station_nm": "NA03300927ADD" },
+  { "site_no": "370325105575201", "station_nm": "NA03300934DAA  RG96A" },
+  { "site_no": "370326105575401", "station_nm": "NA03300934DAA2 RG96B" },
+  { "site_no": "370326105575501", "station_nm": "NA03300934DAA3 RG96C" },
+  { "site_no": "370640105455501", "station_nm": "NA03301110DDC  RG88" },
+  { "site_no": "371330106002101", "station_nm": "NA03400905ABA  RG85A" },
+  { "site_no": "371044105561201", "station_nm": "NA03400924ABC" },
+  { "site_no": "370815106011201", "station_nm": "NA03400931DDD  RG86" },
+  { "site_no": "371612106023501", "station_nm": "NA03500813DCD" },
+  { "site_no": "371422106021701", "station_nm": "NA03500836AAA DSSD" },
+  { "site_no": "371847106010901", "station_nm": "NA03500905BBB  RG73" },
+  { "site_no": "371705106021501", "station_nm": "NA03500907CCC   CON 1" },
+  { "site_no": "371710105590501", "station_nm": "NA03500909DDD" },
+  { "site_no": "371421106013801", "station_nm": "NA03500931ABB1 DSMW1-TH5" },
+  { "site_no": "371421106013802", "station_nm": "NA03500931ABB2 DSMW2-TH7" },
+  { "site_no": "371422106021501", "station_nm": "NA03500931BBB DSNS" },
+  { "site_no": "371333105555001", "station_nm": "NA03500936DDC  RG84" },
+  { "site_no": "371757105543601", "station_nm": "NA03501006DDD  RG74" },
+  { "site_no": "371745105501001", "station_nm": "NA03501012BBC   CON 2" },
+  { "site_no": "371612105533901", "station_nm": "NA03501016CBB" },
+  { "site_no": "371542105540601", "station_nm": "NA03501020BDD" },
+  { "site_no": "372403106022401", "station_nm": "NA03600801AAA  RG69" },
+  { "site_no": "371840106021501", "station_nm": "NA03600931CBC" },
+  { "site_no": "372326107491501", "station_nm": "NA03601001DAD  RG67" },
+  { "site_no": "372003105511501", "station_nm": "NA03601026CBB" },
+  { "site_no": "372215105440101", "station_nm": "NA03601111DDC   ALA 17" },
+  { "site_no": "372232105435001", "station_nm": "NA03601112BAB" },
+  { "site_no": "371850105491301", "station_nm": "NA03601131CCC  RG75" },
+  { "site_no": "372805106085001", "station_nm": "NA03700807BCC   RIO 1" },
+  { "site_no": "372700106053201", "station_nm": "NA03700815BBC" },
+  { "site_no": "372355106040501", "station_nm": "NA03700835DCC" },
+  { "site_no": "372914105555201", "station_nm": "NA03700901AAA  RG57A" },
+  { "site_no": "372715105590901", "station_nm": "NA03700909DDD" },
+  { "site_no": "372524106001601", "station_nm": "NA03700928BBB" },
+  { "site_no": "372506106004201", "station_nm": "NA03700929DCB   ALA 8" },
+  { "site_no": "372403106000901", "station_nm": "NA03700933CCC1   ALA 6" },
+  { "site_no": "372403106000902", "station_nm": "NA03700933CCC2   ALA 7" },
+  { "site_no": "372658105521301", "station_nm": "NA03701015CAB" },
+  { "site_no": "372537105523001", "station_nm": "NA03701027BBC  RG57-2" },
+  { "site_no": "372453105553901", "station_nm": "NA03701031BBB  RG68A" },
+  { "site_no": "372919105421201", "station_nm": "NA03701101AAA2 RG59A" },
+  { "site_no": "372918105471101", "station_nm": "NA03701105AAA  RG58" },
+  { "site_no": "372642105445401", "station_nm": "NA03701114BBC" },
+  { "site_no": "372550105455001", "station_nm": "NA03701122CCC1   ALA 4" },
+  { "site_no": "372549105434401", "station_nm": "NA03701125BBB  RG66" },
+  { "site_no": "373405106112501", "station_nm": "NA03800703ABB" },
+  { "site_no": "372916106085801", "station_nm": "NA03800736DDD RG54" },
+  { "site_no": "373428106073401", "station_nm": "NA03800805BBA  RG53A" },
+  { "site_no": "373315106071001", "station_nm": "NA03800808BAA" },
+  { "site_no": "373227106030301", "station_nm": "NA03800813BDB   RIO 2" },
+  { "site_no": "373220106053004", "station_nm": "NA03800815BBB4" },
+  { "site_no": "372930106022201", "station_nm": "NA03800931CBC  RG56" },
+  { "site_no": "372950105580801", "station_nm": "NA03800934ADB   ALA 12" },
+  { "site_no": "373400105513001", "station_nm": "NA03801002BBB" },
+  { "site_no": "373110105533401", "station_nm": "NA03801021BCB" },
+  { "site_no": "372854105513001", "station_nm": "NA03801035CCC" },
+  { "site_no": "373350105430001", "station_nm": "NA03801101AAA" },
+  { "site_no": "373424105445202", "station_nm": "NA03801103AAA2 RG47" },
+  { "site_no": "373355105461201", "station_nm": "NA03801104AAA" },
+  { "site_no": "373215105440001", "station_nm": "NA03801112CCC" },
+  { "site_no": "373208105425601", "station_nm": "NA03801113DDB   ALA 15" },
+  { "site_no": "373125105450001", "station_nm": "NA03801114CCC" },
+  { "site_no": "372930105450001", "station_nm": "NA03801135BBB" },
+  { "site_no": "373310105383001", "station_nm": "NA03801202CBC" },
+  { "site_no": "373358105371301", "station_nm": "NA03801202DAD2 RG45A" },
+  { "site_no": "373406105411001", "station_nm": "NA03801205ACA" },
+  { "site_no": "373410105423701", "station_nm": "NA03801206BCC   ALA 14" },
+  { "site_no": "373305105405201", "station_nm": "NA03801208DBD   ALA 16" },
+  { "site_no": "373202105400501", "station_nm": "NA03801216BAA" },
+  { "site_no": "373051105404701", "station_nm": "NA03801229ADB   ALA 11" },
+  { "site_no": "372840105404002", "station_nm": "NA03801233CCC2" },
+  { "site_no": "372923105383501", "station_nm": "NA03801234DCD3 RG60" },
+  { "site_no": "373920106113001", "station_nm": "NA03900703ABB" },
+  { "site_no": "373830106094001", "station_nm": "NA03900712BAB" },
+  { "site_no": "373455106093001", "station_nm": "NA03900736ACC" },
+  { "site_no": "373924106084801", "station_nm": "NA03900806BBB" },
+  { "site_no": "373924106082501", "station_nm": "NA03900806BCB  RG37" },
+  { "site_no": "373828106071502", "station_nm": "NA03900808ABB2" },
+  { "site_no": "373705106051701", "station_nm": "NA03900815CDC  RG51-1" },
+  { "site_no": "373620106054001", "station_nm": "NA03900821DDA   RIO 4" },
+  { "site_no": "373640106032002", "station_nm": "NA03900824BBB2" },
+  { "site_no": "373704105593401", "station_nm": "NA03900921BAA1 RG50-1" },
+  { "site_no": "373438106022101", "station_nm": "NA03900931CCB  RG51" },
+  { "site_no": "373457106003801", "station_nm": "NA03900932BCC   ALA 10" },
+  { "site_no": "373450105592901", "station_nm": "NA03900933ABA" },
+  { "site_no": "373944105553701", "station_nm": "NA03901006BBB  RG40" },
+  { "site_no": "373820105541501", "station_nm": "NA03901008ABB" },
+  {
+    "site_no": "373748105511501",
+    "station_nm": "NA03901014BBC ALA13 39N.10E.14.133 SMALLEY WELL 2"
+  },
+  { "site_no": "373531105505901", "station_nm": "NA03901026ABC" },
+  { "site_no": "373429105554001", "station_nm": "NA03901031CCC  RG50A" },
+  { "site_no": "373433105513201", "station_nm": "NA03901034DDD  RG49" },
+  { "site_no": "373947105490701", "station_nm": "NA03901106BBB  RG41" },
+  { "site_no": "373713105461501", "station_nm": "NA03901116AAA" },
+  { "site_no": "373535105430001", "station_nm": "NA03901125AAA" },
+  { "site_no": "374305106163701", "station_nm": "NA04000614AAA" },
+  { "site_no": "374046106163801", "station_nm": "NA04000625CBC  RG35" },
+  { "site_no": "374048106163901", "station_nm": "NA04000625CBC1 RG35A" },
+  { "site_no": "374446106022001", "station_nm": "NA04000801AAD  RG29" },
+  { "site_no": "374453106021801", "station_nm": "NA04000801AAD1 RG29A" },
+  { "site_no": "374350106025001", "station_nm": "NA04000801DCC" },
+  { "site_no": "374415106063002", "station_nm": "NA04000804BCC2" },
+  { "site_no": "374245106025501", "station_nm": "NA04000813ABB1" },
+  { "site_no": "374210106053001", "station_nm": "NA04000815CCC  RG37-1" },
+  { "site_no": "374032106060202", "station_nm": "NA04000828DBB2" },
+  { "site_no": "374220105585801", "station_nm": "NA04000916DDD  RG39-1" },
+  { "site_no": "374030106020001", "station_nm": "NA04000931BAB   ALA 2" },
+  { "site_no": "374002106021401", "station_nm": "NA04000931BBC" },
+  { "site_no": "373944106022001", "station_nm": "NA04000931CCC  RG39" },
+  { "site_no": "373950105534001", "station_nm": "NA04001033BCB" },
+  { "site_no": "374410105464701", "station_nm": "NA04001109BBB  RG27A" },
+  { "site_no": "374448105445401", "station_nm": "NA04001110AAA" },
+  { "site_no": "374239105433901", "station_nm": "NA04001114DAD1   EW-30U" },
+  { "site_no": "374239105433902", "station_nm": "NA04001114DAD2   ALA 5" },
+  { "site_no": "373920105461502", "station_nm": "NA04001133DDD2" },
+  { "site_no": "374012105410401", "station_nm": "NA04001232BAA  RG42" },
+  { "site_no": "373915105393901", "station_nm": "NA04001233DDD" },
+  { "site_no": "374500106153401", "station_nm": "NA04100636DDD  RG33B" },
+  { "site_no": "375005106092501", "station_nm": "NA04100701BAA  RG21A" },
+  { "site_no": "374725106053003", "station_nm": "NA04100815CCC3" },
+  { "site_no": "374736106053404", "station_nm": "NA04100815CCC4 RG29-1" },
+  { "site_no": "374455106085501", "station_nm": "NA04100831CCC  RG31" },
+  { "site_no": "374915106013001", "station_nm": "NA04100906DCD   SAG 17" },
+  { "site_no": "374630106010501", "station_nm": "NA04100920CCC" },
+  { "site_no": "374704105590002", "station_nm": "NA04100921DAA  RG28-1" },
+  { "site_no": "374505105554001", "station_nm": "NA04100936DDA  RG28A" },
+  { "site_no": "375009105503001", "station_nm": "NA04101002ABA  RG24A" },
+  { "site_no": "374736105522101", "station_nm": "NA04101015CCC1 EW-39U" },
+  { "site_no": "374736105522102", "station_nm": "NA04101015CCC2 EW-39C-1" },
+  { "site_no": "374736105522103", "station_nm": "NA04101015CCC3 EW-39C-2" },
+  { "site_no": "375001105463401", "station_nm": "NA041011041 EW-67U" },
+  { "site_no": "375001105463402", "station_nm": "NA041011042 EW-67C-1" },
+  { "site_no": "374923105481801", "station_nm": "NA04101107AAB1 EW-43U" },
+  { "site_no": "374923105481802", "station_nm": "NA04101107AAB2 EW-43C" },
+  { "site_no": "375001105463403", "station_nm": "NA0411104BDB3   SAG 15" },
+  { "site_no": "375520106081201", "station_nm": "NA04200701AAA  RG11" },
+  { "site_no": "375155106105501", "station_nm": "NA04200723CCC" },
+  { "site_no": "375154106102501", "station_nm": "NA04200723CDD   SAG 6" },
+  {
+    "site_no": "375035106105501",
+    "station_nm": "NA04200735BCC   SAG 1 (RGWCD CONFINED)"
+  },
+  { "site_no": "375333106053901", "station_nm": "NA04200810CCC" },
+  { "site_no": "375310106050001", "station_nm": "NA04200815ACC   SAG 10" },
+  { "site_no": "375255106084401", "station_nm": "NA04200818CCB   SAG 9" },
+  { "site_no": "375100106052501", "station_nm": "NA04200827CCC1" },
+  { "site_no": "375310106021501", "station_nm": "NA04200907CCC   SAG 2" },
+  { "site_no": "375155106021501", "station_nm": "NA04200919CCC1   SAG 4" },
+  { "site_no": "375009106021001", "station_nm": "NA04200931CCC   SAG 11" },
+  { "site_no": "375016106021201", "station_nm": "NA04200931CCC2 RG22" },
+  { "site_no": "375010105554302", "station_nm": "NA04200936DDD2 RG23A" },
+  { "site_no": "375324105553301", "station_nm": "NA04201007CCC  RG18" },
+  { "site_no": "375049105450101", "station_nm": "NA042011341 EW-44U" },
+  { "site_no": "375049105450102", "station_nm": "NA042011342 EW-44C" },
+  { "site_no": "380047106024801", "station_nm": "NA04300801BBA   SAG 12" },
+  { "site_no": "380045106044501", "station_nm": "NA04300803ABB   SAG 3" },
+  { "site_no": "375936106083302", "station_nm": "NA04300806CCC2" },
+  { "site_no": "375918106063601", "station_nm": "NA04300808ADC   SAG 18" },
+  { "site_no": "375820106052001", "station_nm": "NA04300815CBB   SAG 13" },
+  { "site_no": "375940106000001", "station_nm": "NA04300905DDD" },
+  { "site_no": "375938106015901", "station_nm": "NA04300907BBB2 RG10" },
+  { "site_no": "375524106020501", "station_nm": "NA04300931CCC  RG13A" },
+  { "site_no": "380023105551901", "station_nm": "NA04301006BCC1 RG09A" },
+  { "site_no": "375745105553001", "station_nm": "NA04301019BBB  RG14" },
+  { "site_no": "375700105552801", "station_nm": "NA04301019CCC" },
+  { "site_no": "380512106090201", "station_nm": "NA04400712ABB" },
+  { "site_no": "380501106081201", "station_nm": "NA04400807BDC" },
+  { "site_no": "380421106033001", "station_nm": "NA04400814ABB  RG06" },
+  { "site_no": "380512106004901", "station_nm": "NA04400906DDD2 RG05A" },
+  { "site_no": "380128105484401", "station_nm": "NA04401131BBC  RG08" },
+  { "site_no": "380841106001501", "station_nm": "NA04500920BAA" },
+  { "site_no": "380651106004501", "station_nm": "NA04500932BBB" },
+  {
+    "site_no": "380941105545501",
+    "station_nm": "NA04501007CCA  RG02 (RGWCD UNCONFINED)"
+  },
+  { "site_no": "380602105551401", "station_nm": "NA04501031CCC2 RG04A" },
+  { "site_no": "380640105510001", "station_nm": "NA04501034DAA" },
+  { "site_no": "380601105505201", "station_nm": "NA04501034DDD  RG03" },
+  { "site_no": "381515105561001", "station_nm": "NA04600912BCA" },
+  { "site_no": "381555105364201", "station_nm": "NA04601202BDD" },
+  { "site_no": "381547105400301", "station_nm": "NA04601205CAD" },
+  { "site_no": "381333105364801", "station_nm": "NA04601223BAD" },
+  { "site_no": "381341105361801", "station_nm": "NA04601224AAB" },
+  { "site_no": "381132105355301", "station_nm": "NA04601236DAB" },
+  { "site_no": "381120105341801", "station_nm": "NA04607332BAC" },
+  { "site_no": "381742105571801", "station_nm": "NA04700926CCB RG01" },
+  { "site_no": "381814105374301", "station_nm": "NA04701222CDC" },
+  { "site_no": "382550105494801", "station_nm": "NA04801011BAC" },
+  { "site_no": "382220105412201", "station_nm": "NA04801231BBD" },
+  { "site_no": "382700105523201", "station_nm": "NA04901019BDD" },
+  { "site_no": "383437106121301", "station_nm": "NA05000721BAA01" },
+  { "site_no": "383230106114701", "station_nm": "NA05000733DAB" },
+  { "site_no": "383300106023501", "station_nm": "NA05000835AAD" },
+  { "site_no": "383350105594602", "station_nm": "NA05000929ABB2" },
+  { "site_no": "383246106004601", "station_nm": "NA05000931ABC" },
+  { "site_no": "383804106045101", "station_nm": "NA05100833AAD" },
+  { "site_no": "375523105505302", "station_nm": "NA431035CAC2   SAG 14" },
+  {
+    "site_no": "394504104591501",
+    "station_nm": "NADP CO06 COLORADO AIR MONITORING PLATFORM"
+  },
+  {
+    "site_no": "394801105060001",
+    "station_nm": "NADP CO11 ARVADA GARDENS, CO"
+  },
+  { "site_no": "403532105082901", "station_nm": "NADP CO13 FORT COLLINS" },
+  { "site_no": "400050105204701", "station_nm": "NADP CO84 BETASSO" },
+  { "site_no": "400039105143201", "station_nm": "NADP CO85 BOULDER" },
+  { "site_no": "395446105111901", "station_nm": "NADP CO86 ROCKY FLATS NWR" },
+  {
+    "site_no": "394419104562401",
+    "station_nm": "NADP CO87 NATIONAL JEWISH HOSPITAL"
+  },
+  { "site_no": "395938105284801", "station_nm": "NADP CO94 SUGARLOAF" },
+  {
+    "site_no": "401716105394601",
+    "station_nm": "NADP CO98 AND CO89 LOCH VALE ROCKY MNT NAT PRK, CO"
+  },
+  { "site_no": "371416107105101", "station_nm": "NB03400302CC" },
+  {
+    "site_no": "382036108512001",
+    "station_nm": "NB04701809ADC01 PARADOX BRINE WELL 8E"
+  },
+  { "site_no": "381947108513802", "station_nm": "NB04701816ACC 3W3 DEEP" },
+  { "site_no": "381947108513801", "station_nm": "NB04701816ACC 3W3 SHALLOW" },
+  { "site_no": "381947108514701", "station_nm": "NB04701816BDA UPPER POND DP" },
+  { "site_no": "381937108514601", "station_nm": "NB04701816CAA LOWER POND DP" },
+  {
+    "site_no": "381935108513701",
+    "station_nm": "NB04701816DBB01 PARADOX BRINE WELL 2E"
+  },
+  { "site_no": "381954108523801", "station_nm": "NB04701817ACB01" },
+  { "site_no": "381950108534001", "station_nm": "NB04701818ACA01" },
+  { "site_no": "382351108590601", "station_nm": "NB04801920DDB01" },
+  { "site_no": "382344108583701", "station_nm": "NB04801921CCD01" },
+  { "site_no": "382313108570501", "station_nm": "NB04801927ACC01" },
+  { "site_no": "382306108581701", "station_nm": "NB04801928DBB01" },
+  {
+    "site_no": "382446109022101",
+    "station_nm": "NB04802014DAC01 WILLOW BASIN CREEK SPRING"
+  },
+  {
+    "site_no": "383232106550500",
+    "station_nm": "NB04900101BAD-JORGENSON PARK"
+  },
+  { "site_no": "383232106554700", "station_nm": "NB04900101BCB-RODEO GROUNDS" },
+  {
+    "site_no": "383130106574100",
+    "station_nm": "NB04900110DBD-DOS RIOS GOLF COURSE"
+  },
+  {
+    "site_no": "383219106565300",
+    "station_nm": "NB04900110DBD-DRIVE-IN THEATRE"
+  },
+  { "site_no": "383334106555400", "station_nm": "NB05000135DDD-VULCAN" },
+  {
+    "site_no": "383914107571201",
+    "station_nm": "NB05101026DB1 WETLANDS NORTH 1"
+  },
+  {
+    "site_no": "383914107571202",
+    "station_nm": "NB05101026DB2 WETLANDS NORTH 2"
+  },
+  { "site_no": "383858107572301", "station_nm": "NB05101026DC WETLANDS SOUTH" },
+  {
+    "site_no": "383907107571801",
+    "station_nm": "NB05101026DC1 WETLANDS MIDDLE 1"
+  },
+  {
+    "site_no": "383907107571802",
+    "station_nm": "NB05101026DC2 WETLANDS MIDDLE 2"
+  },
+  { "site_no": "382656107500701", "station_nm": "NC04800902BB LGRB Poly 26" },
+  { "site_no": "382715107514501", "station_nm": "NC04800904AC LGRB Poly 24" },
+  { "site_no": "382824107494801", "station_nm": "NC04900936BA LGRB Poly 28" },
+  { "site_no": "383156107571701", "station_nm": "NC04901011AB LGRB Poly 12" },
+  { "site_no": "383513107542601", "station_nm": "NC05000920BD LGRB Poly 15" },
+  { "site_no": "383257107545801", "station_nm": "NC05000931DD LGRB Poly 13" },
+  { "site_no": "383315107525201", "station_nm": "NC05000933DB LGRB Poly 20" },
+  { "site_no": "383632107560201", "station_nm": "NC05001012DD LGRB Poly 16" },
+  { "site_no": "383405107564701", "station_nm": "NC05001025CB LGRB Poly 11" },
+  { "site_no": "383844107572801", "station_nm": "NC05101035BD LGRB Poly 8" },
+  { "site_no": "395743107192500", "station_nm": "NED WILSON LAKE" },
+  {
+    "site_no": "395739107191500",
+    "station_nm": "NED WILSON LAKE SNOW SITE, CO"
+  },
+  { "site_no": "395729107192800", "station_nm": "NED WILSON SPRING #1" },
+  { "site_no": "400202105324000", "station_nm": "NIWOT SNOW SITE, CO" },
+  {
+    "site_no": "06718550",
+    "station_nm": "NORTH CLEAR CREEK ABOVE MOUTH NR BLACK HAWK, CO"
+  },
+  {
+    "site_no": "380040105304601",
+    "station_nm": "NORTH COLONY CREEK AT RAINBOW TR NR WESTCLIFFE, CO"
+  },
+  {
+    "site_no": "09078141",
+    "station_nm": "NORTH CUNNINGHAM CREEK CONDUIT BYPASS NR NORRIE,CO"
+  },
+  {
+    "site_no": "09136100",
+    "station_nm": "NORTH FK GUNNISON RIVER ABOVE MOUTH NR LAZEAR, CO"
+  },
+  {
+    "site_no": "06736000",
+    "station_nm": "NORTH FORK BIG THOMPSON RIVER AT DRAKE, CO."
+  },
+  {
+    "site_no": "06735750",
+    "station_nm": "NORTH FORK BIG THOMPSON RIVER NR GLEN HAVEN, CO"
+  },
+  {
+    "site_no": "06751490",
+    "station_nm": "NORTH FORK CACHE LA POUDRE RIVER AT LIVERMORE, CO"
+  },
+  {
+    "site_no": "385553107243301",
+    "station_nm": "NORTH FORK GUNNISON BLW RAVEN GULCH NR SOMERSET"
+  },
+  {
+    "site_no": "09134100",
+    "station_nm": "NORTH FORK GUNNISON RIVER BELOW PAONIA, CO"
+  },
+  {
+    "site_no": "09132500",
+    "station_nm": "NORTH FORK GUNNISON RIVER NEAR SOMERSET, CO."
+  },
+  {
+    "site_no": "400158107313101",
+    "station_nm": "NORTH FORK WHITE RIVER ABV FAWN CREEK NR BUFORD,CO"
+  },
+  {
+    "site_no": "09303000",
+    "station_nm": "NORTH FORK WHITE RIVER AT BUFORD, CO"
+  },
+  {
+    "site_no": "395835107380401",
+    "station_nm": "NORTH FORK WHITE RIVER BELOW BUFORD, CO"
+  },
+  {
+    "site_no": "400239107283301",
+    "station_nm": "NORTH FORK WHITE RIVER BELOW LOST CREEK, CO"
+  },
+  {
+    "site_no": "400238107294901",
+    "station_nm": "NORTH FORK WHITE RIVER BELOW MARVINE CREEK, CO"
+  },
+  {
+    "site_no": "400351107244701",
+    "station_nm": "NORTH FORK WHITE RIVER BELOW MISSOURI CREEK, CO"
+  },
+  {
+    "site_no": "09302400",
+    "station_nm": "NORTH FORK WHITE RIVER BELOW TRAPPERS LAKE, CO."
+  },
+  {
+    "site_no": "401540105470801",
+    "station_nm": "NORTH INLET ABOVE SUMMERLAND PARK RMNP, CO"
+  },
+  {
+    "site_no": "401534105473101",
+    "station_nm": "NORTH INLET IN SUMMERLAND PARK 2 AT RMNP, CO"
+  },
+  {
+    "site_no": "401525105473601",
+    "station_nm": "NORTH INLET IN SUMMERLAND PARK 3 AT RMNP, CO"
+  },
+  {
+    "site_no": "401530105474801",
+    "station_nm": "NORTH INLET IN SUMMERLAND PARK 4 AT RMNP, CO"
+  },
+  {
+    "site_no": "401536105472301",
+    "station_nm": "NORTH INLET IN SUMMERLAND PARK AT RMNP, CO"
+  },
+  {
+    "site_no": "401711105450800",
+    "station_nm": "NORTH INLET-GRAND LAKE SNOW SITE, CO"
+  },
+  {
+    "site_no": "381540105404001",
+    "station_nm": "NORTH LAKE CREEK AT RAINBOW TR NR HILLSIDE, CO"
+  },
+  {
+    "site_no": "06620000",
+    "station_nm": "NORTH PLATTE RIVER NEAR NORTHGATE, CO"
+  },
+  {
+    "site_no": "374352105431200",
+    "station_nm": "NORTH POND AT BLANCA WETLANDS, CO"
+  },
+  {
+    "site_no": "384537104494701",
+    "station_nm": "OAK MEADOW PARK MET STATION AT CO. SPRNGS, CO"
+  },
+  {
+    "site_no": "09113980",
+    "station_nm": "OHIO CREEK ABOVE MOUTH NR GUNNISON, CO"
+  },
+  { "site_no": "09113500", "station_nm": "OHIO CREEK NEAR BALDWIN, CO." },
+  { "site_no": "06734900", "station_nm": "OLYMPUS TUNNEL AT LAKE ESTES, CO." },
+  { "site_no": "09131495", "station_nm": "PAONIA RESERVOIR NEAR BARDINE, CO" },
+  {
+    "site_no": "372908104035601",
+    "station_nm": "PC 223 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372922104053301",
+    "station_nm": "PC 224 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372826104035301",
+    "station_nm": "PC 233 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372746104052201",
+    "station_nm": "PC 236 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372555104033001",
+    "station_nm": "PC 241 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372526104012701",
+    "station_nm": "PC 244 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372654104061101",
+    "station_nm": "PC 253 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372624104060101",
+    "station_nm": "PC 256 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372508104024401",
+    "station_nm": "PC 261 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372436104024501",
+    "station_nm": "PC 262 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372443104032801",
+    "station_nm": "PC 263 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373750103415901",
+    "station_nm": "PC 267 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373836103430001",
+    "station_nm": "PC 268 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373749103484301",
+    "station_nm": "PC 274 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373704103390301",
+    "station_nm": "PC 276 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373538103470601",
+    "station_nm": "PC 283 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373439103481001",
+    "station_nm": "PC 284 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373724103501701",
+    "station_nm": "PC 286 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373258103524101",
+    "station_nm": "PC 300 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373354103560901",
+    "station_nm": "PC 305 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373028103543201",
+    "station_nm": "PC 310 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373107103560001",
+    "station_nm": "PC 313 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373014103581401",
+    "station_nm": "PC 316 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373015103590401",
+    "station_nm": "PC 317 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373019103593101",
+    "station_nm": "PC 318 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372959104073701",
+    "station_nm": "PC 351 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372949103512801",
+    "station_nm": "PC 355 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372750103471001",
+    "station_nm": "PC 358 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372815103495101",
+    "station_nm": "PC 360 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372815103475601",
+    "station_nm": "PC 364 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372614103491301",
+    "station_nm": "PC 372 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372605103494201",
+    "station_nm": "PC 373 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372808103540901",
+    "station_nm": "PC 382 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372719103532201",
+    "station_nm": "PC 386 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372907103544101",
+    "station_nm": "PC 388 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372809103553101",
+    "station_nm": "PC 398 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372701103550901",
+    "station_nm": "PC 401 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372627103524801",
+    "station_nm": "PC 402 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372824103585601",
+    "station_nm": "PC 408 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372658103590701",
+    "station_nm": "PC 410 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372550103594901",
+    "station_nm": "PC 412 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372436103595701",
+    "station_nm": "PC 414 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372433103584401",
+    "station_nm": "PC 415 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372402103575701",
+    "station_nm": "PC 416 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372426103542801",
+    "station_nm": "PC 418 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372355103530601",
+    "station_nm": "PC 419 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372248103531801",
+    "station_nm": "PC 420 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372333103561001",
+    "station_nm": "PC 423 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372305103583001",
+    "station_nm": "PC 429 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372257103590901",
+    "station_nm": "PC 430 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372341103574001",
+    "station_nm": "PC 432 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373011104005501",
+    "station_nm": "PC 433 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372838104001201",
+    "station_nm": "PC 441 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372910104050601",
+    "station_nm": "PC 444 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372739104043401",
+    "station_nm": "PC 448 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372635104055701",
+    "station_nm": "PC 452 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372415104070001",
+    "station_nm": "PC 455 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372731104002001",
+    "station_nm": "PC 457 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372711104041901",
+    "station_nm": "PC 463 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372504104012901",
+    "station_nm": "PC 473 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372402104003101",
+    "station_nm": "PC 477 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372302104010201",
+    "station_nm": "PC 480 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372255104063101",
+    "station_nm": "PC 489 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372248104032801",
+    "station_nm": "PC 493 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372806104074401",
+    "station_nm": "PC 497 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373520104075301",
+    "station_nm": "PC 498 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372511104080801",
+    "station_nm": "PC 501 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372113103560801",
+    "station_nm": "PC 520 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372509103574401",
+    "station_nm": "PC 924419 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "372619103524101",
+    "station_nm": "PC 991439 ERROSION CONTROL POND AT PCMS"
+  },
+  {
+    "site_no": "373347103413301",
+    "station_nm": "PC D35 ERROSION CONTROL POND AT PCMS"
+  },
+  { "site_no": "400217108152801", "station_nm": "PCEANCE CRK SPRING 2, PCSP2" },
+  {
+    "site_no": "385240104444801",
+    "station_nm": "PENROSE MET AT PENROSE ELEMENTARY AT COLO SPRINGS,"
+  },
+  {
+    "site_no": "393603105485301",
+    "station_nm": "PERU CREEK GWC1 EPAPERU CRE/CDPHE WELL 5.1 FT DEEP"
+  },
+  {
+    "site_no": "402350105505400",
+    "station_nm": "PHANTOM VALLEY SNOW SITE, CO"
+  },
+  { "site_no": "09306222", "station_nm": "PICEANCE CREEK AT WHITE RIVER, CO" },
+  {
+    "site_no": "09306200",
+    "station_nm": "PICEANCE CREEK BL RYAN GULCH, NR RIO BLANCO, CO."
+  },
+  {
+    "site_no": "400202108153501",
+    "station_nm": "PICEANCE CRK 20133 M DS OF 09306200, PC20133"
+  },
+  {
+    "site_no": "400207108153201",
+    "station_nm": "PICEANCE CRK 20408 M DS OF 09306200, PC20408"
+  },
+  {
+    "site_no": "400217108153901",
+    "station_nm": "PICEANCE CRK 21128 M DS OF 09306200"
+  },
+  {
+    "site_no": "400213108153401",
+    "station_nm": "PICEANCE CRK 21297 M DS OF 09306200, PC21297"
+  },
+  {
+    "site_no": "400218108153301",
+    "station_nm": "PICEANCE CRK 21299 M DS OF 09306200, PC21299"
+  },
+  {
+    "site_no": "400217108152701",
+    "station_nm": "PICEANCE CRK 21543 M DS OF 09306200, PC21543"
+  },
+  {
+    "site_no": "400222108152201",
+    "station_nm": "PICEANCE CRK 21816 M DS OF 09306200, PC21816"
+  },
+  {
+    "site_no": "400228108152601",
+    "station_nm": "PICEANCE CRK 22031 M DS OF 09306200, PC22031"
+  },
+  {
+    "site_no": "400233108152501",
+    "station_nm": "PICEANCE CRK 22184 M DS OF 09306200, PC 22184"
+  },
+  {
+    "site_no": "400240108152301",
+    "station_nm": "PICEANCE CRK 22436 M DS OF 09306200, PC22436"
+  },
+  {
+    "site_no": "400248108152301",
+    "station_nm": "PICEANCE CRK 22737 M DS OF 09306200, PC22737"
+  },
+  {
+    "site_no": "400254108151901",
+    "station_nm": "PICEANCE CRK 22980 M DS 09306200, PC22980"
+  },
+  {
+    "site_no": "400258108151601",
+    "station_nm": "PICEANCE CRK 23163 M DS OF 09306200, PC23163"
+  },
+  {
+    "site_no": "400302108151401",
+    "station_nm": "PICEANCE CRK 23357 M DS OF 09306200, PC23357"
+  },
+  {
+    "site_no": "400219108152501",
+    "station_nm": "PICEANCE CRK SPRING 3, PCSP3"
+  },
+  {
+    "site_no": "400219108152401",
+    "station_nm": "PICEANCE CRK SPRING 4, PCSP4"
+  },
+  {
+    "site_no": "400220108152301",
+    "station_nm": "PICEANCE CRK SPRING 5, PCSP5"
+  },
+  { "site_no": "09349800", "station_nm": "PIEDRA RIVER NEAR ARBOLES, CO." },
+  {
+    "site_no": "385759104453001",
+    "station_nm": "PINE CR DRAIN AT N UNION BLVD N PARK AT CO SPRGS"
+  },
+  {
+    "site_no": "385812104462601",
+    "station_nm": "PINE CR DRAIN AT PINE CR GOLF CLUB AT CO SPRINGS"
+  },
+  {
+    "site_no": "385756104474501",
+    "station_nm": "PINE CR DRAIN BRIARGATE PKY AT CO SPRNGS (CULVERT)"
+  },
+  {
+    "site_no": "385846104462501",
+    "station_nm": "PINE CR MET SITE BLW OLD RANCH RD AT CO. SPRGS, CO"
+  },
+  {
+    "site_no": "07103965",
+    "station_nm": "PINE CREEK ABV BRIARGATE PKWY,ABV COLO SPRINGS, CO"
+  },
+  {
+    "site_no": "09058500",
+    "station_nm": "PINEY RIVER BELOW PINEY LAKE, NEAR MINTURN, CO."
+  },
+  { "site_no": "09059500", "station_nm": "PINEY RIVER NEAR STATE BRIDGE, CO" },
+  { "site_no": "09105000", "station_nm": "PLATEAU CREEK NEAR CAMEO, CO" },
+  {
+    "site_no": "06709530",
+    "station_nm": "PLUM CREEK AT TITAN ROAD NEAR LOUVIERS, CO"
+  },
+  { "site_no": "06709000", "station_nm": "PLUM CREEK NEAR SEDALIA, CO." },
+  {
+    "site_no": "380436107411500",
+    "station_nm": "PORTLAND METEOROLOGICAL STATION NEAR OURAY, CO"
+  },
+  { "site_no": "381754104504000", "station_nm": "PUEBLO RESERVOIR SITE 2B" },
+  { "site_no": "381725104494400", "station_nm": "PUEBLO RESERVOIR SITE 3B" },
+  { "site_no": "381559104465500", "station_nm": "PUEBLO RESERVOIR SITE 5C" },
+  { "site_no": "381602104435200", "station_nm": "PUEBLO RESERVOIR SITE 7B" },
+  { "site_no": "07124200", "station_nm": "PURGATOIRE RIVER AT MADRID, CO." },
+  {
+    "site_no": "07126485",
+    "station_nm": "PURGATOIRE RIVER AT ROCK CROSSING NR TIMPAS, CO."
+  },
+  {
+    "site_no": "07124410",
+    "station_nm": "PURGATOIRE RIVER BELOW TRINIDAD LAKE, CO."
+  },
+  {
+    "site_no": "07128500",
+    "station_nm": "PURGATOIRE RIVER NEAR LAS ANIMAS, CO"
+  },
+  {
+    "site_no": "07126300",
+    "station_nm": "PURGATOIRE RIVER NEAR THATCHER, CO."
+  },
+  { "site_no": "402355106392400", "station_nm": "RABBIT EARS 1 SNOW SITE, CO" },
+  { "site_no": "402354106392500", "station_nm": "RABBIT EARS 2 SNOW SITE, CO" },
+  {
+    "site_no": "09033100",
+    "station_nm": "RANCH CREEK BLW MEADOW CR NR TABERNASH, CO"
+  },
+  { "site_no": "09032000", "station_nm": "RANCH CREEK NEAR FRASER, CO." },
+  {
+    "site_no": "07099085",
+    "station_nm": "RED CREEK ABOVE SALT CANYON AT FORT CARSON, CO"
+  },
+  {
+    "site_no": "375350107420000",
+    "station_nm": "RED MOUNTAIN PASS SNOW SITE, CO"
+  },
+  {
+    "site_no": "07126415",
+    "station_nm": "RED ROCK CANYON CREEK AT MOUTH NR THATCHER, CO."
+  },
+  {
+    "site_no": "06822700",
+    "station_nm": "RED WILLOW CREEK AT HIGHWAY 59 NEAR YUMA, CO"
+  },
+  {
+    "site_no": "385956104500101",
+    "station_nm": "RES NO.1 AUXILIARY SPILLWAY AT HUSTED RD AT USAFA"
+  },
+  {
+    "site_no": "07103792",
+    "station_nm": "RESERVOIR NO. 1 SPILLWAY AT HUSTED RD AT USAFA, CO"
+  },
+  {
+    "site_no": "385519104415501",
+    "station_nm": "RIDGEVIEW MET BELOW DUBLIN BLVD AT COLO SPRNGS, CO"
+  },
+  { "site_no": "09147022", "station_nm": "RIDGWAY RESERVOIR NEAR RIDGWAY, CO" },
+  { "site_no": "09091900", "station_nm": "RIFLE GAP RESERVOIR NEAR RIFLE, CO" },
+  {
+    "site_no": "372653105042401",
+    "station_nm": "RILING CREEK ABV LONGHORN RD NEAR LA VETA, CO"
+  },
+  { "site_no": "08220000", "station_nm": "RIO GRANDE NEAR DEL NORTE, CO" },
+  { "site_no": "08251500", "station_nm": "RIO GRANDE NEAR LOBATOS, CO" },
+  {
+    "site_no": "384047104510301",
+    "station_nm": "RIPLEY DITCH FROM L. FOUNTAIN CR AT FT. CARSON, CO"
+  },
+  {
+    "site_no": "400510107184301",
+    "station_nm": "RIPPLE CREEK NADP SNOW SITE, CO"
+  },
+  {
+    "site_no": "400643107175500",
+    "station_nm": "RIPPLE CREEK PASS SNOW SITE, CO"
+  },
+  {
+    "site_no": "09073300",
+    "station_nm": "ROARING FORK RIVER AB DIFFICULT C NR ASPEN, CO."
+  },
+  {
+    "site_no": "09072550",
+    "station_nm": "ROARING FORK RIVER ABV LOST MAN CR NEAR ASPEN, CO"
+  },
+  {
+    "site_no": "09085000",
+    "station_nm": "ROARING FORK RIVER AT GLENWOOD SPRINGS, CO."
+  },
+  {
+    "site_no": "09076300",
+    "station_nm": "ROARING FORK RIVER BLW MAROON CREEK NR ASPEN, CO"
+  },
+  { "site_no": "09073400", "station_nm": "ROARING FORK RIVER NEAR ASPEN, CO." },
+  { "site_no": "09081000", "station_nm": "ROARING FORK RIVER NEAR EMMA, CO" },
+  {
+    "site_no": "384053104492001",
+    "station_nm": "ROD AND GUN METEOROLOGIC STATION AT FT CARSON, CO"
+  },
+  {
+    "site_no": "06714400",
+    "station_nm": "S CLEAR CR ABV LOWER CABIN CR RES NR GEORGETOWN,CO"
+  },
+  {
+    "site_no": "06714500",
+    "station_nm": "S CLEAR CR ABV LWR CABIN CR RES SPILWY NR GEORGTWN"
+  },
+  {
+    "site_no": "385640104481501",
+    "station_nm": "S PINE CR (CLVRT 2 AQDCT) AT GODDARD ST AT CO SPRG"
+  },
+  {
+    "site_no": "402435104371001",
+    "station_nm": "S PLATTE R AB CACHE LA POUDRE R NR GREELEY CO K8"
+  },
+  { "site_no": "08227000", "station_nm": "SAGUACHE CREEK NEAR SAGUACHE, CO" },
+  {
+    "site_no": "09051300",
+    "station_nm": "SALT LICK GULCH ABV ODR DVRSN NR SILVERTHORN, CO"
+  },
+  { "site_no": "09371010", "station_nm": "SAN JUAN RIVER AT FOUR CORNERS, CO" },
+  {
+    "site_no": "09342500",
+    "station_nm": "SAN JUAN RIVER AT PAGOSA SPRINGS, CO"
+  },
+  {
+    "site_no": "370010109015010",
+    "station_nm": "SAN JUAN RIVER AT US160 BRIDGE NR FOUR CORNERS, CO"
+  },
+  { "site_no": "09346400", "station_nm": "SAN JUAN RIVER NEAR CARRACAS, CO." },
+  {
+    "site_no": "09174600",
+    "station_nm": "SAN MIGUEL RIVER AT BROOKS BRIDGE NEAR NUCLA CO"
+  },
+  { "site_no": "09177000", "station_nm": "SAN MIGUEL RIVER AT URAVAN, CO." },
+  {
+    "site_no": "09172500",
+    "station_nm": "SAN MIGUEL RIVER NEAR PLACERVILLE, CO"
+  },
+  {
+    "site_no": "385353104422501",
+    "station_nm": "SAND CR DRAIN AT BARNES RD AT COLO SPRINGS (CLVRT)"
+  },
+  {
+    "site_no": "384914104441501",
+    "station_nm": "SAND CR DRAIN AT NOLTE DR W AT COLO SPRING(CLVERT)"
+  },
+  {
+    "site_no": "385248104423501",
+    "station_nm": "SAND CR DRAIN AT SPRNG RNCH GOLF CLUB AT CO SPRNG"
+  },
+  {
+    "site_no": "385406104422001",
+    "station_nm": "SAND CR DRAIN NR BARNES RD AT COLO SPRINGS (CLVRT)"
+  },
+  {
+    "site_no": "384917104443601",
+    "station_nm": "SAND CR DRAIN NR CRESTLINE DR AT CO SPRNG (CLVERT)"
+  },
+  {
+    "site_no": "07105600",
+    "station_nm": "SAND CREEK ABOVE MOUTH AT COLORADO SPRINGS, CO"
+  },
+  {
+    "site_no": "06659580",
+    "station_nm": "SAND CREEK AT COLORADO-WYOMING STATE LINE"
+  },
+  {
+    "site_no": "06756350",
+    "station_nm": "SAND CREEK AT HIGHWAY 14 NEAR BRIGGSDALE, CO"
+  },
+  {
+    "site_no": "394839104570300",
+    "station_nm": "SAND CREEK AT MOUTH NR COMMERCE CITY,CO"
+  },
+  {
+    "site_no": "383325104424801",
+    "station_nm": "SAND CREEK BELOW FORT CARSON NEAR WIGWAM, CO"
+  },
+  {
+    "site_no": "374319105424200",
+    "station_nm": "SAND CREEK NR DOLLAR LAKE, CO"
+  },
+  {
+    "site_no": "06714360",
+    "station_nm": "SAND CRK ABV BURLINGTON DITCH NR COMMERCE CITY, CO"
+  },
+  {
+    "site_no": "385653104583101",
+    "station_nm": "SAND GULCH MET STATION ABOVE CHIPITA PARK, CO"
+  },
+  {
+    "site_no": "06711610",
+    "station_nm": "SANDERSON GULCH AT MOUTH, AT DENVER, CO."
+  },
+  { "site_no": "400003104270701", "station_nm": "SB00106333CCC USGSC4" },
+  { "site_no": "400218108170601", "station_nm": "SB00109721CAD TH 75-1B" },
+  {
+    "site_no": "400218108170600",
+    "station_nm": "SB00109721CAD2 TH 75-1A (B1-97-21 CAD1)"
+  },
+  { "site_no": "400045108131800", "station_nm": "SB00109736AD Uinta well" },
+  {
+    "site_no": "400045108131401",
+    "station_nm": "SB00109736ADC3 TH 75-17B, CR2, (B1-97-36 ADCC)"
+  },
+  { "site_no": "400228108245400", "station_nm": "SB00109820BD TH 75-2A" },
+  { "site_no": "400716102435901", "station_nm": "SB00204822CDB" },
+  { "site_no": "400735102571901", "station_nm": "SB00205022CAA" },
+  { "site_no": "400606104212401", "station_nm": "SB00206232BBB USGSC5" },
+  { "site_no": "400606104212402", "station_nm": "SB00206232BBB USGSC6" },
+  { "site_no": "401834104444801", "station_nm": "SB00406614CAD" },
+  { "site_no": "401837104450901", "station_nm": "SB00406614CBB2" },
+  { "site_no": "401842104442501", "station_nm": "SB00406614DBA" },
+  { "site_no": "403701103125500", "station_nm": "SB00805232CAB" },
+  { "site_no": "391755102360701", "station_nm": "SC000904701ABD" },
+  {
+    "site_no": "395605105473100",
+    "station_nm": "SC001017528BCB-GRAND-COUNTY FIRE STATION"
+  },
+  { "site_no": "395535104240001", "station_nm": "SC00106335ABA USGSC3" },
+  {
+    "site_no": "395648105485300",
+    "station_nm": "SC00107519DBD-FRASER VISITOR CENTER"
+  },
+  { "site_no": "395623105481000", "station_nm": "SC00107520DAD-MARYVAIL" },
+  { "site_no": "395929105510300", "station_nm": "SC00107602DAC" },
+  { "site_no": "395755108211400", "station_nm": "SC00109814ADC1 TH 75-6A" },
+  {
+    "site_no": "395755108211401",
+    "station_nm": "SC00109814ADC2 TH 75-6B (C1-98-14 ADC2)"
+  },
+  { "site_no": "395458108325001", "station_nm": "SC00109931CD1 B12-31-199-A" },
+  { "site_no": "395458108325002", "station_nm": "SC00109931CD2 B12-31-199-B" },
+  { "site_no": "395259104253401", "station_nm": "SC00206310CD DSS15" },
+  { "site_no": "395202104274101", "station_nm": "SC00206320BAA USGSC1" },
+  { "site_no": "395202104274201", "station_nm": "SC00206320BAA USGSC2" },
+  { "site_no": "395310108050401", "station_nm": "SC00209508CCA TH 75-9B" },
+  {
+    "site_no": "395255108154200",
+    "station_nm": "SC00209715ACC2 TH 75-18A (C2-97-15 AAC1)"
+  },
+  {
+    "site_no": "395136108210000",
+    "station_nm": "SC00209824CBB TH 75-13A (C2-98-24 CBB2)"
+  },
+  { "site_no": "395136108210001", "station_nm": "SC00209824CBB TH 75-13B" },
+  { "site_no": "395136108210004", "station_nm": "SC00209824CBB4 TH75-13U" },
+  { "site_no": "394838104310002", "station_nm": "SC00306411AB DSS14" },
+  {
+    "site_no": "394540108191201",
+    "station_nm": "SC00309730AC TH 75-15A (C3-97-30 ACC1)"
+  },
+  { "site_no": "394540108191202", "station_nm": "SC00309730ACC2 TH 75-15B" },
+  {
+    "site_no": "394333103525100",
+    "station_nm": "SC00405809BAB1 DTX1 BADGER CREEK"
+  },
+  {
+    "site_no": "394148103513300",
+    "station_nm": "SC00405822BAA DTX2 BADGER CREEK"
+  },
+  {
+    "site_no": "394054103564600",
+    "station_nm": "SC00405925BBB DTX7 MUDDY CREEK"
+  },
+  {
+    "site_no": "394054103564501",
+    "station_nm": "SC00405925BBB1 DTX8A MUDDY CREEK"
+  },
+  {
+    "site_no": "394054103564502",
+    "station_nm": "SC00405925BBB2 DTX8B MUDDY CREEK"
+  },
+  {
+    "site_no": "393902103554001",
+    "station_nm": "SC00505806BBD1 DTX10A MUDDY CREEK"
+  },
+  {
+    "site_no": "393902103554002",
+    "station_nm": "SC00505806BBD2 DTX10B MUDDY CREEK"
+  },
+  {
+    "site_no": "393653103511900",
+    "station_nm": "SC00505815DAA DTX12 COTTONWOOD CREEK"
+  },
+  { "site_no": "393632103524300", "station_nm": "SC00505816DCD D29" },
+  { "site_no": "393723103535400", "station_nm": "SC00505817BBD D3" },
+  {
+    "site_no": "393702103544100",
+    "station_nm": "SC00505817CBB D25 MUDDY CREEK"
+  },
+  {
+    "site_no": "393702103544101",
+    "station_nm": "SC00505817CBB1 D25M MUDDY CREEK"
+  },
+  {
+    "site_no": "393702103544102",
+    "station_nm": "SC00505817CBB2 D25A MUDDY CREEK"
+  },
+  { "site_no": "393637103542400", "station_nm": "SC00505817CDC D8" },
+  { "site_no": "393622103540900", "station_nm": "SC00505820BDA D7" },
+  {
+    "site_no": "393633103512300",
+    "station_nm": "SC00505822AAA D6 COTTONWOOD CREEK"
+  },
+  {
+    "site_no": "393633103512301",
+    "station_nm": "SC00505822AAA1 D6A COTTONWOOD CREEK"
+  },
+  { "site_no": "393609103513900", "station_nm": "SC00505822ADD D32" },
+  { "site_no": "393619103515500", "station_nm": "SC00505822BDA D5" },
+  { "site_no": "393609103514600", "station_nm": "SC00505822DBB D10" },
+  { "site_no": "393556103515300", "station_nm": "SC00505822DBC D33" },
+  {
+    "site_no": "393439103543400",
+    "station_nm": "SC00505832BBC D13 MUDDY CREEK"
+  },
+  {
+    "site_no": "393758106041401",
+    "station_nm": "SC00507812ACB Silverthorne Rec Center"
+  },
+  {
+    "site_no": "393431106070801",
+    "station_nm": "SC00507834BCB Frisco reference"
+  },
+  { "site_no": "393844106192601", "station_nm": "SC00508003DDB" },
+  { "site_no": "393844106232300", "station_nm": "SC00508006DBB-PEDESTRIAN" },
+  {
+    "site_no": "393823106215900",
+    "station_nm": "SC00508008BCD-GERALD R FORD PARK"
+  },
+  {
+    "site_no": "393830106210600",
+    "station_nm": "SC00508009AAC-VAIL GOLF COURSE"
+  },
+  { "site_no": "393743106171000", "station_nm": "SC00508012DCD-BIGHORN PARK" },
+  { "site_no": "393718106253000", "station_nm": "SC00508114ADD-STEPHENS PARK" },
+  {
+    "site_no": "393358103434200",
+    "station_nm": "SC00605701BAB DTX4 BEAVER CREEK"
+  },
+  {
+    "site_no": "393358103454800",
+    "station_nm": "SC00605703BAB DTX5 BEAVER CREEK"
+  },
+  {
+    "site_no": "393358103454801",
+    "station_nm": "SC00605703BAB1 DTX5M BEAVER CREEK"
+  },
+  {
+    "site_no": "393358103464800",
+    "station_nm": "SC00605704BAA DTX6 BEAVER CREEK"
+  },
+  {
+    "site_no": "393024103432800",
+    "station_nm": "SC00605724CDD DTX3 BEAVER CREEK"
+  },
+  { "site_no": "393307103515900", "station_nm": "SC00605803DCA D22" },
+  { "site_no": "393334103543600", "station_nm": "SC00605805BAD D11A" },
+  { "site_no": "393357103545200", "station_nm": "SC00605805BBB D15" },
+  {
+    "site_no": "393327103541200",
+    "station_nm": "SC00605805BDB D17 MUDDY CREEK"
+  },
+  { "site_no": "393307103545500", "station_nm": "SC00605805CBB D16" },
+  { "site_no": "393330103545300", "station_nm": "SC00605806AAD D23" },
+  {
+    "site_no": "393325103552500",
+    "station_nm": "SC00605806ACC D18 MUDDY CREEK"
+  },
+  { "site_no": "393247103543800", "station_nm": "SC00605808BAC D20" },
+  { "site_no": "393207103544800", "station_nm": "SC00605808CCC D21" },
+  { "site_no": "393251104073701", "station_nm": "SC00606008AA ARAP 3" },
+  { "site_no": "393225104073601", "station_nm": "SC00606008DA ARAP 4" },
+  { "site_no": "393350104151701", "station_nm": "SC00606106AA DENV 12" },
+  { "site_no": "393227104343401", "station_nm": "SC00606408DBB DAWMAS19" },
+  { "site_no": "393012104310701", "station_nm": "SC00606426AA DENV 13" },
+  { "site_no": "393253104484401", "station_nm": "SC00606509BB GDAW1C" },
+  { "site_no": "393226104394401", "station_nm": "SC00606509DD UDAW 9" },
+  { "site_no": "393016104392601", "station_nm": "SC00606527BB UDAW 11" },
+  { "site_no": "392916104423601", "station_nm": "SC00606531BD UDAW 10" },
+  { "site_no": "392856104424101", "station_nm": "SC00606531CD UDAW 2" },
+  { "site_no": "392934104414901", "station_nm": "SC00606532BB UDAW 4" },
+  { "site_no": "392856104393801", "station_nm": "SC00606534CB UDAW 13" },
+  { "site_no": "393330104450701", "station_nm": "SC00606602CB DENV 11" },
+  { "site_no": "393256104484801", "station_nm": "SC00606607AA GRNDAW1E" },
+  { "site_no": "393251104484501", "station_nm": "SC00606607AA GRNDAW8" },
+  { "site_no": "393303104484801", "station_nm": "SC00606607AAA GRNDAW1F" },
+  { "site_no": "393252104485301", "station_nm": "SC00606607AAC GRNDAW9" },
+  { "site_no": "393259104491001", "station_nm": "SC00606607ABCA GRNDAW4" },
+  { "site_no": "393245104484601", "station_nm": "SC00606607AD GRNDAW7" },
+  { "site_no": "393258104492401", "station_nm": "SC00606607BABD GRNDEV4" },
+  { "site_no": "393245104493401", "station_nm": "SC00606607BCAB GRNDAW6" },
+  { "site_no": "393252104492101", "station_nm": "SC00606607BDAB GRNDEV3" },
+  { "site_no": "393236104492201", "station_nm": "SC00606607CAAB GRNDEV8" },
+  { "site_no": "393217104493701", "station_nm": "SC00606607CCBC GRNDEV1" },
+  { "site_no": "393231104493001", "station_nm": "SC00606607DB" },
+  { "site_no": "393233104490501", "station_nm": "SC00606607DBAC GRNDEV2" },
+  { "site_no": "393224104490001", "station_nm": "SC00606607DBDD GRNDAW2" },
+  { "site_no": "393220104490001", "station_nm": "SC00606607DCAA GRNDEV7" },
+  { "site_no": "393215104490001", "station_nm": "SC00606607DCDA GRNDAW3" },
+  { "site_no": "393233104490001", "station_nm": "SC00606607DCDD GRNDEV6" },
+  { "site_no": "393225104490001", "station_nm": "SC00606607DD GRNDAW1B" },
+  { "site_no": "393244104484601", "station_nm": "SC00606607DD2 GRNDAW1D" },
+  { "site_no": "393225104484901", "station_nm": "SC00606607DDAB GRNDAW1" },
+  { "site_no": "393301104484801", "station_nm": "SC00606608BB GRNDAW1A" },
+  { "site_no": "393239104452901", "station_nm": "SC00606610DA LDAW 9" },
+  { "site_no": "393149104434501", "station_nm": "SC00606613CB" },
+  { "site_no": "392851104450101", "station_nm": "SC00606635CD LDAW 5" },
+  { "site_no": "392949104523401", "station_nm": "SC00606727DC LDAW 8" },
+  { "site_no": "393021104533101", "station_nm": "SC00606728AB LDAW 10" },
+  { "site_no": "393114105011701", "station_nm": "SC00606820AA" },
+  { "site_no": "393120105003101", "station_nm": "SC00606821BA ARAP 2" },
+  { "site_no": "393040105003201", "station_nm": "SC00606821CD DENV 6" },
+  { "site_no": "393047105001201", "station_nm": "SC00606821DB" },
+  { "site_no": "392856105014201", "station_nm": "SC00606832CD" },
+  { "site_no": "392853105015001", "station_nm": "SC00606832CD ARAP 1" },
+  { "site_no": "393114105033301", "station_nm": "SC00606924AB" },
+  { "site_no": "392635103590001", "station_nm": "SC00705915BA LARA 4" },
+  { "site_no": "392616103591001", "station_nm": "SC00705915CA LARA 3" },
+  { "site_no": "392434104142701", "station_nm": "SC00706129DB ARAP 5" },
+  { "site_no": "392400104150601", "station_nm": "SC00706132BBC ARAPMAS28" },
+  { "site_no": "392724104341901", "station_nm": "SC00706408AD LDAW 13" },
+  { "site_no": "392441104394901", "station_nm": "SC00706528DA UDAW 6" },
+  { "site_no": "392355104382001", "station_nm": "SC00706535BD UDAW 15" },
+  { "site_no": "392402104483501", "station_nm": "SC00706632BC" },
+  { "site_no": "392412104434201", "station_nm": "SC00706636AC UDAW 3" },
+  { "site_no": "392553104521701", "station_nm": "SC00706722AD" },
+  { "site_no": "392522105015401", "station_nm": "SC00706820CC LARA 2" },
+  { "site_no": "392522105015001", "station_nm": "SC00706820CD LARA 1" },
+  { "site_no": "391946104114501", "station_nm": "SC00806126BB ARAP 6" },
+  { "site_no": "391811104140301", "station_nm": "SC00806133DC DENV 15" },
+  { "site_no": "391834104205601", "station_nm": "SC00806232DAA ARAPMAS22" },
+  { "site_no": "391851104204501", "station_nm": "SC00806233BBC DENMAS05" },
+  { "site_no": "391821104270601", "station_nm": "SC00806333CD DENV 14" },
+  { "site_no": "391848104261401", "station_nm": "SC00806334BCA DAWMAS28" },
+  { "site_no": "392203104342301", "station_nm": "SC00806408DA UDAW 16" },
+  { "site_no": "392133104310201", "station_nm": "SC00806414AA UDAW 12" },
+  { "site_no": "392125104323701", "station_nm": "SC00806415BD LDAW 14" },
+  { "site_no": "392130104341401", "station_nm": "SC00806417AAD1" },
+  { "site_no": "392131104351701", "station_nm": "SC00806417BBC DAWMAS21" },
+  { "site_no": "392318104424601", "station_nm": "SC00806506BD LDAW 4" },
+  { "site_no": "392058104364401", "station_nm": "SC00806513DC LDAW 12" },
+  { "site_no": "392149104415501", "station_nm": "SC00806517BB UDAW 5" },
+  { "site_no": "391924104374101", "station_nm": "SC00806526DA UDAW 14" },
+  { "site_no": "391915104375001", "station_nm": "SC00806526DB UDAW 18" },
+  { "site_no": "391852104391301", "station_nm": "SC00806534ACB DAWMAS16" },
+  { "site_no": "391829104385301", "station_nm": "SC00806534DA LDAW 15" },
+  { "site_no": "392115104553501", "station_nm": "SC00806718DA DENV 4" },
+  { "site_no": "392235105003001", "station_nm": "SC00806809BA DENV 5" },
+  { "site_no": "391950104571901", "station_nm": "SC00806825BD" },
+  { "site_no": "391936104570101", "station_nm": "SC00806825DB DENV 10" },
+  { "site_no": "391929104574101", "station_nm": "SC00806826DA DENV 2" },
+  { "site_no": "391743102520301", "station_nm": "SC00904903BDC" },
+  { "site_no": "391758103041101", "station_nm": "SC00905102ABC2" },
+  { "site_no": "391621104012001", "station_nm": "SC00905917BA LARA 5" },
+  { "site_no": "391609104014001", "station_nm": "SC00905917BC LARA 6" },
+  { "site_no": "391740104072401", "station_nm": "SC00906005DAA ARAPMAS27" },
+  { "site_no": "391257104173601", "station_nm": "SC00906235DDD" },
+  { "site_no": "391502104273601", "station_nm": "SC00906320DA LDAW 16" },
+  { "site_no": "391545104335401", "station_nm": "SC00906416CDB DAWMAS22" },
+  { "site_no": "391801104485401", "station_nm": "SC00906606AD" },
+  { "site_no": "391656104473001", "station_nm": "SC00906609CB DENV 1" },
+  { "site_no": "391654104464501", "station_nm": "SC00906609DA LDAW 7" },
+  { "site_no": "391658104453101", "station_nm": "SC00906610DA UDAW 7" },
+  { "site_no": "391731105540501", "station_nm": "SC00907604CCC SPMW4" },
+  { "site_no": "391313106211001", "station_nm": "SC00908032ACD" },
+  { "site_no": "391605106242001", "station_nm": "SC00908114AC TLSS-0B" },
+  { "site_no": "391208104053301", "station_nm": "SC01006003DC ARAP 7" },
+  { "site_no": "390817104040301", "station_nm": "SC01006036BCC1" },
+  { "site_no": "390800104172601", "station_nm": "SC01006236CB ARAP 8" },
+  { "site_no": "390755104172501", "station_nm": "SC01006236DC DENV 17" },
+  { "site_no": "391148104294101", "station_nm": "SC01006307BCC DAWMAS27" },
+  { "site_no": "391126104354701", "station_nm": "SC01006407DC UDAW 19" },
+  { "site_no": "390935104301001", "station_nm": "SC01006424DCD DAWMAS26" },
+  { "site_no": "391229104421901", "station_nm": "SC01006506DB UDAW 1" },
+  { "site_no": "391212104473801", "station_nm": "SC01006608AA DENV 7" },
+  { "site_no": "391143104482501", "station_nm": "SC01006608CA LDAW 6" },
+  { "site_no": "390811104453801", "station_nm": "SC01006634DA LDAW 3" },
+  { "site_no": "390755104454001", "station_nm": "SC01006634DC DENV8" },
+  { "site_no": "390756104453801", "station_nm": "SC01006634DD LDAW 2" },
+  { "site_no": "391257104530201", "station_nm": "SC01006703BB LDAW 11" },
+  { "site_no": "391245104525501", "station_nm": "SC01006703BC DENV 3" },
+  { "site_no": "391101104531501", "station_nm": "SC01006716AD" },
+  { "site_no": "391137106210102", "station_nm": "SC010080008ADC" },
+  { "site_no": "390740103055801", "station_nm": "SC01105103BAA1 LKWD RT WELL" },
+  { "site_no": "390639105525701", "station_nm": "SC01107610BCB SPMW3" },
+  { "site_no": "390116104225701", "station_nm": "SC01206207BCA" },
+  {
+    "site_no": "385850104230701",
+    "station_nm": "SC01206219CCC2 (BLACK SQUIRREL)"
+  },
+  { "site_no": "385858104231001", "station_nm": "SC01206230BBB ALLUVIAL 2" },
+  { "site_no": "385848104230801", "station_nm": "SC01206230BBC ALLUVIAL 1" },
+  { "site_no": "390134104290201", "station_nm": "SC01206307ABA" },
+  { "site_no": "385917104285301", "station_nm": "SC01206319DAD" },
+  { "site_no": "390104104335901", "station_nm": "SC01206409CAC" },
+  { "site_no": "390058104301101", "station_nm": "SC01206412CB" },
+  { "site_no": "390010105404901", "station_nm": "SC01207416CB SPMW1" },
+  { "site_no": "390014105423401", "station_nm": "SC01207418DBC SPMW2" },
+  { "site_no": "385747106121201", "station_nm": "SC01207934DAA" },
+  { "site_no": "385642104215701", "station_nm": "SC01306205CB" },
+  { "site_no": "385606104225601", "station_nm": "SC01306207BCA1" },
+  { "site_no": "385605104225901", "station_nm": "SC01306207BCA2" },
+  { "site_no": "385604104230202", "station_nm": "SC01306207BCB" },
+  { "site_no": "385604104230201", "station_nm": "SC01306207BCB1" },
+  { "site_no": "385603104230501", "station_nm": "SC01306207BCB2 Cherokee 6" },
+  { "site_no": "385607104230801", "station_nm": "SC01306207BCB4" },
+  { "site_no": "385603104230701", "station_nm": "SC01306207BCC" },
+  { "site_no": "385458104210101", "station_nm": "SC01306216CB" },
+  { "site_no": "385439104223601", "station_nm": "SC01306219ABB" },
+  { "site_no": "385440104231001", "station_nm": "SC01306219BBB2" },
+  { "site_no": "385347104231001", "station_nm": "SC01306219CCC" },
+  { "site_no": "385354104225701", "station_nm": "SC01306219CDB CHEROKEE 5" },
+  { "site_no": "385354104225601", "station_nm": "SC01306219CDB2" },
+  { "site_no": "385439104213301", "station_nm": "SC01306220ABB" },
+  { "site_no": "385335104212701", "station_nm": "SC01306229ACB" },
+  { "site_no": "385319104220501", "station_nm": "SC01306229CBB" },
+  { "site_no": "385345104221201", "station_nm": "SC01306230AAA" },
+  { "site_no": "385323104224001", "station_nm": "SC01306230ACC1 CHEROKEE 4" },
+  { "site_no": "385323104224002", "station_nm": "SC01306230ACC2" },
+  { "site_no": "385323104224004", "station_nm": "SC01306230ACC4" },
+  {
+    "site_no": "385256104223501",
+    "station_nm": "SC01306231ABB USGS 385256104223501"
+  },
+  { "site_no": "385230104223401", "station_nm": "SC01306231ACC2" },
+  { "site_no": "385229104223602", "station_nm": "SC01306231ACC3" },
+  { "site_no": "385227104231402", "station_nm": "SC01306231CBB" },
+  { "site_no": "385243104213601", "station_nm": "SC01306232ABC" },
+  { "site_no": "385234104220501", "station_nm": "SC01306232BCC" },
+  { "site_no": "385215104215601", "station_nm": "SC01306232CCA" },
+  { "site_no": "385204104214801", "station_nm": "SC01306232CDC" },
+  { "site_no": "385712104260201", "station_nm": "SC01306303" },
+  { "site_no": "385608104233601", "station_nm": "SC01306312ACA1" },
+  { "site_no": "385608104233401", "station_nm": "SC01306312ACA2" },
+  { "site_no": "385608104233701", "station_nm": "SC01306312ACB" },
+  { "site_no": "385608104233702", "station_nm": "SC01306312ACB2 CHEROKEE 7" },
+  { "site_no": "385546104232201", "station_nm": "SC01306312DA" },
+  { "site_no": "385530104270601", "station_nm": "SC01306316BAA" },
+  { "site_no": "385439104263501", "station_nm": "SC01306316DD" },
+  { "site_no": "385515104290201", "station_nm": "SC01306318AD" },
+  { "site_no": "385436104233701", "station_nm": "SC01306324ABB2" },
+  { "site_no": "385254104231801", "station_nm": "SC01306325DDD" },
+  { "site_no": "385344104242401", "station_nm": "SC01306326AAA1" },
+  { "site_no": "385246104262201", "station_nm": "SC01306334BB" },
+  { "site_no": "385209104252001", "station_nm": "SC01306335CCA" },
+  { "site_no": "385204104245301", "station_nm": "SC01306335DCC" },
+  { "site_no": "385630104343901", "station_nm": "SC01306405DC" },
+  { "site_no": "385522104305801", "station_nm": "SC01306414AA" },
+  { "site_no": "385402104325001", "station_nm": "SC01306422CA" },
+  { "site_no": "385354104323901", "station_nm": "SC01306422CDA" },
+  { "site_no": "385613104362801", "station_nm": "SC01306512AD" },
+  { "site_no": "384921102220901", "station_nm": "SC01404420BCB3" },
+  { "site_no": "385202104203201", "station_nm": "SC01406204BAA" },
+  { "site_no": "385203104220901", "station_nm": "SC01406205BBB" },
+  { "site_no": "385153104215701", "station_nm": "SC01406205BBB2" },
+  { "site_no": "385111104214401", "station_nm": "SC01406205CAA CHEROKEE 3" },
+  { "site_no": "385129104204001", "station_nm": "SC01406205CAA3" },
+  { "site_no": "385111104214403", "station_nm": "SC01406205CAA5 Cherokee 3" },
+  { "site_no": "385129104214201", "station_nm": "SC01406205CAD1" },
+  { "site_no": "385111104220601", "station_nm": "SC01406205CCC" },
+  { "site_no": "385113104210401", "station_nm": "SC01406205DDD CHEROKEE" },
+  { "site_no": "385157104224001", "station_nm": "SC01406206" },
+  { "site_no": "384938104204001", "station_nm": "SC01406216CDB" },
+  { "site_no": "384938104204002", "station_nm": "SC01406216CDB2" },
+  { "site_no": "385005104221901", "station_nm": "SC01406218ADB1" },
+  { "site_no": "384928104221001", "station_nm": "SC01406218DDD1" },
+  {
+    "site_no": "384834104215704",
+    "station_nm": "SC01406229BBA CHEROKEE 19 (DUNCAN)"
+  },
+  { "site_no": "384834104215703", "station_nm": "SC01406229BBB3" },
+  { "site_no": "384823104224001", "station_nm": "SC01406230ABB" },
+  { "site_no": "385148104233101", "station_nm": "SC01406301AD" },
+  { "site_no": "384936104231401", "station_nm": "SC01406313DAA2" },
+  { "site_no": "385004104242901", "station_nm": "SC01406314AAA" },
+  { "site_no": "384651104274301", "station_nm": "SC01406332CC" },
+  { "site_no": "384652104231701", "station_nm": "SC01406336DDD" },
+  { "site_no": "385136104303801", "station_nm": "SC01406401CAB1" },
+  { "site_no": "385159104310201", "station_nm": "SC01406402AAA" },
+  { "site_no": "384956104422801", "station_nm": "SC01406518ACD T02-MW006" },
+  { "site_no": "384949104424501", "station_nm": "SC01406518CAA MW 1-1" },
+  { "site_no": "384917104422701", "station_nm": "SC01406519ABD T04-MW004" },
+  { "site_no": "384929104431101", "station_nm": "SC01406519BBB T01-MW002" },
+  { "site_no": "384848104413901", "station_nm": "SC01406520CDB MW2-4" },
+  { "site_no": "384824104405101", "station_nm": "SC01406528BBC 03-002" },
+  { "site_no": "384818104415701", "station_nm": "SC01406529BCB T07-MW004" },
+  { "site_no": "384745104413601", "station_nm": "SC01406529CDD PAFB07MW03" },
+  { "site_no": "384758104422301", "station_nm": "SC01406530DBD T07-MW006" },
+  { "site_no": "384732104430901", "station_nm": "SC01406531BBC T13-MW004" },
+  { "site_no": "384710104431201", "station_nm": "SC01406531CBC 04-009" },
+  { "site_no": "384707104421901", "station_nm": "SC01406531DAC T11-MW001" },
+  { "site_no": "384656104423601", "station_nm": "SC01406531DCC T12-MW003" },
+  { "site_no": "384718104463701", "station_nm": "SC01406633DAA BARNES" },
+  { "site_no": "384719104444701", "station_nm": "SC01406635CAA CO259-26" },
+  {
+    "site_no": "385155104550301",
+    "station_nm": "SC01406705BAC WILLIAMS CANYON DEEP"
+  },
+  {
+    "site_no": "385155104550302",
+    "station_nm": "SC01406705BAC WILLIAMS CANYON SHALLOW"
+  },
+  { "site_no": "385134104550601", "station_nm": "SC01406705CBA NR WHEELER SP" },
+  {
+    "site_no": "385132104551001",
+    "station_nm": "SC01406705CBA STRATTON SPRING"
+  },
+  {
+    "site_no": "385131104544201",
+    "station_nm": "SC01406705DB SEVEN MINUTE SPRING"
+  },
+  {
+    "site_no": "385128104544701",
+    "station_nm": "SC01406705DBC MANSIONS SPRING"
+  },
+  { "site_no": "385124104554201", "station_nm": "SC01406706DCA NR IRON SP" },
+  { "site_no": "384907106052600", "station_nm": "SC01407822ADD" },
+  {
+    "site_no": "384815106084000",
+    "station_nm": "SC01407830DAA (UPPER ARKANSAS)"
+  },
+  {
+    "site_no": "385213106584700",
+    "station_nm": "SC01408602BCC-CRESTED BUTTE V.C."
+  },
+  { "site_no": "384628104213601", "station_nm": "SC01506205BDD" },
+  { "site_no": "384544104222001", "station_nm": "SC01506207ADB" },
+  { "site_no": "384648104240401", "station_nm": "SC01506301" },
+  { "site_no": "384547104232601", "station_nm": "SC01506312AAC CHEROKEE 9" },
+  { "site_no": "384531104240301", "station_nm": "SC01506312CB" },
+  { "site_no": "384506104235001", "station_nm": "SC01506313BAC CHEROKEE 12" },
+  { "site_no": "384506104241302", "station_nm": "SC01506313BBB3" },
+  { "site_no": "384345104241401", "station_nm": "SC01506324CBB CHEROKEE 13" },
+  { "site_no": "384333104241301", "station_nm": "SC01506324CC" },
+  { "site_no": "384348104232201", "station_nm": "SC01506324DAB" },
+  { "site_no": "384348104232901", "station_nm": "SC01506324DBA2" },
+  { "site_no": "384256104241102", "station_nm": "SC01506325BCC2" },
+  { "site_no": "384230104241401", "station_nm": "SC01506335AAA CHEROKEE 15" },
+  { "site_no": "384230104243601", "station_nm": "SC01506335AB" },
+  { "site_no": "384139104244501", "station_nm": "SC01506335DCC CHEROKEE 17" },
+  { "site_no": "384408104424701", "station_nm": "SC01506519BAD1 NONUM-2" },
+  { "site_no": "384357104431001", "station_nm": "SC01506519BCB1 U-17" },
+  { "site_no": "384604104451502", "station_nm": "SC01506602CCC2 U-9" },
+  { "site_no": "384648104454501", "station_nm": "SC01506603ABA TH-22" },
+  { "site_no": "384639104461401", "station_nm": "SC01506603BAC1 MARS GAS" },
+  { "site_no": "384640104463001", "station_nm": "SC01506603BBC TH-42" },
+  { "site_no": "384621104460902", "station_nm": "SC01506603CAB3 U-08" },
+  {
+    "site_no": "384617104455901",
+    "station_nm": "SC01506603CAD1 STRATMOOR HILLS 4"
+  },
+  { "site_no": "384652104465101", "station_nm": "SC01506604ABA1 U-7" },
+  { "site_no": "384636104465401", "station_nm": "SC01506604ACA TH-52" },
+  { "site_no": "384540104453801", "station_nm": "SC01506610ADB1 TH-7" },
+  { "site_no": "384540104453601", "station_nm": "SC01506610ADB2 TH-46" },
+  { "site_no": "384540104443801", "station_nm": "SC01506611ACD1 U-10" },
+  { "site_no": "384535104450801", "station_nm": "SC01506611BCD2 V-3" },
+  { "site_no": "384534104450302", "station_nm": "SC01506611BDC3 U-11" },
+  { "site_no": "384513104445302", "station_nm": "SC01506611CDD2 U-12" },
+  { "site_no": "384509104435901", "station_nm": "SC01506612CDC CO259-25" },
+  { "site_no": "384433104440701", "station_nm": "SC01506613CBD1 U-14B" },
+  { "site_no": "384420104432601", "station_nm": "SC01506613DDC1 U-15" },
+  { "site_no": "384503104451601", "station_nm": "SC01506614BBA  TH-5" },
+  { "site_no": "384439104442101", "station_nm": "SC01506614DAA1 U-13" },
+  { "site_no": "384407104434801", "station_nm": "SC01506624BAD1 WIDEFIELD 4" },
+  { "site_no": "384445106044801", "station_nm": "SC01507814ACC" },
+  { "site_no": "384141106061800", "station_nm": "SC01507834CCD" },
+  { "site_no": "384056104415601", "station_nm": "SC01606505CCB FOUNTAIN 3" },
+  { "site_no": "384108104420701", "station_nm": "SC01606506DAA FOUNTAIN 2" },
+  { "site_no": "383426102204101", "station_nm": "SC01704415CCB" },
+  { "site_no": "382920105222401", "station_nm": "SC01807107CDD2" },
+  { "site_no": "382443103432401", "station_nm": "SC01905607CBC" },
+  {
+    "site_no": "382323104200701",
+    "station_nm": "SC01906221AAA  DROUGHT WELL NEAR PUEBLO, CO"
+  },
+  { "site_no": "382444104572600", "station_nm": "SC01906812BCC" },
+  { "site_no": "382504105104001", "station_nm": "SC01907001CCA" },
+  { "site_no": "382504105121901", "station_nm": "SC01907003DCD" },
+  { "site_no": "381542104220701", "station_nm": "SC02006231DDD" },
+  { "site_no": "381755104362001", "station_nm": "SC02006419BBD" },
+  { "site_no": "381754104361401", "station_nm": "SC02006419BCA" },
+  { "site_no": "381754104362001", "station_nm": "SC02006419BCB" },
+  { "site_no": "381754104361101", "station_nm": "SC02006419BDB" },
+  { "site_no": "381754104361901", "station_nm": "SC02006419CDB" },
+  { "site_no": "381653104361001", "station_nm": "SC02006430CBC" },
+  { "site_no": "381652104360601", "station_nm": "SC02006430CDB" },
+  { "site_no": "381533104353301", "station_nm": "SC02006431CAC" },
+  { "site_no": "381533104353302", "station_nm": "SC02006431CAC2" },
+  { "site_no": "381532104353501", "station_nm": "SC02006431CCB" },
+  { "site_no": "381532104353502", "station_nm": "SC02006431CCB2" },
+  { "site_no": "381116103541201", "station_nm": "SC02105828DCB1" },
+  { "site_no": "381529104354201", "station_nm": "SC02106406BCA" },
+  { "site_no": "381531104353601", "station_nm": "SC02106431DCD" },
+  { "site_no": "381531104353602", "station_nm": "SC02106431DCD2" },
+  { "site_no": "380204105302401", "station_nm": "SC02107124CBC" },
+  { "site_no": "381409105343401", "station_nm": "SC02107307DDD" },
+  { "site_no": "381203105333701", "station_nm": "SC02107329DCB" },
+  { "site_no": "380745102301301", "station_nm": "SC02204517CCC1" },
+  { "site_no": "380804102525201", "station_nm": "SC02204914DBB" },
+  { "site_no": "380556103083801", "station_nm": "SC02205132AAA" },
+  { "site_no": "380730103182701", "station_nm": "SC02205324DAB" },
+  { "site_no": "380810103303301", "station_nm": "SC02205418CBB" },
+  { "site_no": "380655103301601", "station_nm": "SC02205419CDC" },
+  { "site_no": "380552103484301", "station_nm": "SC02205732BAA1" },
+  { "site_no": "380549103491501", "station_nm": "SC02205732BBB1" },
+  { "site_no": "380527103475301", "station_nm": "SC02205733CBA" },
+  { "site_no": "380502103470200", "station_nm": "SC02205733DDD" },
+  { "site_no": "380939103544501", "station_nm": "SC02205804CBC" },
+  { "site_no": "380849103534201", "station_nm": "SC02205809DAA" },
+  { "site_no": "380714105273801", "station_nm": "SC02207220CAD" },
+  { "site_no": "380916105314301", "station_nm": "SC02207310ACD1" },
+  { "site_no": "380847105292500", "station_nm": "SC02207312DDC" },
+  { "site_no": "380816105340401", "station_nm": "SC02207317DBC" },
+  { "site_no": "380742105303801", "station_nm": "SC02207323ABD" },
+  { "site_no": "380732105304701", "station_nm": "SC02207323ACC" },
+  { "site_no": "380734105304501", "station_nm": "SC02207323ACC1" },
+  { "site_no": "380730105302101", "station_nm": "SC02207323ADD" },
+  { "site_no": "380728105293401", "station_nm": "SC02207324ACD" },
+  { "site_no": "380737105292801", "station_nm": "SC02207324ADB" },
+  { "site_no": "380751105295301", "station_nm": "SC02207324BAB" },
+  { "site_no": "380741105295101", "station_nm": "SC02207324BAD" },
+  { "site_no": "380729105300101", "station_nm": "SC02207324BDC" },
+  { "site_no": "380728105295101", "station_nm": "SC02207324BDD" },
+  { "site_no": "380652105341801", "station_nm": "SC02207329BDA" },
+  { "site_no": "380602105293501", "station_nm": "SC02207336ABA" },
+  { "site_no": "380242102065301", "station_nm": "SC02304212CCA" },
+  { "site_no": "380224102055101", "station_nm": "SC02304224BBD" },
+  { "site_no": "380505103094001", "station_nm": "SC02305105BBB1" },
+  { "site_no": "380322103171601", "station_nm": "SC02305218BBB" },
+  { "site_no": "380504103215201", "station_nm": "SC02305305AAA" },
+  { "site_no": "380316103243601", "station_nm": "SC02305413BAA" },
+  { "site_no": "380227103254701", "station_nm": "SC02305414DDD" },
+  { "site_no": "380247103262301", "station_nm": "SC02305415DAD" },
+  { "site_no": "380213103250200", "station_nm": "SC02305423ADA" },
+  { "site_no": "380341103335501", "station_nm": "SC02305509DAA" },
+  { "site_no": "380013103364301", "station_nm": "SC02305531BDD" },
+  { "site_no": "375958103325801", "station_nm": "SC02305534DDB" },
+  { "site_no": "380222103413501", "station_nm": "SC02305620AAA1" },
+  { "site_no": "380157103373401", "station_nm": "SC02305623CAA" },
+  { "site_no": "380041103382600", "station_nm": "SC02305626DDC" },
+  { "site_no": "380355103444901", "station_nm": "SC02305712BCB" },
+  { "site_no": "380319103435001", "station_nm": "SC02305712DDD" },
+  { "site_no": "380514105281801", "station_nm": "SC02307206AAB2" },
+  { "site_no": "380325105250001", "station_nm": "SC02307210DDD" },
+  { "site_no": "380324105280401", "station_nm": "SC02307217BBC1" },
+  { "site_no": "380138105253701", "station_nm": "SC02307227BAA" },
+  { "site_no": "380445105324301", "station_nm": "SC02307304DAD" },
+  { "site_no": "380330105320401", "station_nm": "SC02307315ABB" },
+  { "site_no": "375935103391601", "station_nm": "SC02405602BBC" },
+  { "site_no": "375910103411701", "station_nm": "SC02405604CAC" },
+  { "site_no": "375838103424001", "station_nm": "SC02405608BCB ARV001" },
+  { "site_no": "375621105164901", "station_nm": "SC02407125BAA" },
+  { "site_no": "375833105260701", "station_nm": "SC02407210CBB" },
+  { "site_no": "375807105251101", "station_nm": "SC02407215AAA" },
+  { "site_no": "375737105260201", "station_nm": "SC02407215CAC" },
+  { "site_no": "375531105255201", "station_nm": "SC02407227CDD" },
+  { "site_no": "373950105342801", "station_nm": "SC02707329ABA  RG44" },
+  { "site_no": "385156104220301", "station_nm": "SCO1406205BBB3" },
+  { "site_no": "385111104214402", "station_nm": "SCO1406205CAA4" },
+  {
+    "site_no": "395706105485000",
+    "station_nm": "SCOO1O7519ACA-FRASER RIVER TRAIL"
+  },
+  { "site_no": "405344106405100", "station_nm": "SEVEN LAKES" },
+  { "site_no": "405344106405101", "station_nm": "SEVEN LAKES INFLOW" },
+  {
+    "site_no": "09014500",
+    "station_nm": "SHADOW MOUNTAIN LAKE NEAR GRAND LAKE, CO."
+  },
+  {
+    "site_no": "401331105501401",
+    "station_nm": "SHADOW MOUNTAIN LAKE NEAR MIDLAKE NEAR GRAND LK, C"
+  },
+  {
+    "site_no": "401638105402601",
+    "station_nm": "SHARKSTOOTH WEATHER STATION IN RMNP CO"
+  },
+  {
+    "site_no": "384905104485901",
+    "station_nm": "SHOOKS RUN AT LAS VEGAS ST AT COLORADO SPRINGS, CO"
+  },
+  {
+    "site_no": "385121104480701",
+    "station_nm": "SHOOKS RUN MET AT PATTY JEWETT GC AT CO SPG, CO"
+  },
+  {
+    "site_no": "384959104481401",
+    "station_nm": "SHOOKS RUN TRIB AT COLO SPRINGS (CULVERT TO DITCH)"
+  },
+  {
+    "site_no": "09125800",
+    "station_nm": "SILVER JACK RESERVOIR NEAR CIMARRON, CO"
+  },
+  {
+    "site_no": "385106106571000",
+    "station_nm": "SLATE R AB BAXTER GL @HWY 135 NR CRESTED BUTTE, CO"
+  },
+  { "site_no": "09255000", "station_nm": "SLATER FORK NEAR SLATER, CO" },
+  {
+    "site_no": "391512106232401",
+    "station_nm": "SLGS-01A, SEEP ADJACENT TO SUGARLOAF GULCH"
+  },
+  { "site_no": "391512106232101", "station_nm": "SLGS-01B, COLLAPSED SHAFT" },
+  { "site_no": "391511106232001", "station_nm": "SLGS-02A" },
+  {
+    "site_no": "391501106225001",
+    "station_nm": "SLGS-09 SUGARLOAF GULCH SEEP 9 PIPE NR DINERO, CO"
+  },
+  {
+    "site_no": "375930107120000",
+    "station_nm": "SLUMGULLION PASS SNOW SITE, CO"
+  },
+  {
+    "site_no": "384200107381401",
+    "station_nm": "SMITH FORK AT 38.5 RD BRIDGE NR HOTCHKISS CO"
+  },
+  { "site_no": "09128500", "station_nm": "SMITH FORK NEAR CRAWFORD, CO." },
+  { "site_no": "09129600", "station_nm": "SMITH FORK NEAR LAZEAR, CO" },
+  { "site_no": "09047500", "station_nm": "SNAKE RIVER NEAR MONTEZUMA, CO" },
+  { "site_no": "375000107050001", "station_nm": "SNOW MESA NEAR CREEDE, CO" },
+  {
+    "site_no": "384908104453301",
+    "station_nm": "SOUTH ACADEMY BLVD MET STATION AT CO. SPRNGS, CO"
+  },
+  {
+    "site_no": "393445105165101",
+    "station_nm": "SOUTH EVERGREEN RAIN GAGE NEAR CONIFER, CO"
+  },
+  {
+    "site_no": "09035900",
+    "station_nm": "SOUTH FORK OF WILLIAMS FORK NEAR LEAL, CO"
+  },
+  {
+    "site_no": "09171310",
+    "station_nm": "SOUTH FORK SAN MIGUEL RIVER NEAR OPHIR, CO"
+  },
+  {
+    "site_no": "09304000",
+    "station_nm": "SOUTH FORK WHITE RIVER AT BUFORD, CO."
+  },
+  {
+    "site_no": "09303400",
+    "station_nm": "SOUTH FORK WHITE RIVER NEAR BUDGES RESORT, CO."
+  },
+  {
+    "site_no": "09303500",
+    "station_nm": "SOUTH FORK WHITE RIVER NEAR BUFORD, CO."
+  },
+  {
+    "site_no": "06714215",
+    "station_nm": "SOUTH PLATTE R AT 64TH AVE. COMMERCE CITY, CO."
+  },
+  {
+    "site_no": "394938104565300",
+    "station_nm": "SOUTH PLATTE RIVER AB CLEAR CR NR COMMERCE CTY, CO"
+  },
+  {
+    "site_no": "06700000",
+    "station_nm": "SOUTH PLATTE RIVER ABOVE CHEESMAN LAKE, CO."
+  },
+  {
+    "site_no": "395306104540600",
+    "station_nm": "SOUTH PLATTE RIVER AT 104TH NR THORNTON, CO"
+  },
+  {
+    "site_no": "394419105010501",
+    "station_nm": "SOUTH PLATTE RIVER AT 14TH AVE DENVER, CO"
+  },
+  {
+    "site_no": "06714130",
+    "station_nm": "SOUTH PLATTE RIVER AT 50TH AVENUE AT DENVER, CO."
+  },
+  {
+    "site_no": "395116104561300",
+    "station_nm": "SOUTH PLATTE RIVER AT 88TH ST AT COMMERCE CITY"
+  },
+  { "site_no": "06714000", "station_nm": "SOUTH PLATTE RIVER AT DENVER, CO." },
+  {
+    "site_no": "06711565",
+    "station_nm": "SOUTH PLATTE RIVER AT ENGLEWOOD, CO."
+  },
+  {
+    "site_no": "06711590",
+    "station_nm": "SOUTH PLATTE RIVER AT FLORIDA AVE AT DENVER, CO."
+  },
+  {
+    "site_no": "06721000",
+    "station_nm": "SOUTH PLATTE RIVER AT FORT LUPTON, CO."
+  },
+  {
+    "site_no": "06759500",
+    "station_nm": "SOUTH PLATTE RIVER AT FORT MORGAN, CO"
+  },
+  {
+    "site_no": "06720500",
+    "station_nm": "SOUTH PLATTE RIVER AT HENDERSON, CO"
+  },
+  {
+    "site_no": "394851104570701",
+    "station_nm": "SOUTH PLATTE RIVER AT I-270 COMMERCE CITY, CO"
+  },
+  {
+    "site_no": "06710000",
+    "station_nm": "SOUTH PLATTE RIVER AT LITTLETON, CO."
+  },
+  {
+    "site_no": "395226104544600",
+    "station_nm": "SOUTH PLATTE RIVER AT MCKAY RD NR THORNTON, CO"
+  },
+  {
+    "site_no": "06709610",
+    "station_nm": "SOUTH PLATTE RIVER BELOW CHATFIELD LAKE, CO."
+  },
+  {
+    "site_no": "06710247",
+    "station_nm": "SOUTH PLATTE RIVER BELOW UNION AVE, AT ENGLEWOOD,C"
+  },
+  {
+    "site_no": "06701900",
+    "station_nm": "SOUTH PLATTE RIVER BLW BRUSH CRK NEAR TRUMBULL, CO"
+  },
+  { "site_no": "06754000", "station_nm": "SOUTH PLATTE RIVER NEAR KERSEY, CO" },
+  {
+    "site_no": "394241104595900",
+    "station_nm": "SP-1000  SOUTH PLATTE RIVER BL ALAMEDA AVE"
+  },
+  {
+    "site_no": "394321105000500",
+    "station_nm": "SP-1100  SOUTH PLATTE RIVER AB VALLEJO ST"
+  },
+  {
+    "site_no": "394502105004700",
+    "station_nm": "SP-1300  SO PLATTE R @ 7TH ST @ CNFLUENCE PK DUP1"
+  },
+  {
+    "site_no": "394602104590500",
+    "station_nm": "SP-1500  SOUTH PLATTE RIVER AB 31ST ST BRIDGE"
+  },
+  {
+    "site_no": "394141104593300",
+    "station_nm": "SP-800   SOUTH PLATTE RIVER AB MISSISSIPPI AVE"
+  },
+  {
+    "site_no": "401913105361101",
+    "station_nm": "SPRAGUE LAKE OUTLET IN RMNP, CO"
+  },
+  {
+    "site_no": "401650105395301",
+    "station_nm": "SPRING 22 - LOCH VALE - RMNP, CO"
+  },
+  {
+    "site_no": "401700105394701",
+    "station_nm": "SPRING 23 - LOCH VALE - RMNP, CO"
+  },
+  {
+    "site_no": "401710105395501",
+    "station_nm": "SPRING 24 - LOCH VALE - RMNP, CO"
+  },
+  {
+    "site_no": "401721105402701",
+    "station_nm": "SPRING 25 - LOCH VALE - RMNP, CO"
+  },
+  {
+    "site_no": "401710105394701",
+    "station_nm": "SPRING 2N - LOCH VALE - RMNP, CO"
+  },
+  { "site_no": "384833104473900", "station_nm": "SPRING CK DS LAS VEGAS ST" },
+  {
+    "site_no": "385014104454901",
+    "station_nm": "SPRING CR DRAIN AT AUBURN DR AT COLO SPRINGS(CLVRT"
+  },
+  {
+    "site_no": "384930104453701",
+    "station_nm": "SPRING CR DRAIN MARJORIE LEE DR NE ARPRT RD CO SPG"
+  },
+  {
+    "site_no": "09109850",
+    "station_nm": "SPRING CREEK ABOVE MOUTH NEAR ALMONT, CO"
+  },
+  { "site_no": "402032105411501", "station_nm": "SPRUCE LAKE IN RMNP, CO" },
+  {
+    "site_no": "06730525",
+    "station_nm": "ST VRAIN CR BLW BOULDER CR AT HWY 119 NR LONGMONT"
+  },
+  { "site_no": "07108900", "station_nm": "ST. CHARLES RIVER AT VINELAND, CO." },
+  { "site_no": "09026500", "station_nm": "ST. LOUIS CREEK NEAR FRASER, CO." },
+  {
+    "site_no": "394142104593401",
+    "station_nm": "STORM DRAIN SO PLATTE AT ARIZONA AVE DENVER, CO"
+  },
+  {
+    "site_no": "09051050",
+    "station_nm": "STRAIGHT CR BLW LASKEY GULCH NR DILLON, CO"
+  },
+  {
+    "site_no": "393737106040000",
+    "station_nm": "STRAIGHT CREEK AT MOUTH AT SILVERTHORNE, CO"
+  },
+  {
+    "site_no": "391450106232501",
+    "station_nm": "STRAWBERRY GULCH SPRING SBGS-03A"
+  },
+  {
+    "site_no": "383159104540701",
+    "station_nm": "SULLIVAN PARK MET STATION AT FORT CARSON, CO"
+  },
+  {
+    "site_no": "403245106404900",
+    "station_nm": "SUMMIT LAKE NEAR BUFFALO PASS, CO"
+  },
+  {
+    "site_no": "394424105010401",
+    "station_nm": "SUN VALLEY COGI DRAIN S. PLATTE RV, N-143-W DENVER"
+  },
+  {
+    "site_no": "384551107591901",
+    "station_nm": "SUNFLOWER DRAIN AT HIGHWAY 92,NEAR READ"
+  },
+  { "site_no": "392535107224600", "station_nm": "SUNLIGHT PEAK SNOW SITE, CO" },
+  { "site_no": "09143500", "station_nm": "SURFACE CREEK AT CEDAREDGE, CO." },
+  { "site_no": "09143000", "station_nm": "SURFACE CREEK NEAR CEDAREDGE, CO" },
+  {
+    "site_no": "382625104353701",
+    "station_nm": "SUTHERLAND DITCH AT MOUTH NEAR PINON, CO"
+  },
+  {
+    "site_no": "06696980",
+    "station_nm": "TARRYALL CREEK AT UPPER STATION NEAR COMO, CO"
+  },
+  {
+    "site_no": "07126325",
+    "station_nm": "TAYLOR ARROYO BL ROCK CROSSING, NR THATCHER, CO."
+  },
+  {
+    "site_no": "380745105305101",
+    "station_nm": "TAYLOR CREEK AT KETTLE LN NR WESTCLIFFE, CO"
+  },
+  {
+    "site_no": "09108500",
+    "station_nm": "TAYLOR PARK RESERVOIR AT TAYLOR PARK, CO."
+  },
+  { "site_no": "09110000", "station_nm": "TAYLOR RIVER AT ALMONT, CO." },
+  { "site_no": "09107000", "station_nm": "TAYLOR RIVER AT TAYLOR PARK, CO." },
+  {
+    "site_no": "09109000",
+    "station_nm": "TAYLOR RIVER BELOW TAYLOR PARK RESERVOIR, CO."
+  },
+  {
+    "site_no": "07099233",
+    "station_nm": "TELLER RESERVOIR NEAR STONE CITY, CO."
+  },
+  {
+    "site_no": "07099238",
+    "station_nm": "TELLER RESERVOIR SPILLWAY NEAR STONE CITY, CO"
+  },
+  {
+    "site_no": "395126108205601",
+    "station_nm": "TEMP DRIVE PT AT BLACK SULPHUR CR NR PICEANCE CR 1"
+  },
+  {
+    "site_no": "395127108205201",
+    "station_nm": "TEMP DRIVE PT AT BLACK SULPHUR CR NR PICEANCE CR 2"
+  },
+  {
+    "site_no": "395127108204601",
+    "station_nm": "TEMP DRIVE PT AT BLACK SULPHUR CR NR PICEANCE CR 3"
+  },
+  {
+    "site_no": "395128108204001",
+    "station_nm": "TEMP DRIVE PT AT BLACK SULPHUR CR NR PICEANCE CR 4"
+  },
+  {
+    "site_no": "385353104465301",
+    "station_nm": "TEMPLETON GAP FLOODWY AT N UNION BLVD AT CO SPRGS"
+  },
+  {
+    "site_no": "385351104454601",
+    "station_nm": "TEMPLETON GAP MET ABV AUSTIN BLUFFS AT CO SPRG, CO"
+  },
+  {
+    "site_no": "392950106080901",
+    "station_nm": "TENMILE CREEK AT CONT. DIVIDE TRAIL NR COPPER MNT"
+  },
+  {
+    "site_no": "09050100",
+    "station_nm": "TENMILE CREEK BL NORTH TENMILE C, AT FRISCO, CO."
+  },
+  {
+    "site_no": "381525105352601",
+    "station_nm": "TEXAS CREEK AT HIGHWAY 69 NR HILLSIDE, CO"
+  },
+  { "site_no": "07094000", "station_nm": "TEXAS CREEK AT TEXAS CREEK, COLO" },
+  { "site_no": "401733105392404", "station_nm": "THE LOCH OUTLET - LOCH VALE" },
+  {
+    "site_no": "401719105394312",
+    "station_nm": "THROUGHFALL - LOCH VALE MAIN WX"
+  },
+  {
+    "site_no": "07121500",
+    "station_nm": "TIMPAS CREEK AT MOUTH NEAR SWINK, CO."
+  },
+  {
+    "site_no": "391606106241101",
+    "station_nm": "TLSS-07, SPRING NEAR TURQ. LAKE BLW ADIT AND WASTE"
+  },
+  {
+    "site_no": "394329104490101",
+    "station_nm": "TOLL GATE CREEK ABOVE 6TH AVE AT AURORA, CO"
+  },
+  {
+    "site_no": "383126106475600",
+    "station_nm": "TOMICHI CK. BLW. COCHETOPA CK. NR. PARLIN, CO"
+  },
+  { "site_no": "09119000", "station_nm": "TOMICHI CREEK AT GUNNISON, CO" },
+  { "site_no": "09115500", "station_nm": "TOMICHI CREEK AT SARGENTS, CO" },
+  { "site_no": "09144200", "station_nm": "TONGUE CREEK AT CORY, CO" },
+  { "site_no": "403219106403800", "station_nm": "TOWER NADP SNOW SITE, CO" },
+  {
+    "site_no": "394321105000600",
+    "station_nm": "TR-1110  STORM SEWER AT VALLEJO ST"
+  },
+  {
+    "site_no": "394513105002600",
+    "station_nm": "TR-1310  CHERRY CREEK AT MOUTH"
+  },
+  {
+    "site_no": "393750105005100",
+    "station_nm": "TR-210   BIG DRY CREEK AT MOUTH"
+  },
+  {
+    "site_no": "393935105000500",
+    "station_nm": "TR-320   LITTLE DRY CREEK AT MOUTH"
+  },
+  {
+    "site_no": "394029104594800",
+    "station_nm": "TR-460   HARVARD GULCH AT MOUTH"
+  },
+  { "site_no": "09032400", "station_nm": "TRAIL CREEK NEAR TABERNASH, CO" },
+  { "site_no": "395930107143000", "station_nm": "TRAPPERS LAKE SNOW SITE, CO" },
+  { "site_no": "395600107150000", "station_nm": "TRAPPERS PEAK SNOW SITE, CO" },
+  { "site_no": "07124400", "station_nm": "TRINIDAD LAKE NEAR TRINIDAD, CO." },
+  {
+    "site_no": "06701620",
+    "station_nm": "TROUT CREEK BLW FERN CR NR WESTCREEK, CO."
+  },
+  {
+    "site_no": "382629104493000",
+    "station_nm": "TURKEY C EAST SEEP BL TELLER RES NR STONE CITY, CO"
+  },
+  {
+    "site_no": "382628104493700",
+    "station_nm": "TURKEY CR WEST SEEP BL TELLER RES NR STONE CITY,CO"
+  },
+  {
+    "site_no": "07099230",
+    "station_nm": "TURKEY CREEK AB TELLER RES NEAR STONE CITY, CO."
+  },
+  {
+    "site_no": "06711040",
+    "station_nm": "TURKEY CREEK ABOVE BEAR CREEK LAKE NEAR MORRISON C"
+  },
+  { "site_no": "09147500", "station_nm": "UNCOMPAHGRE RIVER AT COLONA, CO" },
+  { "site_no": "09149500", "station_nm": "UNCOMPAHGRE RIVER AT DELTA, CO" },
+  {
+    "site_no": "09147025",
+    "station_nm": "UNCOMPAHGRE RIVER BELOW RIDGWAY RESERVOIR, CO"
+  },
+  { "site_no": "09146020", "station_nm": "UNCOMPAHGRE RIVER NEAR OURAY, CO" },
+  {
+    "site_no": "09146200",
+    "station_nm": "UNCOMPAHGRE RIVER NEAR RIDGWAY, CO."
+  },
+  {
+    "site_no": "400200105340000",
+    "station_nm": "UNIVERSITY CAMP SNOW SITE, CO"
+  },
+  {
+    "site_no": "06822585",
+    "station_nm": "UNNAMED CREEK  AT HIGHWAY 61 NEAR OTIS, CO"
+  },
+  {
+    "site_no": "06760230",
+    "station_nm": "UNNAMED CREEK  AT HIGHWAY 71 NEAR STONEHAM, CO"
+  },
+  {
+    "site_no": "06822550",
+    "station_nm": "UNNAMED CREEK AT HIGHWAY 63 NEAR ANTON, CO"
+  },
+  {
+    "site_no": "384432108074001",
+    "station_nm": "UNNAMED DR AT SAWMILL MESA RD AND G LN NR DELTA CO"
+  },
+  {
+    "site_no": "384500108061901",
+    "station_nm": "UNNAMED DRAIN AT TOWNSEND ROAD NR DELTA CO"
+  },
+  {
+    "site_no": "384438108072301",
+    "station_nm": "UNNAMED DRAIN DOWNSTREAM OF G50 ROAD NR DELTA CO"
+  },
+  {
+    "site_no": "384701104465101",
+    "station_nm": "UNNAMED DTCH TO FOUNTAIN CR BLW I25 AT POND CO SP"
+  },
+  {
+    "site_no": "372308104081801",
+    "station_nm": "UNNAMED TRIB ABV VAN BREMER ARROYO AT PCMS, CO"
+  },
+  {
+    "site_no": "401722105401201",
+    "station_nm": "UPPER ANDREWS CREEK SNOW SITE, CO"
+  },
+  {
+    "site_no": "373823103465601",
+    "station_nm": "UPPER BENT CANYON MET STATION NR DELHI, CO"
+  },
+  { "site_no": "373712107350100", "station_nm": "UPPER GRIZZLY LAKE" },
+  { "site_no": "395746107192500", "station_nm": "UPPER NED WILSON LAKE" },
+  { "site_no": "395756107192300", "station_nm": "UPPER NWL PACKTRAIL POTHOLE" },
+  {
+    "site_no": "385640104555701",
+    "station_nm": "UPPER QUEENS CANYON MET STATION NR ORMES PEAK, CO"
+  },
+  {
+    "site_no": "373315103493101",
+    "station_nm": "UPPER RED ROCK CANYON MET STATION NR HOUGHTON,CO"
+  },
+  {
+    "site_no": "385740104405501",
+    "station_nm": "UPPER SAND CR MET ABV LOCHWINNOCH LN AT CO SPR, CO"
+  },
+  { "site_no": "373740107344700", "station_nm": "UPPER SUNLIGHT LAKE" },
+  {
+    "site_no": "385449104565501",
+    "station_nm": "UPPER WALDO CANYON MET ABV CASCADE, CO"
+  },
+  {
+    "site_no": "385334104544901",
+    "station_nm": "UPPER WILLIAMS CANYON MET ABV MANITOU, CO"
+  },
+  {
+    "site_no": "385255104440501",
+    "station_nm": "VALENCIA CR NR ORO BLANCO DR AT CO SPRNGS (CLVERT)"
+  },
+  { "site_no": "09352900", "station_nm": "VALLECITO CREEK NEAR BAYFIELD, CO." },
+  { "site_no": "372909107300700", "station_nm": "VALLECITO SNOW SITE, CO" },
+  { "site_no": "07126200", "station_nm": "VAN BREMER ARROYO NEAR MODEL, CO" },
+  { "site_no": "09025000", "station_nm": "VASQUEZ CREEK AT WINTER PARK, CO" },
+  { "site_no": "09096100", "station_nm": "VEGA RESERVOIR NEAR COLLBRAN, CO" },
+  { "site_no": "07094800", "station_nm": "VENABLE CREEK NEAR WESTCLIFFE, CO" },
+  {
+    "site_no": "394002105001301",
+    "station_nm": "W. HARVARD GULTCH AT MOUTH ENGLEWOOD, CO"
+  },
+  {
+    "site_no": "07100750",
+    "station_nm": "WALDO CANYON ABV MOUTH NEAR MANITOU SPRINGS, CO"
+  },
+  {
+    "site_no": "385254104560401",
+    "station_nm": "WALDO CANYON LOWER SITE NEAR MANITOU SPRINGS, CO"
+  },
+  {
+    "site_no": "385309104561101",
+    "station_nm": "WALDO CANYON MIDDLE SITE NEAR MANITOU SPRINGS, CO"
+  },
+  {
+    "site_no": "385344104560601",
+    "station_nm": "WALDO CANYON UPPER SITE NEAR MANITOU SPRINGS, CO"
+  },
+  {
+    "site_no": "06711622",
+    "station_nm": "WEIR GULCH AT MOUTH, AT DENVER, CO."
+  },
+  {
+    "site_no": "06711618",
+    "station_nm": "WEIR GULCH UPSTREAM FROM 1ST AVE. AT DENVER, CO"
+  },
+  { "site_no": "401348105452800", "station_nm": "WESCOTT FALLS, CO" },
+  {
+    "site_no": "373556103575201",
+    "station_nm": "WEST BEAR SPRINGS ARROYO AT BOUNDARY AT PCMS, CO"
+  },
+  {
+    "site_no": "06701700",
+    "station_nm": "WEST CR. ABV SHREWSBURY GULCH NR WESTCREEK CO"
+  },
+  {
+    "site_no": "402645105301701",
+    "station_nm": "WEST CREEK BLW WEST CREEK FALLS NR ESTES PARK, CO"
+  },
+  {
+    "site_no": "380251107513000",
+    "station_nm": "WEST FK DALLAS CREEK MET. STATION NEAR RIDGWAY, CO"
+  },
+  {
+    "site_no": "06716100",
+    "station_nm": "WEST FORK CLEAR CREEK ABV MOUTH NR EMPIRE, CO"
+  },
+  {
+    "site_no": "394624105475700",
+    "station_nm": "WEST FORK CLEAR CREEK NR BERTHOUD FALLS, CO"
+  },
+  {
+    "site_no": "07103800",
+    "station_nm": "WEST MONUMENT CREEK AT U.S. AIR FORCE ACADEMY, CO"
+  },
+  {
+    "site_no": "07103797",
+    "station_nm": "WEST MONUMENT CREEK BELOW RAMPART RESERVOIR, CO"
+  },
+  {
+    "site_no": "09170800",
+    "station_nm": "WEST PARADOX CREEK ABOVE BEDROCK, CO."
+  },
+  { "site_no": "06708690", "station_nm": "WEST PLUM CREEK AT SEDALIA, CO" },
+  {
+    "site_no": "06708600",
+    "station_nm": "WEST PLUM CREEK NEAR PERRY PARK, CO"
+  },
+  {
+    "site_no": "09096570",
+    "station_nm": "WEST SALT CREEK LANDSLIDE SAG POOL NR COLLBRAN, CO"
+  },
+  {
+    "site_no": "384439108093201",
+    "station_nm": "WEST UNNAMED DRAIN AT ESCALANTE SWA NR DELTA CO"
+  },
+  {
+    "site_no": "402228105511601",
+    "station_nm": "WETLAND NR HOLZWARTH SITE IN RMNP, CO"
+  },
+  {
+    "site_no": "373404106034201",
+    "station_nm": "WETLANDS AT COCHRAN LN AT RIO GRANDE SWR, CO"
+  },
+  {
+    "site_no": "372449105451601",
+    "station_nm": "WETLANDS AT MUMM LATERAL AT ALAMOSA NWR, CO"
+  },
+  {
+    "site_no": "373433106030701",
+    "station_nm": "WETLANDS AT STANLEY RD AT RIO GRANDE SWR, CO"
+  },
+  { "site_no": "374232107330900", "station_nm": "WHITE DOME LAKE" },
+  {
+    "site_no": "395643107461200",
+    "station_nm": "WHITE R AB MILLER CR NR BUFORD, CO"
+  },
+  {
+    "site_no": "400535108485700",
+    "station_nm": "WHITE R AT HWY 64 BRIDGE BL RANGELY, CO"
+  },
+  {
+    "site_no": "09304200",
+    "station_nm": "WHITE RIVER ABOVE COAL CREEK NEAR MEEKER, CO"
+  },
+  {
+    "site_no": "400210107530201",
+    "station_nm": "WHITE RIVER ABOVE CURTIS CREEK NR MEEKER, CO"
+  },
+  {
+    "site_no": "395650107435600",
+    "station_nm": "WHITE RIVER ABOVE DRY CREEK, NEAR MEEKER, CO"
+  },
+  {
+    "site_no": "395830107483601",
+    "station_nm": "WHITE RIVER ABV HIGHLAND DITCH HEAD NR MEEKER, CO"
+  },
+  {
+    "site_no": "395756107384601",
+    "station_nm": "WHITE RIVER BELOW BIG BEAVER CREEK NR BUFORD, CO"
+  },
+  {
+    "site_no": "09306290",
+    "station_nm": "WHITE RIVER BELOW BOISE CREEK, NEAR RANGELY, CO."
+  },
+  { "site_no": "09304800", "station_nm": "WHITE RIVER BELOW MEEKER, CO" },
+  {
+    "site_no": "09304115",
+    "station_nm": "WHITE RIVER BELOW NORTH ELK CREEK NEAR BUFORD, CO"
+  },
+  {
+    "site_no": "09306305",
+    "station_nm": "WHITE RIVER BL.TAYLOR DRAW RES., ABV. RANGELY CO."
+  },
+  { "site_no": "09304500", "station_nm": "WHITE RIVER NEAR MEEKER, CO." },
+  {
+    "site_no": "385841108271101",
+    "station_nm": "WHITEWATER CR MOUTH AT GUNNISON R NR WHITEWATER,CO"
+  },
+  { "site_no": "401155105364000", "station_nm": "WILD BASIN SNOW SITE, CO" },
+  { "site_no": "07134990", "station_nm": "WILD HORSE CREEK ABOVE HOLLY, CO" },
+  {
+    "site_no": "382532104461801",
+    "station_nm": "WILDHORSE CREEK NEAR STONE CITY AT FT CARSON, CO"
+  },
+  {
+    "site_no": "07103100",
+    "station_nm": "WILLIAMS CANYON ABV MOUTH NEAR MANITOU SPRINGS, CO"
+  },
+  {
+    "site_no": "383347104373401",
+    "station_nm": "WILLIAMS CR AT THE MOUTH NEAR WIGWAM, CO"
+  },
+  {
+    "site_no": "09035700",
+    "station_nm": "WILLIAMS FORK ABOVE DARLING CREEK, NEAR LEAL, CO"
+  },
+  {
+    "site_no": "09035500",
+    "station_nm": "WILLIAMS FORK BELOW STEELMAN CREEK, CO."
+  },
+  {
+    "site_no": "09038500",
+    "station_nm": "WILLIAMS FORK BELOW WILLIAMS FORK RESERVOIR, CO"
+  },
+  { "site_no": "09036000", "station_nm": "WILLIAMS FORK NEAR LEAL, CO." },
+  { "site_no": "09037500", "station_nm": "WILLIAMS FORK NEAR PARSHALL, CO" },
+  {
+    "site_no": "09021000",
+    "station_nm": "WILLOW CREEK BELOW WILLOW CREEK RESERVOIR, CO."
+  },
+  {
+    "site_no": "402033106064001",
+    "station_nm": "WILLOW CREEK PASS SNOW SITE, CO"
+  },
+  {
+    "site_no": "400853105563701",
+    "station_nm": "WILLOW CREEK RESERVOIR NEAR DAM NEAR GRANBY, CO"
+  },
+  {
+    "site_no": "403047105454101",
+    "station_nm": "WILLOW CRK ABV LA POUDRE PASS CRK IN RMNP, CO"
+  },
+  {
+    "site_no": "372900106470000",
+    "station_nm": "WOLF CREEK PASS SNOW SITE, CO"
+  },
+  {
+    "site_no": "09041395",
+    "station_nm": "WOLFORD MTN RESERVOIR NR KREMMLING, CO"
+  },
+  {
+    "site_no": "384048104504901",
+    "station_nm": "WOMACK DITCH FROM L. FOUNTAIN CR NR FT. CARSON, CO"
+  },
+  {
+    "site_no": "385906104495101",
+    "station_nm": "WWTP METEOROLOGICAL STATION AT USAF ACADEMY, CO"
+  },
+  {
+    "site_no": "09244490",
+    "station_nm": "YAMPA RIVER ABOVE ELKHEAD CREEK NEAR HAYDEN, CO"
+  },
+  {
+    "site_no": "09237450",
+    "station_nm": "YAMPA RIVER ABOVE STAGECOACH RESERVOIR, CO"
+  },
+  { "site_no": "09260050", "station_nm": "YAMPA RIVER AT DEERLODGE PARK, CO" },
+  { "site_no": "402840107004200", "station_nm": "YAMPA RIVER AT MILNER, CO." },
+  {
+    "site_no": "09239500",
+    "station_nm": "YAMPA RIVER AT STEAMBOAT SPRINGS, CO"
+  },
+  { "site_no": "09247600", "station_nm": "YAMPA RIVER BELOW CRAIG, CO." },
+  {
+    "site_no": "402544106493600",
+    "station_nm": "YAMPA RIVER BELOW OAK CREEK NR STEAMBOAT SPG,CO."
+  },
+  {
+    "site_no": "09240020",
+    "station_nm": "YAMPA RIVER BELOW SODA CREEK AT STEAMBOAT SPGS, CO"
+  },
+  {
+    "site_no": "09237500",
+    "station_nm": "YAMPA RIVER BELOW STAGECOACH RESERVOIR, CO"
+  },
+  { "site_no": "09251000", "station_nm": "YAMPA RIVER NEAR MAYBELL, CO" },
+  { "site_no": "09306255", "station_nm": "YELLOW CREEK NEAR WHITE RIVER, CO." },
+  {
+    "site_no": "383130104424201",
+    "station_nm": "YOUNG HOLLOW BELOW FORT CARSON NEAR WIGWAM, CO"
+  },
+  {
+    "site_no": "383109104431301",
+    "station_nm": "YOUNG HOLLOW METEOROLOGIC STATION AT FT CARSON, CO"
+  },
+  {
+    "site_no": "403248106411300",
+    "station_nm": "ZIRKELS SOUTH BOUNDARY SNOW SITE, CO"
+  }
+]

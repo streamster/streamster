@@ -1,0 +1,8 @@
+[
+  { "paramCd": "00060", "paramDesc": "Discharge" },
+  { "paramCd": "00065", "paramDesc": "Gage height" },
+  { "paramCd": "00400", "paramDesc": "pH" },
+  { "paramCd": "00095", "paramDesc": "Specific cond at 25C" },
+  { "paramCd": "63680", "paramDesc": "Turbidity, Form Neph" },
+  { "paramCd": "00010", "paramDesc": "Temperature, water" }
+]
