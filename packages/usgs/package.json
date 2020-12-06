@@ -45,6 +45,7 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
+    "ajv": "^6.12.6",
     "axios": "^0.19.2",
     "papaparse": "^5.2.0"
   }
