@@ -1,3 +1,5 @@
+import Ajv from 'ajv';
+
 export function getProperty<T, K extends keyof T>(obj: T, key: K) {
   return obj[key]; // Inferred type is T[K]
 }
@@ -32,6 +34,9 @@ export interface usgsFetchOptions {
 }
 
 export interface usgsDailyService {
+  validate(
+    config: queryParameters
+  ): boolean | Ajv.ErrorObject[] | null | undefined;
   getDailyData(config: usgsConfig): Promise<any>;
 }
 
