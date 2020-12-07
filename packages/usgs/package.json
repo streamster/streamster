@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "@types/papaparse": "^5.0.3",
+    "babel-jest": "^26.6.3",
     "husky": "^4.2.5",
     "lerna": "^3.22.1",
     "tsdx": "^0.13.2",
@@ -46,7 +47,6 @@
   },
   "dependencies": {
     "ajv": "^6.12.6",
-    "axios": "^0.19.2",
-    "papaparse": "^5.2.0"
+    "axios": "^0.19.2"
   }
 }

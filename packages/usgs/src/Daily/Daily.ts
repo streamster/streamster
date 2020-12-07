@@ -1,11 +1,12 @@
 import axios from 'axios';
 import Ajv from 'ajv';
 import { queryParameters, usgsConfig, usgsDailyService } from '../types';
-import { prepareUrl, formatTimeSeriesData } from '../util';
+import prepareUrl from '../lib/prepareUrl';
+import formatTimeSeries from '../lib/formatTimeSeries';
 
 const ajv = new Ajv();
 
-const schema = {
+const queryParamsSchema = {
   type: 'object',
   properties: {
     site: { type: 'string' },
@@ -33,7 +34,7 @@ const schema = {
 
 class Daily implements usgsDailyService {
   public validate(config: queryParameters) {
-    const valid = ajv.compile(schema);
+    const valid = ajv.compile(queryParamsSchema);
     if (valid(config)) {
       return true;
     } else {
@@ -47,15 +48,14 @@ class Daily implements usgsDailyService {
    * @param options
    */
   public async getDailyData(config: usgsConfig) {
-    const url = prepareUrl('daily', config.queryParameters);
     this.validate(config.queryParameters);
-    // validateRequiredParameters(config.queryParameters);
+    const url = prepareUrl('daily', config.queryParameters);
     try {
       const data = await axios.get(url).then((result: any) => {
         if (config.format === 'raw') {
           return result.data;
         }
-        return formatTimeSeriesData(result.data);
+        return formatTimeSeries(result.data);
       });
       return data;
     } catch (err) {

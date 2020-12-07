@@ -46,6 +46,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "generate-schema": "^2.6.0",
     "papaparse": "^5.2.0"
   }
 }
