@@ -19,7 +19,7 @@
   },
   "scripts": {
     "build": "tsdx build",
-    "build:schemas": "node scripts/generateSchemas.js",
+    "build:meta": "node scripts/generateSchemas.js && node scripts/generateTestData.js",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "start": "tsdx watch",
