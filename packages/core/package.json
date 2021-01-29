@@ -22,6 +22,7 @@
     "build": "tsdx build",
     "test": "tsdx test",
     "test:watch": "tsdx test --watchAll",
+    "test:coverage": "tsdx test --coverage",
     "lint": "tsdx lint",
     "prepare": "tsdx build"
   },
@@ -46,6 +47,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "generate-schema": "^2.6.0",
     "papaparse": "^5.2.0"
   }
 }

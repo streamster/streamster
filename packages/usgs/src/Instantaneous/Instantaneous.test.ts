@@ -1,10 +1,11 @@
 import usgs from '../index';
+const instantaneous = usgs.instantaneous();
 
-describe('USGS instantaneous Service Tests: Time Series', () => {
+describe.skip('USGS instantaneous Service Tests: Time Series', () => {
   test('Single Site (Specific Dates): Returns data', async () => {
     jest.setTimeout(10000);
     try {
-      const data = await usgs.instantaneous().getInstantaneousData({
+      const data = await instantaneous.getInstantaneousData({
         format: 'raw',
         queryParameters: {
           sites: '09361500',
@@ -23,7 +24,7 @@ describe('USGS instantaneous Service Tests: Time Series', () => {
   test('Single State (Specific Dates): Returns data', async () => {
     jest.setTimeout(30000);
     try {
-      const data = await usgs.instantaneous().getInstantaneousData({
+      const data = await instantaneous.getInstantaneousData({
         format: 'raw',
         queryParameters: {
           stateCd: 'co',
@@ -42,7 +43,7 @@ describe('USGS instantaneous Service Tests: Time Series', () => {
   test('Single HUC (Specific Dates): Returns data in expected shape', async () => {
     jest.setTimeout(30000);
     try {
-      const data = await usgs.instantaneous().getInstantaneousData({
+      const data = await instantaneous.getInstantaneousData({
         format: 'raw',
         queryParameters: {
           huc: '14080104',
@@ -61,7 +62,7 @@ describe('USGS instantaneous Service Tests: Time Series', () => {
   test('Bounding Box (Specific Dates): Returns data in expected shape', async () => {
     jest.setTimeout(30000);
     try {
-      const data = await usgs.instantaneous().getInstantaneousData({
+      const data = await instantaneous.getInstantaneousData({
         format: 'raw',
         queryParameters: {
           bBox: '-108.115341,37.031969,-107.385747,37.424825',
@@ -80,7 +81,7 @@ describe('USGS instantaneous Service Tests: Time Series', () => {
   test('Single County (Specific Dates): Returns data in expected shape', async () => {
     jest.setTimeout(30000);
     try {
-      const data = await usgs.instantaneous().getInstantaneousData({
+      const data = await instantaneous.getInstantaneousData({
         format: 'raw',
         queryParameters: {
           countyCd: '08067',
@@ -99,7 +100,7 @@ describe('USGS instantaneous Service Tests: Time Series', () => {
   test('Single Site (Period): Returns data in expected shape', async () => {
     jest.setTimeout(30000);
     try {
-      const data = await usgs.instantaneous().getInstantaneousData({
+      const data = await instantaneous.getInstantaneousData({
         format: 'raw',
         queryParameters: {
           sites: '09361500',

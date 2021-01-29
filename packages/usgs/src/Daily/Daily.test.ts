@@ -24,8 +24,10 @@ describe('USGS Daily Service Tests: Config Validation', () => {
 });
 
 describe('USGS Daily Service Tests: Time Series', () => {
-  test('Single Site (Specific Dates): Returns data', async () => {
+  beforeEach(() => {
     jest.setTimeout(10000);
+  });
+  test('Single Site (Specific Dates): Returns data', async () => {
     try {
       const data = await daily.getDailyData({
         format: 'raw',
@@ -44,7 +46,6 @@ describe('USGS Daily Service Tests: Time Series', () => {
   });
 
   test('Single State (Specific Dates): Returns data', async () => {
-    jest.setTimeout(10000);
     try {
       const data = await daily.getDailyData({
         format: 'raw',
@@ -63,7 +64,6 @@ describe('USGS Daily Service Tests: Time Series', () => {
   });
 
   test('Single HUC (Specific Dates): Returns data in expected shape', async () => {
-    jest.setTimeout(10000);
     try {
       const data = await daily.getDailyData({
         format: 'raw',
@@ -82,7 +82,6 @@ describe('USGS Daily Service Tests: Time Series', () => {
   });
 
   test('Bounding Box (Specific Dates): Returns data in expected shape', async () => {
-    jest.setTimeout(10000);
     try {
       const data = await daily.getDailyData({
         format: 'raw',
@@ -101,7 +100,6 @@ describe('USGS Daily Service Tests: Time Series', () => {
   });
 
   test('Single County (Specific Dates): Returns data in expected shape', async () => {
-    jest.setTimeout(10000);
     try {
       const data = await daily.getDailyData({
         format: 'raw',
@@ -120,7 +118,6 @@ describe('USGS Daily Service Tests: Time Series', () => {
   });
 
   test('Single Site (Period): Returns data in expected shape', async () => {
-    jest.setTimeout(10000);
     try {
       const data = await daily.getDailyData({
         format: 'raw',
