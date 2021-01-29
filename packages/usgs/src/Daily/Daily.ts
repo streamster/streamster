@@ -2,10 +2,34 @@ import axios from 'axios';
 import Ajv from 'ajv';
 import { queryParameters, usgsConfig, usgsDailyService } from '../types';
 import prepareUrl from '../lib/prepareUrl';
-import formatTimeSeries from '../lib/formatTimeSeries';
+import { transform } from '@streamster/coyote';
 
+// initialize our schema validator
 const ajv = new Ajv();
 
+/**
+ * Define the schema for the USGS Daily Values service
+ * The output format is a little brutal and requires quite a bit
+ * of restructuring.
+ * A sample response can be found at
+ * https://waterservices.usgs.gov/nwis/dv/?format=json&sites=01646500&siteStatus=all
+ */
+const dailySchema = {
+  date: 'value.timeSeries.*.values[0].value.*.dateTime',
+  siteId: 'value.timeSeries.*.sourceInfo.siteCode[0].value',
+  siteName: 'value.timeSeries.*.sourceInfo.siteName',
+  parameterId: 'value.timeSeries.*.variable.variableCode[0].value',
+  parameter: 'value.timeSeries.*.variable.variableName',
+  units: 'value.timeSeries.*.variable.unit.unitCode',
+  value: 'value.timeSeries.*.values[0].value.*.value',
+  qualifiers: 'value.timeSeries.*.values[0].value.*.qualifiers',
+};
+
+/**
+ * Define our schema for the query parameters that can be passed
+ * to the Daily service.
+ * This schema used as part of the schema validation step
+ */
 const queryParamsSchema = {
   type: 'object',
   properties: {
@@ -33,6 +57,15 @@ const queryParamsSchema = {
 };
 
 class Daily implements usgsDailyService {
+  /**
+   * Validation utility that compares the provided arguments
+   * against the defined schema
+   * AJV makes this super easy
+   * @param config provided arguments to the Daily service that
+   * need to be validated
+   * @returns {boolean | array} returns true if no errors and an array
+   * of errors if errors encountered
+   */
   public validate(config: queryParameters) {
     const valid = ajv.compile(queryParamsSchema);
     if (valid(config)) {
@@ -55,7 +88,10 @@ class Daily implements usgsDailyService {
         if (config.format === 'raw') {
           return result.data;
         }
-        return formatTimeSeries(result.data);
+        return transform({
+          data: result.data,
+          schema: dailySchema,
+        });
       });
       return data;
     } catch (err) {

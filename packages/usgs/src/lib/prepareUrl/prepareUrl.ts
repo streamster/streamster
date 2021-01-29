@@ -30,7 +30,7 @@ export default (
 
   const format = service === 'sites' ? 'rdb' : 'json';
   return constructUrl(
-    `https://waterservices.usgs.gov/nwis/${serviceMapped}/?format=${format}`,
+    `https://waterservices.usgs.gov/nwis/${serviceMapped}/?format=${format}&`,
     queryParameters
   );
 };
