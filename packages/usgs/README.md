@@ -1,7 +1,17 @@
 # @streamster/usgs
 
-Streamster is a JavaScript library designed to make working with water resource related APIs simpler. Currently, Streamster supports querying the [USGS Daily Values](https://waterservices.usgs.gov/rest/DV-Test-Tool.html) and [USGS Instantaneous Values](https://waterservices.usgs.gov/rest/IV-Test-Tool.html) services. It is still very much a work in progress, but currently allows querying by a variety location, parameter, and time period arguments.
+Firstly, a big thanks to the folks over at USGS for all of their hardwork in developing their Water Services. Much much appreciated!
 
-## Roadmap
+@streamster/usgs is a JavaScript library designed to make working with the USGS Water Services significantly easier. Currently, the package provides a way to easily query the Daily and Instantaneous services. The data can be returned from the service as is or re-structured to a more friendly time-series format that is easy to display in a table or chart.
 
-I am hoping to add support for all of [USGS Water Services](https://waterservices.usgs.gov) as well as the some of the Colorado DWR web services.
+## Getting Started
+
+To install the package
+
+```bash
+# yarn
+yarn add @streamster/usgs
+
+# npm
+npm install @streamster/usgs
+```
