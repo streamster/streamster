@@ -14,9 +14,12 @@ There are a number of packages available through Streamster. To get started with
 
 ### Available Packages
 
-- **@streamster/usgs**: package used to access the USGS Water Services (https://waterservices.usgs.gov/)
-- **@streamster/coyote**: package used to transform data structure to match a provided schema
-- **@streamster/core**: utilities shared between packages
+- **@streamster/usgs**: 
+  - package used to access the USGS Water Services (https://waterservices.usgs.gov/)
+- **@streamster/coyote**: 
+  - package used to transform data structure to match a provided schema
+- **@streamster/core**: 
+  - utilities shared between packages
 
 ## Roadmap
 
