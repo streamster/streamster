@@ -26,6 +26,8 @@ const instantaneousSchema = {
   units: 'value.timeSeries.*.variable.unit.unitCode',
   value: 'value.timeSeries.*.values[0].value.*.value',
   qualifiers: 'value.timeSeries.*.values[0].value.*.qualifiers',
+  latitude: 'value.timeSeries.*.sourceInfo.geoLocation.geogLocation.latitude',
+  longitude: 'value.timeSeries.*.sourceInfo.geoLocation.geogLocation.longitude',
 };
 
 /**
