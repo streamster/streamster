@@ -1,6 +1,6 @@
 # @streamster/usgs
 
-> Streamster is still very much a work in progress. Features and implementations are likely to change.
+> :warning: Streamster is still very much a work in progress. Features and implementations are likely to change.
 
 Firstly, a big thanks to the folks over at USGS for all of their hardwork in developing their Water Services. Much much appreciated!
 
