@@ -1,6 +1,6 @@
 # Streamster
 
-> Streamster is still very much a work in progress. Features and implementations are likely to change.
+> :warning: Streamster is still very much a work in progress. Features and implementations are likely to change.
 
 Streamster is a JavaScript library designed to make working with natural resource related APIs simpler. There are a slew of awesome public APIs out there for things like water, air, and snow, but they all vary significantly in terms of ease of use. The aim of this library is to
 
