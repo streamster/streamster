@@ -11,11 +11,11 @@
     "dist",
     "src"
   ],
-  "engines": {
-    "node": ">=10"
-  },
   "publishConfig": {
     "access": "public"
+  },
+  "engines": {
+    "node": ">=10"
   },
   "scripts": {
     "start": "tsdx watch",
