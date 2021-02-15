@@ -23,7 +23,7 @@ describe('USGS Daily Service Tests: Config Validation', () => {
   });
 });
 
-describe('USGS Daily Service Tests: Time Series', () => {
+describe('USGS Daily Service Tests: Successfully retrieves data', () => {
   beforeEach(() => {
     jest.setTimeout(10000);
   });
@@ -63,7 +63,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
     }
   });
 
-  test('Single HUC (Specific Dates): Returns data in expected shape', async () => {
+  test('Single HUC (Specific Dates): Returns data', async () => {
     try {
       const data = await daily.getDailyData({
         format: 'raw',
@@ -81,7 +81,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
     }
   });
 
-  test('Bounding Box (Specific Dates): Returns data in expected shape', async () => {
+  test('Bounding Box (Specific Dates): Returns data', async () => {
     try {
       const data = await daily.getDailyData({
         format: 'raw',
@@ -99,7 +99,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
     }
   });
 
-  test('Single County (Specific Dates): Returns data in expected shape', async () => {
+  test('Single County (Specific Dates): Returns data', async () => {
     try {
       const data = await daily.getDailyData({
         format: 'raw',
@@ -117,7 +117,7 @@ describe('USGS Daily Service Tests: Time Series', () => {
     }
   });
 
-  test('Single Site (Period): Returns data in expected shape', async () => {
+  test('Single Site (Period): Returns data', async () => {
     try {
       const data = await daily.getDailyData({
         format: 'raw',
@@ -129,6 +129,78 @@ describe('USGS Daily Service Tests: Time Series', () => {
         },
       });
       expect(data.value.timeSeries.length).toBeGreaterThan(0);
+    } catch (err) {
+      console.error(err);
+    }
+  });
+});
+
+describe.only('USGS Daily Service Tests: Successfully transforms data', () => {
+  beforeEach(() => {
+    jest.setTimeout(10000);
+  });
+
+  test('Returns time series data in expected shape', async () => {
+    const expectedKeys = [
+      'date',
+      'siteId',
+      'siteName',
+      'parameterId',
+      'parameter',
+      'units',
+      'value',
+      'qualifiers',
+      'latitude',
+      'longitude',
+    ];
+    try {
+      const data = await daily.getDailyData({
+        format: 'time-series',
+        queryParameters: {
+          sites: '09361500',
+          siteStatus: 'active',
+          parameterCd: '00060',
+        },
+      });
+      const keys = Object.keys(data[0]);
+      expect(data.length).toBe(1);
+      expect(keys).toEqual(expectedKeys);
+    } catch (err) {
+      console.error(err);
+    }
+  });
+
+  test('Returns time series geojson data in expected shape', async () => {
+    const expectedTopLevelKeys = ['type', 'features'];
+    const expectedFeatureKeys = ['type', 'geometry', 'properties'];
+    const expectedPropKeys = [
+      'date',
+      'siteId',
+      'siteName',
+      'parameterId',
+      'parameter',
+      'units',
+      'value',
+      'qualifiers',
+      'latitude',
+      'longitude',
+    ];
+    try {
+      const data = await daily.getDailyData({
+        format: 'time-series-geojson',
+        queryParameters: {
+          sites: '09361500',
+          siteStatus: 'active',
+          parameterCd: '00060',
+        },
+      });
+      const topLevelKeys = Object.keys(data);
+      const featureKeys = Object.keys(data.features[0]);
+      const propertyKeys = Object.keys(data.features[0].properties);
+      expect(data.features.length).toBe(1);
+      expect(topLevelKeys).toEqual(expectedTopLevelKeys);
+      expect(featureKeys).toEqual(expectedFeatureKeys);
+      expect(propertyKeys).toEqual(expectedPropKeys);
     } catch (err) {
       console.error(err);
     }

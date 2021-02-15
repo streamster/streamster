@@ -87,13 +87,47 @@ class Daily implements usgsDailyService {
     const url = prepareUrl('daily', config.queryParameters);
     try {
       const data = await axios.get(url).then((result: any) => {
+        // todo type me
         if (config.format === 'raw') {
           return result.data;
+        } else if (config.format === 'time-series-geojson') {
+          const timeSeries = [
+            ...transform({
+              data: result.data,
+              schema: dailySchema,
+            }),
+          ];
+          if (!timeSeries) return [];
+          const fields = Object.keys(timeSeries[0]);
+          const geojson = {
+            type: 'FeatureCollection',
+            // todo type me
+            features: timeSeries.map((rec: any) => {
+              return {
+                type: 'Feature',
+                geometry: {
+                  type: 'Point',
+                  coordinates: [rec.longitude, rec.latitude],
+                },
+                properties: fields.reduce(
+                  (acc: { [key: string]: any }, curr: string) => {
+                    acc[curr] = rec[curr];
+                    return acc;
+                  },
+                  {}
+                ),
+              };
+            }),
+          };
+          return geojson;
+        } else {
+          return [
+            ...transform({
+              data: result.data,
+              schema: dailySchema,
+            }),
+          ];
         }
-        return transform({
-          data: result.data,
-          schema: dailySchema,
-        });
       });
       return data;
     } catch (err) {

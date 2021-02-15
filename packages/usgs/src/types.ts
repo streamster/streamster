@@ -5,7 +5,7 @@ export function getProperty<T, K extends keyof T>(obj: T, key: K) {
 }
 
 export type Services = 'instantaneous' | 'daily' | 'sites';
-export type Format = 'raw' | 'time-series';
+export type Format = 'raw' | 'time-series' | 'time-series-geojson';
 
 export interface queryParameters {
   [key: string]: string | undefined;
