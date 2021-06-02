@@ -1,1 +1,1 @@
-export { default as generators } from './generators';
+export { constructUrl, generateSchema } from './lib';

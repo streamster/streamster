@@ -1,7 +1,6 @@
-const { generators } = require('@streamster/core');
+const { generateSchema } = require('@streamster/core');
 const axios = require('axios');
 const { dailyUrl, instantaneousUrl } = require('./constants');
-const { generateSchema } = generators;
 
 async function buildSchemas() {
   try {

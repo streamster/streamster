@@ -1,4 +1,4 @@
-import constructUrl from '.';
+import { constructUrl } from '.';
 
 describe('constructUrl', () => {
   test('Returns a properly constructed url.', () => {

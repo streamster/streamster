@@ -1,7 +1,5 @@
-import { generators } from '@streamster/core';
+import { constructUrl } from '@streamster/core';
 import { queryParameters, Services } from '../../types';
-
-const { constructUrl } = generators;
 
 const serviceLookup = {
   daily: 'dv',

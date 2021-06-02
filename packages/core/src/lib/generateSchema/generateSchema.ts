@@ -1,7 +1,7 @@
 import fs from 'fs';
 const GenerateSchema = require('generate-schema');
 
-export default (name: string, path: string, data: any) => {
+export function generateSchema(name: string, path: string, data: any) {
   const schema = JSON.stringify(GenerateSchema.json(name, data));
   try {
     if (fs.existsSync(path)) {
@@ -12,4 +12,4 @@ export default (name: string, path: string, data: any) => {
   } catch (err) {
     console.error(`error: Error generating the ${name} schema. ${err}`);
   }
-};
+}

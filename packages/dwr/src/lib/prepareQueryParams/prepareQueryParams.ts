@@ -1,9 +1,4 @@
-import {
-  LocationSearch,
-  NumericOperators,
-  QueryParameters,
-  StringOperators,
-} from '../../types';
+import { LocationSearch, NumericOperators, StringOperators } from '../../types';
 
 /**
  * Lookup table for translating operators into the DWR specific format
@@ -15,6 +10,9 @@ const stringFilterOperatorLookup = {
   contains: '*{val}*',
 };
 
+/**
+ * Valid key lookups
+ */
 const stringFilterOperators = Object.keys(stringFilterOperatorLookup);
 const locationSearchKeys = ['latitude', 'longitude', 'radius', 'units'];
 
@@ -66,7 +64,13 @@ function reducer(acc: Acc, curr: Curr) {
   return acc;
 }
 
-export function prepareQueryParams(queryParameters: QueryParameters) {
+/**
+ * Utility used to take DWR query parameters expressed in the standard
+ * Streamster object schema and translate to the DWR specific query parameter format
+ * @param queryParameters
+ * @returns {object} finalQueryParameters Translated query parameters
+ */
+export function prepareQueryParams<T>(queryParameters: T) {
   const entries = Object.entries(queryParameters);
   return entries.reduce(reducer, {});
 }
