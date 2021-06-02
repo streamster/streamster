@@ -2293,7 +2293,7 @@
   dependencies:
     semver "7.3.5"
 
-"@size-limit/preset-small-lib@^4.9.1":
+"@size-limit/preset-small-lib@^4.11.0", "@size-limit/preset-small-lib@^4.9.1":
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/@size-limit/preset-small-lib/-/preset-small-lib-4.11.0.tgz#1519907d55bb681e88faeb0901912e9523e3db61"
   integrity sha512-+McnY9jHr5hNm9PoUkInzRIn9aNNW2BVmHaACLN892bkfaHmQ6lAj4qe6czuypq8xHJl2IdIFGu+CEsyEC1baA==
@@ -6286,6 +6286,11 @@ husky@^4.2.5, husky@^4.3.5:
     please-upgrade-node "^3.2.0"
     slash "^3.0.0"
     which-pm-runs "^1.0.0"
+
+husky@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-6.0.0.tgz#810f11869adf51604c32ea577edbc377d7f9319e"
+  integrity sha512-SQS2gDTB7tBN486QSoKPKQItZw97BMOd+Kdb6ghfpBc0yXyzrddI0oDV5MkDAbuB4X2mO3/nj60TRMcYxwzZeQ==
 
 iconv-lite@0.4.24, iconv-lite@^0.4.24:
   version "0.4.24"
@@ -10914,7 +10919,7 @@ sisteransi@^1.0.5:
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
   integrity sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
 
-size-limit@^4.9.1:
+size-limit@^4.11.0, size-limit@^4.9.1:
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/size-limit/-/size-limit-4.11.0.tgz#61b325752e1978615ff9acc0745438ee3272172b"
   integrity sha512-vguQEHxnBt0ldv4Q1gMkjSKNpCtH5/eXLbVqUumMvUOcA2BI/I82wTe7Ag3it5hKdbZYebDmRutDizxNsvpUAw==
@@ -11948,7 +11953,7 @@ tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.0, tslib@^2.0.3:
+tslib@^2.0.0, tslib@^2.0.3, tslib@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
   integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
@@ -12036,7 +12041,7 @@ typescript@^3.7.3, typescript@^3.9.5:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.9.tgz#e69905c54bc0681d0518bd4d587cc6f2d0b1a674"
   integrity sha512-kdMjTiekY+z/ubJCATUPlRDl39vXYiMV9iyeMuEuXZh2we6zz80uovNN2WlAxmmdE/Z/YQe+EbOEXB5RHEED3w==
 
-typescript@^4.1.2:
+typescript@^4.1.2, typescript@^4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.2.tgz#399ab18aac45802d6f2498de5054fcbbe716a805"
   integrity sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==
