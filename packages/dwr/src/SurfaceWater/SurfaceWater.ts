@@ -1,5 +1,6 @@
 import axios from 'axios';
 import Ajv from 'ajv';
+import { GetStationsSchema } from './schemas';
 import { prepareUrl } from '../lib/prepareUrl';
 import {
   SurfaceWaterService,
@@ -11,89 +12,6 @@ import {
 
 // initialize our schema validator
 const ajv = new Ajv();
-
-const StringOperatorsSchema = {
-  oneOf: [
-    { type: 'string' },
-    {
-      type: 'object',
-      properties: {
-        equal: { type: 'string' },
-        contains: { type: 'string' },
-        startsWith: { type: 'string' },
-        endsWith: { type: 'string' },
-      },
-      oneOf: [
-        { required: ['equal'] },
-        { required: ['contains'] },
-        { required: ['startsWith'] },
-        { required: ['endsWith'] },
-      ],
-    },
-  ],
-};
-
-const NumericOperatorsSchema = {
-  oneOf: [
-    { type: 'number' },
-    {
-      type: 'object',
-      properties: {
-        equal: { type: 'number' },
-        min: { type: 'number' },
-        max: { type: 'number' },
-      },
-      oneOf: [
-        { required: ['equal'] },
-        { required: ['min'] },
-        { required: ['max'] },
-      ],
-    },
-  ],
-};
-
-/**
- * Define our schema for the query parameters that can be passed
- * to the Daily service.
- * This schema used as part of the schema validation step
- */
-export const GetStationsSchema = {
-  type: 'object',
-  properties: {
-    format: {
-      type: 'string',
-      enum: ['json', 'xml', 'csv', 'tsx', 'geojson'],
-    },
-    encoding: {
-      type: 'string',
-      enum: ['gzip', 'deflate'],
-    },
-    fields: {
-      type: 'array',
-      items: { type: 'string' },
-    },
-    abbrev: StringOperatorsSchema,
-    county: StringOperatorsSchema,
-    division: NumericOperatorsSchema,
-    modified: { type: 'string' },
-    stationName: StringOperatorsSchema,
-    usgsSiteId: StringOperatorsSchema,
-    waterDistrict: NumericOperatorsSchema,
-    location: {
-      type: 'object',
-      properties: {
-        latitude: { type: 'number' },
-        longitude: { type: 'number' },
-        radius: { type: 'number' },
-        units: { type: 'string', enum: ['feet', 'miles'] },
-      },
-    },
-    pageSize: { type: 'number' },
-    pageIndex: { type: 'number' },
-    apiKey: { type: 'string' },
-  },
-  additionalProperties: false,
-};
 
 class SurfaceWater implements SurfaceWaterService {
   /**

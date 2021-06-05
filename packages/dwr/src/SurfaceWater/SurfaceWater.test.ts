@@ -1,5 +1,5 @@
 import dwr from '../index';
-import { GetStationsSchema } from './SurfaceWater';
+import { GetStationsSchema } from './schemas';
 const surfaceWater = dwr.surfaceWater();
 
 describe('DWR Surface Water Tests: Config Validation', () => {
