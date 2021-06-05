@@ -56,11 +56,6 @@ const BasicStringArray = {
 const BasicString = { type: 'string' };
 const BasicNumber = { type: 'number' };
 
-/**
- * Define our schema for the query parameters that can be passed
- * to the Daily service.
- * This schema used as part of the schema validation step
- */
 export const GetStationsSchema = {
   type: 'object',
   properties: {
@@ -71,6 +66,36 @@ export const GetStationsSchema = {
     county: StringOperatorsSchema,
     division: NumericOperatorsSchema,
     modified: BasicString,
+    stationName: StringOperatorsSchema,
+    usgsSiteId: StringOperatorsSchema,
+    waterDistrict: NumericOperatorsSchema,
+    location: {
+      type: 'object',
+      properties: {
+        latitude: BasicNumber,
+        longitude: BasicNumber,
+        radius: BasicNumber,
+        units: { type: 'string', enum: ['feet', 'miles'] },
+      },
+    },
+    pageSize: BasicNumber,
+    pageIndex: BasicNumber,
+    apiKey: BasicString,
+  },
+  additionalProperties: false,
+};
+
+export const GetStationDataTypesSchema = {
+  type: 'object',
+  properties: {
+    format: Formats,
+    encoding: Encoding,
+    fields: BasicStringArray,
+    abbrev: StringOperatorsSchema,
+    county: StringOperatorsSchema,
+    division: NumericOperatorsSchema,
+    measType: StringOperatorsSchema,
+    porLastModified: BasicString,
     stationName: StringOperatorsSchema,
     usgsSiteId: StringOperatorsSchema,
     waterDistrict: NumericOperatorsSchema,

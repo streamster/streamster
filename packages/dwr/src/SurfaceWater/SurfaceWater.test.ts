@@ -29,7 +29,7 @@ describe('DWR Surface Water Tests: Successfully retrieves data', () => {
   });
   test.skip('Station Info: Works with no args', async () => {});
   test.skip('Station Info: Works with no provided query parameters', async () => {});
-  test('Station Info: Returns raw data', async () => {
+  test('Stations: Returns raw data', async () => {
     try {
       const data = await surfaceWater.getStations({
         format: 'raw',
@@ -44,7 +44,7 @@ describe('DWR Surface Water Tests: Successfully retrieves data', () => {
       console.error(err);
     }
   });
-  test('Station Info: Returns pretty data', async () => {
+  test('Stations: Returns pretty data', async () => {
     try {
       const data = await surfaceWater.getStations({
         format: 'pretty',
@@ -74,6 +74,58 @@ describe('DWR Surface Water Tests: Successfully retrieves data', () => {
         'modified',
         'moreInformation',
         'measUnit',
+      ];
+      expect(data.length).toBe(expectedLength);
+      expect(Object.keys(data[0])).toEqual(expectedKeys);
+    } catch (err) {
+      console.error(err);
+    }
+  });
+  test('Station Data Types: Returns raw data', async () => {
+    try {
+      const data = await surfaceWater.getStationDataTypes({
+        format: 'raw',
+        queryParameters: {
+          format: 'json',
+          county: 'La Plata',
+        },
+      });
+      const expectedLength = 52;
+      expect(data.ResultCount).toBe(expectedLength);
+    } catch (err) {
+      console.error(err);
+    }
+  });
+  test('Station Data Types: Returns pretty data', async () => {
+    try {
+      const data = await surfaceWater.getStationDataTypes({
+        format: 'pretty',
+        queryParameters: {
+          format: 'json',
+          county: 'La Plata',
+        },
+      });
+      const expectedLength = 52;
+      const expectedKeys = [
+        'stationNum',
+        'abbrev',
+        'usgsSiteId',
+        'stationName',
+        'dataSource',
+        'division',
+        'waterDistrict',
+        'county',
+        'st',
+        'utmX',
+        'utmY',
+        'latdecdeg',
+        'longdecdeg',
+        'locationAccuracy',
+        'measType',
+        'measUnit',
+        'porStart',
+        'porEnd',
+        'porLastModified',
       ];
       expect(data.length).toBe(expectedLength);
       expect(Object.keys(data[0])).toEqual(expectedKeys);

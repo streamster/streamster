@@ -1,10 +1,11 @@
 import axios from 'axios';
 import Ajv from 'ajv';
-import { GetStationsSchema } from './schemas';
+import { GetStationsSchema, GetStationDataTypesSchema } from './schemas';
 import { prepareUrl } from '../lib/prepareUrl';
 import {
   SurfaceWaterService,
   GetStationsArgs,
+  GetStationDataTypesArgs,
   Services,
   SubServices,
   GenericObject,
@@ -52,6 +53,33 @@ class SurfaceWater implements SurfaceWaterService {
     const url = this.prepareUrl(
       'surfacewater',
       'surfacewaterstations',
+      finalQueryParameters
+    );
+    try {
+      const data = await axios.get(url).then((result: any) => {
+        if (format === 'pretty') {
+          return result.data.ResultList;
+        }
+        return result.data;
+      });
+      return data;
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  public async getStationDataTypes(config: GetStationDataTypesArgs) {
+    this.validate(config.queryParameters, GetStationDataTypesSchema);
+    const finalQueryParameters = {
+      format: 'json',
+      dateFormat: 'spaceSeparated',
+      encoding: 'gzip',
+      ...config.queryParameters,
+    };
+    const format = config?.format || 'pretty';
+    const url = this.prepareUrl(
+      'surfacewater',
+      'surfacewaterstationdatatypes',
       finalQueryParameters
     );
     try {

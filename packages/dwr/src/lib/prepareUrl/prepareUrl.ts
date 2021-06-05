@@ -5,7 +5,10 @@ import { Services, SubServices } from '../../types';
 const baseUrl = 'https://dwr.state.co.us/Rest/GET/api/v2';
 
 const validServices = ['surfacewater'];
-const validSubServices = ['surfacewaterstations'];
+const validSubServices = [
+  'surfacewaterstations',
+  'surfacewaterstationdatatypes',
+];
 
 /**
  * Generates a request URL to the requested DWR service and sub-service endpoint

@@ -1,6 +1,6 @@
 import { ErrorObject } from 'ajv';
 export type GenericObject = { [key: string]: any };
-
+export type StreamsterFormats = 'raw' | 'pretty';
 export type Services = 'surfacewater';
 export type SubServices =
   | 'surfacewaterstations'
@@ -49,9 +49,37 @@ export interface GetStationQueryParameters {
   apiKey?: string;
 }
 
+export interface GetStationDataTypesQueryParameters {
+  format?: Formats;
+  encoding?: Encodings;
+  fields?: string[];
+  abbrev?: QueryParameter<string>;
+  county?: QueryParameter<string>;
+  division?: QueryParameter<number>;
+  measType?: QueryParameter<string>;
+  porLastmodified?: string;
+  stationName?: QueryParameter<string>;
+  usgsSiteId?: QueryParameter<string>;
+  waterDistrict?: QueryParameter<number>;
+  location?: {
+    latitude: number;
+    longitude: number;
+    radius: number;
+    units: 'feet' | 'miles';
+  };
+  pageSize?: number;
+  pageIndex?: number;
+  apiKey?: string;
+}
+
 export interface GetStationsArgs {
-  format?: 'raw' | 'pretty';
+  format?: StreamsterFormats;
   queryParameters?: GetStationQueryParameters;
+}
+
+export interface GetStationDataTypesArgs {
+  format?: StreamsterFormats;
+  queryParameters?: GetStationDataTypesQueryParameters;
 }
 
 export interface SurfaceWaterService {
@@ -69,6 +97,7 @@ export interface SurfaceWaterService {
     queryParameters: T
   ): string;
   getStations(config: GetStationsArgs): Promise<any>;
+  getStationDataTypes(config: GetStationDataTypesArgs): Promise<any>;
 }
 
 export interface DwrService {
