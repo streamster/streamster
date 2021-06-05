@@ -10,6 +10,7 @@ describe('prepareQueryParams', () => {
       radius: 1,
       units: 'miles',
       county: 'La Plata',
+      'min-modified': '05-31-2021_00:30',
       'min-division': 1,
       'max-division': 4,
       'min-waterDistrict': 8,
@@ -27,6 +28,7 @@ describe('prepareQueryParams', () => {
       waterDistrict: {
         min: 8,
       },
+      modified: '05-31-2021_00:30',
       location: {
         latitude: 45,
         longitude: -107,

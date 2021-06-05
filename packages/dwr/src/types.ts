@@ -1,14 +1,19 @@
+import { ErrorObject } from 'ajv';
+export type GenericObject = { [key: string]: any };
+
 export type Services = 'surfacewater';
-export type SubServices = 'surfacewaterstations';
+export type SubServices =
+  | 'surfacewaterstations'
+  | 'surfacewaterstationdatatypes';
 export type Formats = 'json' | 'xml' | 'csv' | 'tsx' | 'geojson';
 export type Encodings = 'gzip' | 'deflate';
 
 export type StringOperators = 'equal' | 'contains' | 'startsWith' | 'endsWith';
 export type NumericOperators = 'equal' | 'min' | 'max';
 export interface LocationSearch {
-  latitude: Number;
-  longitude: Number;
-  radius: Number;
+  latitude: number;
+  longitude: number;
+  radius: number;
   units: 'feet' | 'miles';
 }
 
@@ -23,36 +28,41 @@ export type QueryParameter<T> =
   | LocationSearch;
 
 export interface GetStationQueryParameters {
-  format: Formats;
+  format?: Formats;
   encoding?: Encodings;
   fields?: string[];
-  abbrev?: QueryParameter<String>;
-  county?: QueryParameter<String>;
-  division?: QueryParameter<Number>;
-  modified?: {
-    date: string;
-    time: string;
-  };
-  stationName?: QueryParameter<String>;
-  usgsSiteId?: QueryParameter<String>;
-  waterDistrict?: QueryParameter<Number>;
+  abbrev?: QueryParameter<string>;
+  county?: QueryParameter<string>;
+  division?: QueryParameter<number>;
+  modified?: string;
+  stationName?: QueryParameter<string>;
+  usgsSiteId?: QueryParameter<string>;
+  waterDistrict?: QueryParameter<number>;
   location?: {
-    latitude: Number;
-    longitude: Number;
-    radius: Number;
+    latitude: number;
+    longitude: number;
+    radius: number;
     units: 'feet' | 'miles';
   };
-  pageSize?: Number;
-  pageIndex?: Number;
+  pageSize?: number;
+  pageIndex?: number;
   apiKey?: string;
 }
 
 export interface GetStationsArgs {
-  format: 'raw';
-  queryParameters: GetStationQueryParameters;
+  format?: 'raw' | 'pretty';
+  queryParameters?: GetStationQueryParameters;
 }
 
 export interface SurfaceWaterService {
+  validate<T>(
+    queryParameters: T,
+    schema: GenericObject
+  ):
+    | boolean
+    | ErrorObject<string, Record<string, any>, unknown>[]
+    | null
+    | undefined;
   prepareUrl<T>(
     service: Services,
     subService: SubServices,

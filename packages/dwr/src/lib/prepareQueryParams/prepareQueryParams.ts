@@ -59,7 +59,11 @@ function reducer(acc: Acc, curr: Curr) {
       }
     });
   } else {
-    acc[field] = filter;
+    if (field === 'modified') {
+      acc['min-modified'] = filter;
+    } else {
+      acc[field] = filter;
+    }
   }
   return acc;
 }

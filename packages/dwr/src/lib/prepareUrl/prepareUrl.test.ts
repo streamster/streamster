@@ -22,7 +22,7 @@ describe('prepareUrl', () => {
   });
   test('URL Generates Correctly', () => {
     const expected =
-      'https://dwr.state.co.us/Rest/GET/api/v2/surfacewater/surfacewaterstations?format=json&abbrev=FID*&county=La Plata&min-division=1&max-division=4&latitude=45&longitude=-107&radius=1&units=miles&pageSize=30';
+      'https://dwr.state.co.us/Rest/GET/api/v2/surfacewater/surfacewaterstations?format=json&abbrev=FID*&county=La Plata&min-division=1&max-division=4&latitude=45&longitude=-107&radius=1&units=miles&min-modified=05-31-2021_00:30&pageSize=30';
     const url = prepareUrl<GetStationQueryParameters>(
       'surfacewater',
       'surfacewaterstations',
@@ -42,6 +42,7 @@ describe('prepareUrl', () => {
           radius: 1,
           units: 'miles',
         },
+        modified: '05-31-2021_00:30',
         pageSize: 30,
       }
     );
