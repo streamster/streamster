@@ -1,5 +1,5 @@
 import dwr from '../index';
-import { StationsSchema } from './SurfaceWater';
+import { GetStationsSchema } from './SurfaceWater';
 const surfaceWater = dwr.surfaceWater();
 
 describe('DWR Surface Water Tests: Config Validation', () => {
@@ -8,7 +8,7 @@ describe('DWR Surface Water Tests: Config Validation', () => {
       {
         format: 'bad format',
       },
-      StationsSchema
+      GetStationsSchema
     );
     expect(valid.length).toBeGreaterThan(0);
   });
@@ -17,7 +17,7 @@ describe('DWR Surface Water Tests: Config Validation', () => {
       {
         format: 'json',
       },
-      StationsSchema
+      GetStationsSchema
     );
     expect(valid).toBe(true);
   });

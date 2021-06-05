@@ -57,7 +57,7 @@ const NumericOperatorsSchema = {
  * to the Daily service.
  * This schema used as part of the schema validation step
  */
-export const StationsSchema = {
+export const GetStationsSchema = {
   type: 'object',
   properties: {
     format: {
@@ -123,7 +123,7 @@ class SurfaceWater implements SurfaceWaterService {
   }
 
   public async getStations(config: GetStationsArgs) {
-    this.validate(config.queryParameters, StationsSchema);
+    this.validate(config.queryParameters, GetStationsSchema);
     const finalQueryParameters = {
       format: 'json',
       dateFormat: 'spaceSeparated',
