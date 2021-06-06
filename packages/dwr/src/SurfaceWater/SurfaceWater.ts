@@ -9,6 +9,7 @@ import {
   Services,
   SubServices,
   GenericObject,
+  GetDayTimeSeriesArgs,
 } from '../types';
 
 // initialize our schema validator
@@ -80,6 +81,33 @@ class SurfaceWater implements SurfaceWaterService {
     const url = this.prepareUrl(
       'surfacewater',
       'surfacewaterstationdatatypes',
+      finalQueryParameters
+    );
+    try {
+      const data = await axios.get(url).then((result: any) => {
+        if (format === 'pretty') {
+          return result.data.ResultList;
+        }
+        return result.data;
+      });
+      return data;
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  public async getDayTimeSeries(config: GetDayTimeSeriesArgs) {
+    this.validate(config.queryParameters, GetStationDataTypesSchema);
+    const finalQueryParameters = {
+      format: 'json',
+      dateFormat: 'spaceSeparated',
+      encoding: 'gzip',
+      ...config.queryParameters,
+    };
+    const format = config?.format || 'pretty';
+    const url = this.prepareUrl(
+      'surfacewater',
+      'surfacewatertsday',
       finalQueryParameters
     );
     try {

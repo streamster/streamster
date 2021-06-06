@@ -2,6 +2,32 @@ import dwr from '../index';
 import { GetStationsSchema } from './schemas';
 const surfaceWater = dwr.surfaceWater();
 
+const defaultRawArgs = {
+  format: 'raw',
+  queryParameters: {
+    format: 'json',
+    county: 'La Plata',
+  },
+};
+
+const defaultPrettyArgs = {
+  ...defaultRawArgs,
+  format: 'pretty',
+};
+
+const timeSeriesRawArgs = {
+  format: 'raw',
+  queryParameters: {
+    format: 'json',
+    abbrev: 'BASBBACO',
+  },
+};
+
+const timeSeriesPrettyArgs = {
+  ...timeSeriesRawArgs,
+  format: 'pretty',
+};
+
 describe('DWR Surface Water Tests: Config Validation', () => {
   test('Invalid config: missing required param', () => {
     const valid: any = surfaceWater.validate(
@@ -31,13 +57,7 @@ describe('DWR Surface Water Tests: Successfully retrieves data', () => {
   test.skip('Station Info: Works with no provided query parameters', async () => {});
   test('Stations: Returns raw data', async () => {
     try {
-      const data = await surfaceWater.getStations({
-        format: 'raw',
-        queryParameters: {
-          format: 'json',
-          county: 'La Plata',
-        },
-      });
+      const data = await surfaceWater.getStations(defaultRawArgs as any);
       const expectedLength = 52;
       expect(data.ResultCount).toBe(expectedLength);
     } catch (err) {
@@ -46,13 +66,7 @@ describe('DWR Surface Water Tests: Successfully retrieves data', () => {
   });
   test('Stations: Returns pretty data', async () => {
     try {
-      const data = await surfaceWater.getStations({
-        format: 'pretty',
-        queryParameters: {
-          format: 'json',
-          county: 'La Plata',
-        },
-      });
+      const data = await surfaceWater.getStations(defaultPrettyArgs as any);
       const expectedLength = 52;
       const expectedKeys = [
         'stationNum',
@@ -83,13 +97,9 @@ describe('DWR Surface Water Tests: Successfully retrieves data', () => {
   });
   test('Station Data Types: Returns raw data', async () => {
     try {
-      const data = await surfaceWater.getStationDataTypes({
-        format: 'raw',
-        queryParameters: {
-          format: 'json',
-          county: 'La Plata',
-        },
-      });
+      const data = await surfaceWater.getStationDataTypes(
+        defaultRawArgs as any
+      );
       const expectedLength = 52;
       expect(data.ResultCount).toBe(expectedLength);
     } catch (err) {
@@ -98,13 +108,9 @@ describe('DWR Surface Water Tests: Successfully retrieves data', () => {
   });
   test('Station Data Types: Returns pretty data', async () => {
     try {
-      const data = await surfaceWater.getStationDataTypes({
-        format: 'pretty',
-        queryParameters: {
-          format: 'json',
-          county: 'La Plata',
-        },
-      });
+      const data = await surfaceWater.getStationDataTypes(
+        defaultPrettyArgs as any
+      );
       const expectedLength = 52;
       const expectedKeys = [
         'stationNum',
@@ -128,6 +134,42 @@ describe('DWR Surface Water Tests: Successfully retrieves data', () => {
         'porLastModified',
       ];
       expect(data.length).toBe(expectedLength);
+      expect(Object.keys(data[0])).toEqual(expectedKeys);
+    } catch (err) {
+      console.error(err);
+    }
+  });
+  test('Station Time Series - Day: Returns raw data', async () => {
+    try {
+      const data = await surfaceWater.getDayTimeSeries(
+        timeSeriesRawArgs as any
+      );
+      expect(data.ResultCount).toBeGreaterThan(0);
+    } catch (err) {
+      console.error(err);
+    }
+  });
+  test('Station Time Series - Day: Returns pretty data', async () => {
+    try {
+      const data = await surfaceWater.getDayTimeSeries(
+        timeSeriesPrettyArgs as any
+      );
+      const expectedKeys = [
+        'stationNum',
+        'abbrev',
+        'usgsSiteId',
+        'measType',
+        'measDate',
+        'value',
+        'flagA',
+        'flagB',
+        'flagC',
+        'flagD',
+        'dataSource',
+        'modified',
+        'measUnit',
+      ];
+      expect(data.length).toBeGreaterThan(0);
       expect(Object.keys(data[0])).toEqual(expectedKeys);
     } catch (err) {
       console.error(err);

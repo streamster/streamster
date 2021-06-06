@@ -4,12 +4,15 @@ export type StreamsterFormats = 'raw' | 'pretty';
 export type Services = 'surfacewater';
 export type SubServices =
   | 'surfacewaterstations'
-  | 'surfacewaterstationdatatypes';
-export type Formats = 'json' | 'xml' | 'csv' | 'tsx' | 'geojson';
+  | 'surfacewaterstationdatatypes'
+  | 'surfacewatertsday';
+export type BaseFormats = 'json' | 'xml' | 'csv' | 'tsv';
+export type AdvancedFormats = BaseFormats | 'geojson';
 export type Encodings = 'gzip' | 'deflate';
 
 export type StringOperators = 'equal' | 'contains' | 'startsWith' | 'endsWith';
 export type NumericOperators = 'equal' | 'min' | 'max';
+export type DateOperators = 'equal' | 'min' | 'max';
 export interface LocationSearch {
   latitude: number;
   longitude: number;
@@ -25,11 +28,15 @@ export type QueryParameter<T> =
   | {
       [key in NumericOperators]?: T;
     }
+  | {
+      [key in DateOperators]?: T;
+    }
   | LocationSearch;
 
 export interface GetStationQueryParameters {
-  format?: Formats;
+  format?: AdvancedFormats;
   encoding?: Encodings;
+  dateFormat?: string;
   fields?: string[];
   abbrev?: QueryParameter<string>;
   county?: QueryParameter<string>;
@@ -50,14 +57,15 @@ export interface GetStationQueryParameters {
 }
 
 export interface GetStationDataTypesQueryParameters {
-  format?: Formats;
+  format?: AdvancedFormats;
   encoding?: Encodings;
+  dateFormat?: string;
   fields?: string[];
   abbrev?: QueryParameter<string>;
   county?: QueryParameter<string>;
   division?: QueryParameter<number>;
   measType?: QueryParameter<string>;
-  porLastmodified?: string;
+  porLastModified?: string;
   stationName?: QueryParameter<string>;
   usgsSiteId?: QueryParameter<string>;
   waterDistrict?: QueryParameter<number>;
@@ -72,6 +80,22 @@ export interface GetStationDataTypesQueryParameters {
   apiKey?: string;
 }
 
+export interface GetDayTimeSeriesQueryParameters {
+  format?: BaseFormats;
+  encoding?: Encodings;
+  dateFormat?: string;
+  fields?: string[];
+  abbrev?: QueryParameter<string>;
+  measDate?: QueryParameter<string>;
+  measType?: QueryParameter<string>;
+  modified?: string;
+  stationNum: QueryParameter<number>;
+  usgsSiteId?: QueryParameter<string>;
+  pageSize?: number;
+  pageIndex?: number;
+  apiKey?: string;
+}
+
 export interface GetStationsArgs {
   format?: StreamsterFormats;
   queryParameters?: GetStationQueryParameters;
@@ -80,6 +104,11 @@ export interface GetStationsArgs {
 export interface GetStationDataTypesArgs {
   format?: StreamsterFormats;
   queryParameters?: GetStationDataTypesQueryParameters;
+}
+
+export interface GetDayTimeSeriesArgs {
+  format?: StreamsterFormats;
+  queryParameters?: GetDayTimeSeriesQueryParameters;
 }
 
 export interface SurfaceWaterService {
@@ -98,6 +127,7 @@ export interface SurfaceWaterService {
   ): string;
   getStations(config: GetStationsArgs): Promise<any>;
   getStationDataTypes(config: GetStationDataTypesArgs): Promise<any>;
+  getDayTimeSeries(config: GetDayTimeSeriesArgs): Promise<any>;
 }
 
 export interface DwrService {

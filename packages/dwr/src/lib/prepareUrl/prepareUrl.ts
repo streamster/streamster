@@ -8,6 +8,7 @@ const validServices = ['surfacewater'];
 const validSubServices = [
   'surfacewaterstations',
   'surfacewaterstationdatatypes',
+  'surfacewatertsday',
 ];
 
 /**
