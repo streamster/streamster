@@ -55,160 +55,168 @@ describe('DWR Surface Water Tests: Successfully retrieves data', () => {
   });
   test.skip('Station Info: Works with no args', async () => {});
   test.skip('Station Info: Works with no provided query parameters', async () => {});
-  test('Stations: Returns raw data', async () => {
-    try {
-      const data = await surfaceWater.getStations(defaultRawArgs as any);
-      const expectedLength = 52;
-      expect(data.ResultCount).toBe(expectedLength);
-    } catch (err) {
-      console.error(err);
-    }
+  describe('Stations', () => {
+    test('Returns raw data', async () => {
+      try {
+        const data = await surfaceWater.getStations(defaultRawArgs as any);
+        const expectedLength = 52;
+        expect(data.ResultCount).toBe(expectedLength);
+      } catch (err) {
+        console.error(err);
+      }
+    });
+    test('Returns pretty data', async () => {
+      try {
+        const data = await surfaceWater.getStations(defaultPrettyArgs as any);
+        const expectedLength = 52;
+        const expectedKeys = [
+          'stationNum',
+          'abbrev',
+          'usgsSiteId',
+          'stationName',
+          'dataSource',
+          'division',
+          'waterDistrict',
+          'county',
+          'state',
+          'utmX',
+          'utmY',
+          'latitude',
+          'longitude',
+          'locationAccuracy',
+          'startDate',
+          'endDate',
+          'modified',
+          'moreInformation',
+          'measUnit',
+        ];
+        expect(data.length).toBe(expectedLength);
+        expect(Object.keys(data[0])).toEqual(expectedKeys);
+      } catch (err) {
+        console.error(err);
+      }
+    });
   });
-  test('Stations: Returns pretty data', async () => {
-    try {
-      const data = await surfaceWater.getStations(defaultPrettyArgs as any);
-      const expectedLength = 52;
-      const expectedKeys = [
-        'stationNum',
-        'abbrev',
-        'usgsSiteId',
-        'stationName',
-        'dataSource',
-        'division',
-        'waterDistrict',
-        'county',
-        'state',
-        'utmX',
-        'utmY',
-        'latitude',
-        'longitude',
-        'locationAccuracy',
-        'startDate',
-        'endDate',
-        'modified',
-        'moreInformation',
-        'measUnit',
-      ];
-      expect(data.length).toBe(expectedLength);
-      expect(Object.keys(data[0])).toEqual(expectedKeys);
-    } catch (err) {
-      console.error(err);
-    }
+  describe('Station Data Types', () => {
+    test('Returns raw data', async () => {
+      try {
+        const data = await surfaceWater.getStationDataTypes(
+          defaultRawArgs as any
+        );
+        const expectedLength = 52;
+        expect(data.ResultCount).toBe(expectedLength);
+      } catch (err) {
+        console.error(err);
+      }
+    });
+    test('Returns pretty data', async () => {
+      try {
+        const data = await surfaceWater.getStationDataTypes(
+          defaultPrettyArgs as any
+        );
+        const expectedLength = 52;
+        const expectedKeys = [
+          'stationNum',
+          'abbrev',
+          'usgsSiteId',
+          'stationName',
+          'dataSource',
+          'division',
+          'waterDistrict',
+          'county',
+          'st',
+          'utmX',
+          'utmY',
+          'latdecdeg',
+          'longdecdeg',
+          'locationAccuracy',
+          'measType',
+          'measUnit',
+          'porStart',
+          'porEnd',
+          'porLastModified',
+        ];
+        expect(data.length).toBe(expectedLength);
+        expect(Object.keys(data[0])).toEqual(expectedKeys);
+      } catch (err) {
+        console.error(err);
+      }
+    });
   });
-  test('Station Data Types: Returns raw data', async () => {
-    try {
-      const data = await surfaceWater.getStationDataTypes(
-        defaultRawArgs as any
-      );
-      const expectedLength = 52;
-      expect(data.ResultCount).toBe(expectedLength);
-    } catch (err) {
-      console.error(err);
-    }
+  describe('Station Time Series - Day', () => {
+    test('Returns raw data', async () => {
+      try {
+        const data = await surfaceWater.getDayTimeSeries(
+          timeSeriesRawArgs as any
+        );
+        expect(data.ResultCount).toBeGreaterThan(0);
+      } catch (err) {
+        console.error(err);
+      }
+    });
+    test('Returns pretty data', async () => {
+      try {
+        const data = await surfaceWater.getDayTimeSeries(
+          timeSeriesPrettyArgs as any
+        );
+        const expectedKeys = [
+          'stationNum',
+          'abbrev',
+          'usgsSiteId',
+          'measType',
+          'measDate',
+          'value',
+          'flagA',
+          'flagB',
+          'flagC',
+          'flagD',
+          'dataSource',
+          'modified',
+          'measUnit',
+        ];
+        expect(data.length).toBeGreaterThan(0);
+        expect(Object.keys(data[0])).toEqual(expectedKeys);
+      } catch (err) {
+        console.error(err);
+      }
+    });
   });
-  test('Station Data Types: Returns pretty data', async () => {
-    try {
-      const data = await surfaceWater.getStationDataTypes(
-        defaultPrettyArgs as any
-      );
-      const expectedLength = 52;
-      const expectedKeys = [
-        'stationNum',
-        'abbrev',
-        'usgsSiteId',
-        'stationName',
-        'dataSource',
-        'division',
-        'waterDistrict',
-        'county',
-        'st',
-        'utmX',
-        'utmY',
-        'latdecdeg',
-        'longdecdeg',
-        'locationAccuracy',
-        'measType',
-        'measUnit',
-        'porStart',
-        'porEnd',
-        'porLastModified',
-      ];
-      expect(data.length).toBe(expectedLength);
-      expect(Object.keys(data[0])).toEqual(expectedKeys);
-    } catch (err) {
-      console.error(err);
-    }
-  });
-  test('Station Time Series - Day: Returns raw data', async () => {
-    try {
-      const data = await surfaceWater.getDayTimeSeries(
-        timeSeriesRawArgs as any
-      );
-      expect(data.ResultCount).toBeGreaterThan(0);
-    } catch (err) {
-      console.error(err);
-    }
-  });
-  test('Station Time Series - Day: Returns pretty data', async () => {
-    try {
-      const data = await surfaceWater.getDayTimeSeries(
-        timeSeriesPrettyArgs as any
-      );
-      const expectedKeys = [
-        'stationNum',
-        'abbrev',
-        'usgsSiteId',
-        'measType',
-        'measDate',
-        'value',
-        'flagA',
-        'flagB',
-        'flagC',
-        'flagD',
-        'dataSource',
-        'modified',
-        'measUnit',
-      ];
-      expect(data.length).toBeGreaterThan(0);
-      expect(Object.keys(data[0])).toEqual(expectedKeys);
-    } catch (err) {
-      console.error(err);
-    }
-  });
-  test('Station Time Series - Month: Returns raw data', async () => {
-    try {
-      const data = await surfaceWater.getMonthTimeSeries(
-        timeSeriesRawArgs as any
-      );
-      expect(data.ResultCount).toBeGreaterThan(0);
-    } catch (err) {
-      console.error(err);
-    }
-  });
-  test('Station Time Series - Month: Returns pretty data', async () => {
-    try {
-      const data = await surfaceWater.getMonthTimeSeries(
-        timeSeriesPrettyArgs as any
-      );
-      const expectedKeys = [
-        'stationNum',
-        'abbrev',
-        'usgsSiteId',
-        'measType',
-        'calYear',
-        'calMonNum',
-        'minQCfs',
-        'maxQCfs',
-        'avgQCfs',
-        'totalQAf',
-        'measCount',
-        'dataSource',
-        'modified',
-      ];
-      expect(data.length).toBeGreaterThan(0);
-      expect(Object.keys(data[0])).toEqual(expectedKeys);
-    } catch (err) {
-      console.error(err);
-    }
+  describe('Station Time Series - Month', () => {
+    test('Returns raw data', async () => {
+      try {
+        const data = await surfaceWater.getMonthTimeSeries(
+          timeSeriesRawArgs as any
+        );
+        expect(data.ResultCount).toBeGreaterThan(0);
+      } catch (err) {
+        console.error(err);
+      }
+    });
+    test('Returns pretty data', async () => {
+      try {
+        const data = await surfaceWater.getMonthTimeSeries(
+          timeSeriesPrettyArgs as any
+        );
+        const expectedKeys = [
+          'stationNum',
+          'abbrev',
+          'usgsSiteId',
+          'measType',
+          'calYear',
+          'calMonNum',
+          'minQCfs',
+          'maxQCfs',
+          'avgQCfs',
+          'totalQAf',
+          'measCount',
+          'dataSource',
+          'modified',
+        ];
+        expect(data.length).toBeGreaterThan(0);
+        expect(Object.keys(data[0])).toEqual(expectedKeys);
+      } catch (err) {
+        console.error(err);
+      }
+    });
   });
 });

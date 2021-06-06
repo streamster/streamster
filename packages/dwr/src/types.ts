@@ -118,6 +118,12 @@ export interface QueryArgs<T> {
   queryParameters: T;
 }
 
+export interface SetRequestArgs<T> {
+  queryParameters: T;
+  schema: GenericObject;
+  subService: SubServices;
+}
+
 export interface SurfaceWaterService {
   validate<T>(
     queryParameters: T,
@@ -132,6 +138,8 @@ export interface SurfaceWaterService {
     subService: SubServices,
     queryParameters: T
   ): string;
+  // setQueryParameters<T>(queryParameters: T): T;
+  // setRequest<T>(requestArgs: SetRequestArgs<T>): { url: string };
   getStations(config: QueryArgs<GetStationQueryParameters>): Promise<any>;
   getStationDataTypes(
     config: QueryArgs<GetStationDataTypesQueryParameters>

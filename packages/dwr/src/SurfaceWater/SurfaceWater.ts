@@ -17,6 +17,8 @@ import {
   GetDayTimeSeriesQueryParameters,
   GetStationDataTypesQueryParameters,
   GetMonthTimeSeriesQueryParameters,
+  StreamsterFormats,
+  SetRequestArgs,
 } from '../types';
 
 // initialize our schema validator
@@ -49,20 +51,33 @@ class SurfaceWater implements SurfaceWaterService {
     return prepareUrl(service, subService, queryParameters);
   }
 
-  public async getStations(config: QueryArgs<GetStationQueryParameters>) {
-    this.validate(config.queryParameters, GetStationsSchema);
-    const finalQueryParameters = {
+  private setQueryParameters<T>(queryParameters: T) {
+    return {
       format: 'json',
       dateFormat: 'spaceSeparated',
       encoding: 'gzip',
-      ...config.queryParameters,
+      ...queryParameters,
     };
-    const format = config?.format || 'pretty';
+  }
+
+  private setRequest<T>({
+    queryParameters,
+    schema,
+    subService,
+  }: SetRequestArgs<T>) {
+    this.validate(queryParameters, schema);
+    const finalQueryParameters = this.setQueryParameters(queryParameters);
     const url = this.prepareUrl(
       'surfacewater',
-      'surfacewaterstations',
+      subService,
       finalQueryParameters
     );
+    return {
+      url,
+    };
+  }
+
+  private async fetchData(url: string, format: StreamsterFormats = 'pretty') {
     try {
       const data = await axios.get(url).then((result: any) => {
         if (format === 'pretty') {
@@ -74,93 +89,52 @@ class SurfaceWater implements SurfaceWaterService {
     } catch (err) {
       console.error(err);
     }
+  }
+
+  public async getStations(config: QueryArgs<GetStationQueryParameters>) {
+    const { url } = this.setRequest({
+      queryParameters: config.queryParameters,
+      schema: GetStationsSchema,
+      subService: 'surfacewaterstations',
+    });
+    const data = await this.fetchData(url, config?.format);
+    return data;
   }
 
   public async getStationDataTypes(
     config: QueryArgs<GetStationDataTypesQueryParameters>
   ) {
-    this.validate(config.queryParameters, GetStationDataTypesSchema);
-    const finalQueryParameters = {
-      format: 'json',
-      dateFormat: 'spaceSeparated',
-      encoding: 'gzip',
-      ...config.queryParameters,
-    };
-    const format = config?.format || 'pretty';
-    const url = this.prepareUrl(
-      'surfacewater',
-      'surfacewaterstationdatatypes',
-      finalQueryParameters
-    );
-    try {
-      const data = await axios.get(url).then((result: any) => {
-        if (format === 'pretty') {
-          return result.data.ResultList;
-        }
-        return result.data;
-      });
-      return data;
-    } catch (err) {
-      console.error(err);
-    }
+    const { url } = this.setRequest({
+      queryParameters: config.queryParameters,
+      schema: GetStationDataTypesSchema,
+      subService: 'surfacewaterstationdatatypes',
+    });
+    const data = await this.fetchData(url, config?.format);
+    return data;
   }
 
   public async getDayTimeSeries(
     config: QueryArgs<GetDayTimeSeriesQueryParameters>
   ) {
-    this.validate(config.queryParameters, GetDayTimeSeriesSchema);
-    const finalQueryParameters = {
-      format: 'json',
-      dateFormat: 'spaceSeparated',
-      encoding: 'gzip',
-      ...config.queryParameters,
-    };
-    const format = config?.format || 'pretty';
-    const url = this.prepareUrl(
-      'surfacewater',
-      'surfacewatertsday',
-      finalQueryParameters
-    );
-    try {
-      const data = await axios.get(url).then((result: any) => {
-        if (format === 'pretty') {
-          return result.data.ResultList;
-        }
-        return result.data;
-      });
-      return data;
-    } catch (err) {
-      console.error(err);
-    }
+    const { url } = this.setRequest({
+      queryParameters: config.queryParameters,
+      schema: GetDayTimeSeriesSchema,
+      subService: 'surfacewatertsday',
+    });
+    const data = await this.fetchData(url, config?.format);
+    return data;
   }
 
   public async getMonthTimeSeries(
     config: QueryArgs<GetMonthTimeSeriesQueryParameters>
   ) {
-    this.validate(config.queryParameters, GetMonthTimeSeriesSchema);
-    const finalQueryParameters = {
-      format: 'json',
-      dateFormat: 'spaceSeparated',
-      encoding: 'gzip',
-      ...config.queryParameters,
-    };
-    const format = config?.format || 'pretty';
-    const url = this.prepareUrl(
-      'surfacewater',
-      'surfacewatertsmonth',
-      finalQueryParameters
-    );
-    try {
-      const data = await axios.get(url).then((result: any) => {
-        if (format === 'pretty') {
-          return result.data.ResultList;
-        }
-        return result.data;
-      });
-      return data;
-    } catch (err) {
-      console.error(err);
-    }
+    const { url } = this.setRequest({
+      queryParameters: config.queryParameters,
+      schema: GetMonthTimeSeriesSchema,
+      subService: 'surfacewatertsmonth',
+    });
+    const data = await this.fetchData(url, config?.format);
+    return data;
   }
 }
 
