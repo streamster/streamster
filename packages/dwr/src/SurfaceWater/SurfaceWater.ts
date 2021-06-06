@@ -77,10 +77,26 @@ class SurfaceWater implements SurfaceWaterService {
     };
   }
 
-  private async fetchData(url: string, format: StreamsterFormats = 'pretty') {
+  private async fetchData<T>({
+    queryParameters,
+    schema,
+    format,
+    subService,
+  }: {
+    queryParameters: T;
+    schema: GenericObject;
+    format?: StreamsterFormats;
+    subService: SubServices;
+  }) {
+    const { url } = this.setRequest({
+      queryParameters: queryParameters,
+      schema: schema,
+      subService: subService,
+    });
+    const finalFormat = format || 'pretty';
     try {
       const data = await axios.get(url).then((result: any) => {
-        if (format === 'pretty') {
+        if (finalFormat === 'pretty') {
           return result.data.ResultList;
         }
         return result.data;
@@ -92,48 +108,48 @@ class SurfaceWater implements SurfaceWaterService {
   }
 
   public async getStations(config: QueryArgs<GetStationQueryParameters>) {
-    const { url } = this.setRequest({
-      queryParameters: config.queryParameters,
+    const data = await this.fetchData({
       schema: GetStationsSchema,
+      format: config.format,
+      queryParameters: config.queryParameters,
       subService: 'surfacewaterstations',
     });
-    const data = await this.fetchData(url, config?.format);
     return data;
   }
 
   public async getStationDataTypes(
     config: QueryArgs<GetStationDataTypesQueryParameters>
   ) {
-    const { url } = this.setRequest({
-      queryParameters: config.queryParameters,
+    const data = await this.fetchData({
       schema: GetStationDataTypesSchema,
+      format: config.format,
+      queryParameters: config.queryParameters,
       subService: 'surfacewaterstationdatatypes',
     });
-    const data = await this.fetchData(url, config?.format);
     return data;
   }
 
   public async getDayTimeSeries(
     config: QueryArgs<GetDayTimeSeriesQueryParameters>
   ) {
-    const { url } = this.setRequest({
-      queryParameters: config.queryParameters,
+    const data = await this.fetchData({
       schema: GetDayTimeSeriesSchema,
+      format: config.format,
+      queryParameters: config.queryParameters,
       subService: 'surfacewatertsday',
     });
-    const data = await this.fetchData(url, config?.format);
     return data;
   }
 
   public async getMonthTimeSeries(
     config: QueryArgs<GetMonthTimeSeriesQueryParameters>
   ) {
-    const { url } = this.setRequest({
-      queryParameters: config.queryParameters,
+    const data = await this.fetchData({
       schema: GetMonthTimeSeriesSchema,
+      format: config.format,
+      queryParameters: config.queryParameters,
       subService: 'surfacewatertsmonth',
     });
-    const data = await this.fetchData(url, config?.format);
     return data;
   }
 }
