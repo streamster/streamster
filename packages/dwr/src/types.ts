@@ -5,7 +5,8 @@ export type Services = 'surfacewater';
 export type SubServices =
   | 'surfacewaterstations'
   | 'surfacewaterstationdatatypes'
-  | 'surfacewatertsday';
+  | 'surfacewatertsday'
+  | 'surfacewatertsmonth';
 export type BaseFormats = 'json' | 'xml' | 'csv' | 'tsv';
 export type AdvancedFormats = BaseFormats | 'geojson';
 export type Encodings = 'gzip' | 'deflate';
@@ -96,6 +97,22 @@ export interface GetDayTimeSeriesQueryParameters {
   apiKey?: string;
 }
 
+export interface GetMonthTimeSeriesQueryParameters {
+  format?: BaseFormats;
+  encoding?: Encodings;
+  dateFormat?: string;
+  fields?: string[];
+  abbrev?: QueryParameter<string>;
+  calYear?: QueryParameter<number>;
+  measType?: QueryParameter<string>;
+  modified?: string;
+  stationNum?: QueryParameter<number>;
+  usgsSiteId?: QueryParameter<string>;
+  pageSize?: number;
+  pageIndex?: number;
+  apiKey?: string;
+}
+
 export interface GetStationsArgs {
   format?: StreamsterFormats;
   queryParameters?: GetStationQueryParameters;
@@ -109,6 +126,11 @@ export interface GetStationDataTypesArgs {
 export interface GetDayTimeSeriesArgs {
   format?: StreamsterFormats;
   queryParameters?: GetDayTimeSeriesQueryParameters;
+}
+
+export interface GetMonthTimeSeriesArgs {
+  format?: StreamsterFormats;
+  queryParameters?: GetMonthTimeSeriesQueryParameters;
 }
 
 export interface SurfaceWaterService {
@@ -128,6 +150,7 @@ export interface SurfaceWaterService {
   getStations(config: GetStationsArgs): Promise<any>;
   getStationDataTypes(config: GetStationDataTypesArgs): Promise<any>;
   getDayTimeSeries(config: GetDayTimeSeriesArgs): Promise<any>;
+  getMonthTimeSeries(config: GetMonthTimeSeriesArgs): Promise<any>;
 }
 
 export interface DwrService {

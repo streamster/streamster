@@ -175,4 +175,40 @@ describe('DWR Surface Water Tests: Successfully retrieves data', () => {
       console.error(err);
     }
   });
+  test('Station Time Series - Month: Returns raw data', async () => {
+    try {
+      const data = await surfaceWater.getMonthTimeSeries(
+        timeSeriesRawArgs as any
+      );
+      expect(data.ResultCount).toBeGreaterThan(0);
+    } catch (err) {
+      console.error(err);
+    }
+  });
+  test('Station Time Series - Month: Returns pretty data', async () => {
+    try {
+      const data = await surfaceWater.getMonthTimeSeries(
+        timeSeriesPrettyArgs as any
+      );
+      const expectedKeys = [
+        'stationNum',
+        'abbrev',
+        'usgsSiteId',
+        'measType',
+        'calYear',
+        'calMonNum',
+        'minQCfs',
+        'maxQCfs',
+        'avgQCfs',
+        'totalQAf',
+        'measCount',
+        'dataSource',
+        'modified',
+      ];
+      expect(data.length).toBeGreaterThan(0);
+      expect(Object.keys(data[0])).toEqual(expectedKeys);
+    } catch (err) {
+      console.error(err);
+    }
+  });
 });

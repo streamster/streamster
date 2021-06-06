@@ -1,6 +1,11 @@
 import axios from 'axios';
 import Ajv from 'ajv';
-import { GetStationsSchema, GetStationDataTypesSchema } from './schemas';
+import {
+  GetStationsSchema,
+  GetStationDataTypesSchema,
+  GetDayTimeSeriesSchema,
+  GetMonthTimeSeriesSchema,
+} from './schemas';
 import { prepareUrl } from '../lib/prepareUrl';
 import {
   SurfaceWaterService,
@@ -10,6 +15,7 @@ import {
   SubServices,
   GenericObject,
   GetDayTimeSeriesArgs,
+  GetMonthTimeSeriesArgs,
 } from '../types';
 
 // initialize our schema validator
@@ -97,7 +103,7 @@ class SurfaceWater implements SurfaceWaterService {
   }
 
   public async getDayTimeSeries(config: GetDayTimeSeriesArgs) {
-    this.validate(config.queryParameters, GetStationDataTypesSchema);
+    this.validate(config.queryParameters, GetDayTimeSeriesSchema);
     const finalQueryParameters = {
       format: 'json',
       dateFormat: 'spaceSeparated',
@@ -108,6 +114,33 @@ class SurfaceWater implements SurfaceWaterService {
     const url = this.prepareUrl(
       'surfacewater',
       'surfacewatertsday',
+      finalQueryParameters
+    );
+    try {
+      const data = await axios.get(url).then((result: any) => {
+        if (format === 'pretty') {
+          return result.data.ResultList;
+        }
+        return result.data;
+      });
+      return data;
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  public async getMonthTimeSeries(config: GetMonthTimeSeriesArgs) {
+    this.validate(config.queryParameters, GetMonthTimeSeriesSchema);
+    const finalQueryParameters = {
+      format: 'json',
+      dateFormat: 'spaceSeparated',
+      encoding: 'gzip',
+      ...config.queryParameters,
+    };
+    const format = config?.format || 'pretty';
+    const url = this.prepareUrl(
+      'surfacewater',
+      'surfacewatertsmonth',
       finalQueryParameters
     );
     try {

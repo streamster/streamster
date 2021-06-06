@@ -38,6 +38,25 @@ const NumericOperatorsSchema = {
   ],
 };
 
+const DateOperatorsSchema = {
+  oneOf: [
+    { type: 'string' },
+    {
+      type: 'object',
+      properties: {
+        equal: { type: 'string' },
+        min: { type: 'string' },
+        max: { type: 'string' },
+      },
+      oneOf: [
+        { required: ['equal'] },
+        { required: ['min'] },
+        { required: ['max'] },
+      ],
+    },
+  ],
+};
+
 const Formats = {
   type: 'string',
   enum: ['json', 'xml', 'csv', 'tsx', 'geojson'],
@@ -108,6 +127,48 @@ export const GetStationDataTypesSchema = {
         units: { type: 'string', enum: ['feet', 'miles'] },
       },
     },
+    pageSize: BasicNumber,
+    pageIndex: BasicNumber,
+    apiKey: BasicString,
+  },
+  additionalProperties: false,
+};
+
+export const GetDayTimeSeriesSchema = {
+  type: 'object',
+  properties: {
+    format: Formats,
+    encoding: Encoding,
+    fields: BasicStringArray,
+    abbrev: StringOperatorsSchema,
+    county: StringOperatorsSchema,
+    division: NumericOperatorsSchema,
+    measDate: DateOperatorsSchema,
+    measType: StringOperatorsSchema,
+    modified: BasicString,
+    stationNum: StringOperatorsSchema,
+    usgsSiteId: StringOperatorsSchema,
+    pageSize: BasicNumber,
+    pageIndex: BasicNumber,
+    apiKey: BasicString,
+  },
+  additionalProperties: false,
+};
+
+export const GetMonthTimeSeriesSchema = {
+  type: 'object',
+  properties: {
+    format: Formats,
+    encoding: Encoding,
+    fields: BasicStringArray,
+    abbrev: StringOperatorsSchema,
+    county: StringOperatorsSchema,
+    division: NumericOperatorsSchema,
+    calYear: NumericOperatorsSchema,
+    measType: StringOperatorsSchema,
+    modified: BasicString,
+    stationNum: StringOperatorsSchema,
+    usgsSiteId: StringOperatorsSchema,
     pageSize: BasicNumber,
     pageIndex: BasicNumber,
     apiKey: BasicString,
