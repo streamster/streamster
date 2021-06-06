@@ -113,24 +113,9 @@ export interface GetMonthTimeSeriesQueryParameters {
   apiKey?: string;
 }
 
-export interface GetStationsArgs {
+export interface QueryArgs<T> {
   format?: StreamsterFormats;
-  queryParameters?: GetStationQueryParameters;
-}
-
-export interface GetStationDataTypesArgs {
-  format?: StreamsterFormats;
-  queryParameters?: GetStationDataTypesQueryParameters;
-}
-
-export interface GetDayTimeSeriesArgs {
-  format?: StreamsterFormats;
-  queryParameters?: GetDayTimeSeriesQueryParameters;
-}
-
-export interface GetMonthTimeSeriesArgs {
-  format?: StreamsterFormats;
-  queryParameters?: GetMonthTimeSeriesQueryParameters;
+  queryParameters: T;
 }
 
 export interface SurfaceWaterService {
@@ -147,10 +132,16 @@ export interface SurfaceWaterService {
     subService: SubServices,
     queryParameters: T
   ): string;
-  getStations(config: GetStationsArgs): Promise<any>;
-  getStationDataTypes(config: GetStationDataTypesArgs): Promise<any>;
-  getDayTimeSeries(config: GetDayTimeSeriesArgs): Promise<any>;
-  getMonthTimeSeries(config: GetMonthTimeSeriesArgs): Promise<any>;
+  getStations(config: QueryArgs<GetStationQueryParameters>): Promise<any>;
+  getStationDataTypes(
+    config: QueryArgs<GetStationDataTypesQueryParameters>
+  ): Promise<any>;
+  getDayTimeSeries(
+    config: QueryArgs<GetDayTimeSeriesQueryParameters>
+  ): Promise<any>;
+  getMonthTimeSeries(
+    config: QueryArgs<GetMonthTimeSeriesQueryParameters>
+  ): Promise<any>;
 }
 
 export interface DwrService {

@@ -9,13 +9,14 @@ import {
 import { prepareUrl } from '../lib/prepareUrl';
 import {
   SurfaceWaterService,
-  GetStationsArgs,
-  GetStationDataTypesArgs,
   Services,
   SubServices,
   GenericObject,
-  GetDayTimeSeriesArgs,
-  GetMonthTimeSeriesArgs,
+  QueryArgs,
+  GetStationQueryParameters,
+  GetDayTimeSeriesQueryParameters,
+  GetStationDataTypesQueryParameters,
+  GetMonthTimeSeriesQueryParameters,
 } from '../types';
 
 // initialize our schema validator
@@ -48,7 +49,7 @@ class SurfaceWater implements SurfaceWaterService {
     return prepareUrl(service, subService, queryParameters);
   }
 
-  public async getStations(config: GetStationsArgs) {
+  public async getStations(config: QueryArgs<GetStationQueryParameters>) {
     this.validate(config.queryParameters, GetStationsSchema);
     const finalQueryParameters = {
       format: 'json',
@@ -75,7 +76,9 @@ class SurfaceWater implements SurfaceWaterService {
     }
   }
 
-  public async getStationDataTypes(config: GetStationDataTypesArgs) {
+  public async getStationDataTypes(
+    config: QueryArgs<GetStationDataTypesQueryParameters>
+  ) {
     this.validate(config.queryParameters, GetStationDataTypesSchema);
     const finalQueryParameters = {
       format: 'json',
@@ -102,7 +105,9 @@ class SurfaceWater implements SurfaceWaterService {
     }
   }
 
-  public async getDayTimeSeries(config: GetDayTimeSeriesArgs) {
+  public async getDayTimeSeries(
+    config: QueryArgs<GetDayTimeSeriesQueryParameters>
+  ) {
     this.validate(config.queryParameters, GetDayTimeSeriesSchema);
     const finalQueryParameters = {
       format: 'json',
@@ -129,7 +134,9 @@ class SurfaceWater implements SurfaceWaterService {
     }
   }
 
-  public async getMonthTimeSeries(config: GetMonthTimeSeriesArgs) {
+  public async getMonthTimeSeries(
+    config: QueryArgs<GetMonthTimeSeriesQueryParameters>
+  ) {
     this.validate(config.queryParameters, GetMonthTimeSeriesSchema);
     const finalQueryParameters = {
       format: 'json',
