@@ -107,50 +107,44 @@ class SurfaceWater implements SurfaceWaterService {
     }
   }
 
-  public async getStations(config: QueryArgs<GetStationQueryParameters>) {
-    const data = await this.fetchData({
+  public getStations(config: QueryArgs<GetStationQueryParameters>) {
+    return this.fetchData({
       schema: GetStationsSchema,
       format: config.format,
       queryParameters: config.queryParameters,
       subService: 'surfacewaterstations',
     });
-    return data;
   }
 
-  public async getStationDataTypes(
+  public getStationDataTypes(
     config: QueryArgs<GetStationDataTypesQueryParameters>
   ) {
-    const data = await this.fetchData({
+    return this.fetchData({
       schema: GetStationDataTypesSchema,
       format: config.format,
       queryParameters: config.queryParameters,
       subService: 'surfacewaterstationdatatypes',
     });
-    return data;
   }
 
-  public async getDayTimeSeries(
-    config: QueryArgs<GetDayTimeSeriesQueryParameters>
-  ) {
-    const data = await this.fetchData({
+  public getDayTimeSeries(config: QueryArgs<GetDayTimeSeriesQueryParameters>) {
+    return this.fetchData({
       schema: GetDayTimeSeriesSchema,
       format: config.format,
       queryParameters: config.queryParameters,
       subService: 'surfacewatertsday',
     });
-    return data;
   }
 
-  public async getMonthTimeSeries(
+  public getMonthTimeSeries(
     config: QueryArgs<GetMonthTimeSeriesQueryParameters>
   ) {
-    const data = await this.fetchData({
+    return this.fetchData({
       schema: GetMonthTimeSeriesSchema,
       format: config.format,
       queryParameters: config.queryParameters,
       subService: 'surfacewatertsmonth',
     });
-    return data;
   }
 }
 
