@@ -31,8 +31,7 @@ export type QueryParameter<T> =
     }
   | {
       [key in DateOperators]?: T;
-    }
-  | LocationSearch;
+    };
 
 export interface GetStationQueryParameters {
   format?: AdvancedFormats;
@@ -70,12 +69,7 @@ export interface GetStationDataTypesQueryParameters {
   stationName?: QueryParameter<string>;
   usgsSiteId?: QueryParameter<string>;
   waterDistrict?: QueryParameter<number>;
-  location?: {
-    latitude: number;
-    longitude: number;
-    radius: number;
-    units: 'feet' | 'miles';
-  };
+  location?: QueryParameter<LocationSearch>;
   pageSize?: number;
   pageIndex?: number;
   apiKey?: string;
