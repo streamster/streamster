@@ -1,18 +1,18 @@
-import { ErrorObject } from 'ajv';
+import { ErrorObject } from "ajv";
 export type GenericObject = { [key: string]: any };
-export type StreamsterFormats = 'raw' | 'pretty';
-export type BaseFormats = 'json' | 'xml' | 'csv' | 'tsv';
-export type AdvancedFormats = BaseFormats | 'geojson';
-export type Encodings = 'gzip' | 'deflate';
+export type StreamsterFormats = "raw" | "pretty";
+export type BaseFormats = "json" | "xml" | "csv" | "tsv";
+export type AdvancedFormats = BaseFormats | "geojson";
+export type Encodings = "gzip" | "deflate";
 
-export type StringOperators = 'equal' | 'contains' | 'startsWith' | 'endsWith';
-export type NumericOperators = 'equal' | 'min' | 'max';
-export type DateOperators = 'equal' | 'min' | 'max';
+export type StringOperators = "equal" | "contains" | "startsWith" | "endsWith";
+export type NumericOperators = "equal" | "min" | "max";
+export type DateOperators = "equal" | "min" | "max";
 export interface LocationSearch {
   latitude: number;
   longitude: number;
   radius: number;
-  units: 'feet' | 'miles';
+  units: "feet" | "miles";
 }
 
 export type QueryParameter<T> =
